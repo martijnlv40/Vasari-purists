@@ -1,0 +1,9 @@
+{
+    "version": 0,
+	"action_data_source": "asteroid_extract",
+    "level_source": "fixed_level_0",
+    "passive_actions":
+    {
+        "persistant_buff": "crystal_asteroid_on_self"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "version": 0,
+	"level_count": 2,
+    "target_filters": [
+    {
+        "target_filter_id": "extract_neutral_resource",
+        "target_filter":
+        {
+            "unit_types": [
+                "asteroid"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_buff",
+                    "buff": "vasari_extract_resources"
+                }
+            },
+			{
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_buff",
+                    "buff": "vasari_extract_resources_capital"
+                }
+            }]
+        }
+    },
+	{
+        "target_filter_id": "metal_resource",
+        "target_filter":
+        {
+            "unit_types": [
+                "asteroid"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [{
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_buff",
+                    "buff": "crystal_asteroid_on_self"
+                }
+            }]
+        }
+    },
+	{
+        "target_filter_id": "crystal_resource",
+        "target_filter":
+        {
+            "unit_types": [
+                "asteroid"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [{
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_buff",
+                    "buff": "metal_asteroid_on_self"
+                }
+            }]
+        }
+    }],
+    "action_values": [
+    {
+        "action_value_id": "extract_cooldown_time",
+        "action_value":
+        {
+            "values": [60.0, 60.0]
+        }
+    },
+    {
+        "action_value_id": "extract_range_value",
+        "action_value":
+        {
+            "values": [3500.0, 3500.0]
+        }
+    },
+    {
+        "action_value_id": "extract_execution_count_value",
+        "action_value":
+        {
+            "values": [60.0, 60.0]
+        }
+    },
+    {
+        "action_value_id": "extract_metal_value",
+        "action_value":
+        {
+            "values": [0.3, 0.4]
+        }
+    },
+    {
+        "action_value_id": "extract_crystal_value",
+        "action_value":
+        {
+            "values": [0.3, 0.4]
+        }
+    }]
+}

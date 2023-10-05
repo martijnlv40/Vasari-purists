@@ -1,0 +1,31 @@
+{
+    "version": 0,
+    "action_data_source": "vasari_overseer_culture_provider",
+	"level_source": "research_prerequisites_per_level",
+    "level_prerequisites": [
+        [
+            ["vasari_unlock_culture_overseer"]
+        ],
+        [
+            ["vasari_upgrade_culture_overseer"]
+        ]
+    ],
+    "passive_actions":
+    {
+        "persistant_buff": "vasari_culture_center_structure_culture_provider_on_self"
+    },
+    "gui":
+    {
+        "hud_icon": "vasari_culture_center_structure_culture_provider_ability_hud_icon",
+        "name": "vasari_culture_center_structure_culture_provider_ability_name",
+        "description": "vasari_culture_center_structure_culture_provider_ability_description",
+        "tooltip_lines": [
+        {
+            "label_text": "tooltip.ability.culture_rate",
+            "value_id": "culture_rate_value",
+            "value_float_format": "two_decimal_place_with_sign",
+            "is_culture_rate": true,
+            "rendering_type": "single_value"
+        }]
+    }
+}

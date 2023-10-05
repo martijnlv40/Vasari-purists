@@ -1,0 +1,32 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_extractor_ability_hud_button_icon",
+    "name": "vasari_extractor_ability_item_name",
+    "description": "vasari_extractor_ability_unit_item_description",
+	"item_level_count": 2,
+    "item_level_source": "research_prerequisites_per_level",
+	"item_level_prerequisites": [
+        [
+            ["vasari_upgrade_extractor_unit_item"]
+        ]
+    ],
+    "build_time": 30.0,
+    "price":
+    {
+        "metal": 150.0,
+        "crystal": 150.0
+    },
+	"max_count_on_unit": 1,
+    "required_unit_tags": [
+		"cruiser",
+        "capital_ship",
+        "titan"
+    ],
+    "consumable_stack_count": 40,
+    "build_prerequisites": [
+        ["vasari_unlock_resource_extractor_structures"]
+    ],
+    "build_group_id": "utility",
+    "ability": "vasari_extract_resources"
+}

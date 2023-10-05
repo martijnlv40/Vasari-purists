@@ -1,0 +1,95 @@
+{
+    "version": 0,
+    "spatial":
+    {
+        "radius": 751.625549,
+        "box":
+        {
+            "center": [-0.000671, 104.315338, 71.424316],
+            "extents": [595.098816, 538.040527, 570.069641]
+        },
+        "can_be_displaced_on_collision": false
+    },
+    "physics":
+    {
+        "mass": 1.0
+    },
+    "ai":
+    {
+        "priority_bonus_per_attack_target_type":
+        {},
+        "targets_to_ignore_filter_id": "strikecraft_and_torpedo_units"
+    },
+    "ai_attack_target":
+    {
+        "attack_priority": 25.0,
+        "is_always_a_threat": false
+    },
+    "user_interface":
+    {
+        "can_ever_be_selected": true,
+        "selection_priority": 100,
+        "has_sub_selection_grouping": true,
+        "selection_group_unit_type": "civilian_structure"
+    },
+    "structure":
+    {
+        "slot_type": "civilian",
+        "slots_required": 4,
+        "roles": [],
+        "build_group_id": "civilian"
+    },
+    "formation":
+    {
+        "leader_priority": 3,
+        "offsets_per_formation_type":
+        {
+            "ships_and_structures":
+            {
+                "rank": 4,
+                "group": 5
+            }
+        }
+    },
+    "spawn_debris":
+    {
+        "spawn_debris_time": 1.0,
+        "generic_group_name": "vasari",
+        "generic_counts":
+        {
+            "small_debris": [14, 18],
+            "large_debris": [3, 5]
+        }
+    },
+    "health":
+    {
+        "release_time_after_death": 60.0,
+        "max_hull_points": 6432.0,
+        "hull_point_restore_rate": 8.0,
+        "hull_armor": 96.0,
+        "experience_given_on_death": 25.0
+    },
+    "build":
+    {
+        "build_time": 50.0,
+        "price":
+        {
+            "metal": 480.0,
+            "crystal": 420.0
+        },
+        "prerequisites": [
+            ["vasari_purist_unlock_deploy_phase_synchronizer_unit_item"]
+        ],
+        "build_kind": "structure",
+        "build_radius": 824.088562
+    },
+    "target_filter_unit_type": "structure",
+    "tags": [
+        "structure"
+    ],
+    "is_phase_travel_synchronizer": true,
+    "skins": [
+        "vasari_phase_synchronizer_structure"
+    ],
+    "action_effect_size": "medium_unit"
+}

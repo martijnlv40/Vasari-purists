@@ -1,0 +1,322 @@
+{
+    "version": 0,
+    "skin_stages": [
+    {
+        "is_main_view_icon_visible_camera_distance": 103134.31638,
+        "min_camera_distance": 1804.850537,
+        "gui":
+        {
+            "hud_icon": "vasari_rebel_titan_hud_icon",
+            "hud_monochrome_icon": "vasari_rebel_titan_main_view_icon",
+            "hud_button_icon": "vasari_rebel_titan_hud_button_icon",
+            "tooltip_icon": "vasari_rebel_titan_tooltip_icon",
+            "name": "vasari_purist_titan_name",
+            "description": "vasari_purist_titan_description"
+        },
+        "unit_mesh":
+        {
+            "mesh": "vasari_rebel_titan",
+            "shader": "ship",
+            "is_shadow_blocker": true
+        },
+        "child_mesh_alias_bindings":
+        {
+            "map": [
+                ["vasari_asset_hvybeam_barrel_0",
+                {
+                    "mesh": "vasari_asset_hvybeam_barrel_0",
+                    "shader": "ship"
+                }],
+                ["vasari_asset_hvywave_titan_barrel_0",
+                {
+                    "mesh": "vasari_asset_hvywave_titan_barrel_0",
+                    "shader": "ship"
+                }],
+                ["vasari_asset_pdpulse_titan_barrel_0",
+                {
+                    "mesh": "vasari_asset_pdpulse_titan_barrel_0",
+                    "shader": "ship"
+                }],
+                ["vasari_rebel_titan_component_armor_0",
+                {
+                    "mesh": "vasari_rebel_titan_component_armor_0",
+                    "shader": "ship"
+                }],
+                ["vasari_rebel_titan_component_armor_1",
+                {
+                    "mesh": "vasari_rebel_titan_component_armor_1",
+                    "shader": "ship"
+                }],
+                ["vasari_rebel_titan_component_cannon",
+                {
+                    "mesh": "vasari_rebel_titan_component_cannon",
+                    "shader": "ship"
+                }],
+                ["vasari_rebel_titan_component_missile_launcher",
+                {
+                    "mesh": "vasari_rebel_titan_component_missile_launcher",
+                    "shader": "ship"
+                }],
+                ["vasari_rebel_titan_component_nano",
+                {
+                    "mesh": "vasari_rebel_titan_component_nano",
+                    "shader": "ship"
+                }]
+            ]
+        },
+        "main_view_icon":
+        {
+            "group": "titan",
+            "icon": "vasari_rebel_titan_main_view_icon"
+        },
+        "effects":
+        {
+            "exhaust_particle_effect": "vasari_rebel_titan_exhaust",
+            "hyperspace_effects":
+            {
+                "charge_effect": "vasari_titan_portal_charge_up",
+                "charge_effect_between_stars": "Hyperspace_Vasari_Titan_Chargeup_Interstellar",
+                "charge_effect_destabalized": "Hyperspace_Vasari_Titan_Chargeup_Unstable",
+                "travel_effect": "vasari_titan_portal_travel",
+                "travel_effect_between_stars": "Hyperspace_Vasari_Titan_Travel_Interstellar",
+                "travel_effect_destabalized": "Hyperspace_Vasari_Titan_Travel_Unstable",
+                "exit_effect": "vasari_titan_portal_exit",
+                "charge_sound": "HYPERSPACE_CHARGEUP",
+                "enter_sound": "HYPERSPACE_ENTRY",
+                "exit_sound": "HYPERSPACE_EXIT"
+            },
+            "level_up_effect": "Titan_LevelUp",
+            "level_up_sound": "CAPITALSHIP_LEVELUP",
+            "shield_effect": "vasari_rebel_titan",
+            "effect_alias_bindings": [
+                ["vasari_rebel_titan_beam_weapon_beam",
+                {
+                    "beam": "vasari_heavy_beam",
+                    "sounds": [
+                    "WEAPON_PHASECAPITALFLASHBEAMMEDIUM_TRAVEL",
+                        "WEAPON_PHASECAPITALFLASHBEAMMEDIUM_TRAVEL_ALT1"
+                    ]
+                }],
+                ["vasari_rebel_titan_beam_weapon_hit_hull",
+                {
+                    "particle_effect": "Weapon_PhaseCapitalFlashBeamCapShip_Hit"
+                }],
+                ["vasari_rebel_titan_beam_weapon_hit_shield",
+                {
+                    "particle_effect": "Weapon_PhaseCapitalFlashBeamCapShip_Hit"
+                }],
+                ["vasari_rebel_titan_beam_weapon_muzzle",
+                {
+                    "particle_effect": "Weapon_PhaseCapitalFlashBeamTitan_Muzzle"
+                }],
+                ["vasari_rebel_titan_dissever_activate",
+                {
+                    "particle_effect": "nanite_muzzle_dissever",
+                    "sounds": [
+                    "vasari_rebel_titan_dissever_activate"]
+                }],
+                ["vasari_rebel_titan_dissever_damage_large",
+                {
+                    "particle_effect": "nanite_dissever_impact_large"
+                }],
+                ["vasari_rebel_titan_dissever_damage_medium",
+                {
+                    "particle_effect": "nanite_dissever_impact_medium"
+                }],
+                ["vasari_rebel_titan_dissever_damage_small",
+                {
+                    "particle_effect": "nanite_dissever_impact_small"
+                }],
+                ["vasari_rebel_titan_dissever_on_target_large",
+                {
+                    "particle_effect": "nanite_dissever_target_large"
+                }],
+                ["vasari_rebel_titan_dissever_on_target_medium",
+                {
+                    "particle_effect": "nanite_dissever_target_medium"
+                }],
+                ["vasari_rebel_titan_dissever_on_target_small",
+                {
+                    "particle_effect": "nanite_dissever_target_small"
+                }],
+                ["vasari_rebel_titan_gravity_pulse_activate",
+                {
+                    "particle_effect": "gravity_pulse_activate",
+                    "sounds": [
+                    "vasari_rebel_titan_gravity_pulse_activate"]
+                }],
+                ["vasari_rebel_titan_leech_activate",
+                {
+                    "particle_effect": "nanite_leech_muzzle",
+                    "sounds": [
+                    "vasari_rebel_titan_dissever_activate"]
+                }],
+                ["vasari_rebel_titan_missile_weapon_muzzle",
+                {
+                    "particle_effect": "vasari_torpedo_muzzle",
+                    "sounds": [
+                    "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE",
+                        "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+                    ]
+                }],
+                ["vasari_rebel_titan_nano_leech_on_spawner",
+                {
+                    "particle_effect": "nanite_leech"
+                }],
+                ["vasari_rebel_titan_nano_leech_on_target_large",
+                {
+                    "particle_effect": "nanite_leech_target_large"
+                }],
+                ["vasari_rebel_titan_nano_leech_on_target_medium",
+                {
+                    "particle_effect": "nanite_leech_target_medium"
+                }],
+                ["vasari_rebel_titan_nano_leech_on_target_small",
+                {
+                    "particle_effect": "nanite_leech_target_small"
+                }],
+                ["vasari_rebel_titan_nano_remit_activate",
+                {
+                    "particle_effect": "nanite_remit",
+                    "sounds": [
+                    "vasari_rebel_titan_nano_remit_activate"]
+                }],
+                ["vasari_rebel_titan_nano_remit_target_large",
+                {
+                    "particle_effect": "nanite_remit_target_large"
+                }],
+                ["vasari_rebel_titan_nano_remit_target_medium",
+                {
+                    "particle_effect": "nanite_remit_target_medium"
+                }],
+                ["vasari_rebel_titan_nano_remit_target_small",
+                {
+                    "particle_effect": "nanite_remit_target_small"
+                }],
+                ["vasari_rebel_titan_phase_cannon_weapon_hit_hull",
+                {
+                    "particle_effect": "phase_cannon_impact",
+                    "sounds": [
+                    "WEAPONIMPACT_ENERGYHEAVY_HITHULL"]
+                }],
+                ["vasari_rebel_titan_phase_cannon_weapon_hit_shield",
+                {
+                    "particle_effect": "phase_cannon_impact",
+                    "sounds": [
+                    "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"]
+                }],
+                ["vasari_rebel_titan_phase_cannon_weapon_muzzle",
+                {
+                    "particle_effect": "phase_cannon_muzzle",
+                    "sounds": [
+                    "WEAPON_PHASECANNON_MUZZLE",
+                        "WEAPON_PHASECANNON_MUZZLE_ALT1"
+                    ]
+                }],
+                ["vasari_rebel_titan_phase_cannon_weapon_projectile_travel",
+                {
+                    "particle_effect": "phase_cannon_travel"
+                }],
+                ["vasari_rebel_titan_planet_bombing_weapon_beam",
+                {
+                    "beam": "vasari_planet_bomb_beam",
+                    "sounds": [
+                    "WEAPON_PHASEPLANETBOMB_LOOP"]
+                }],
+                ["vasari_rebel_titan_planet_bombing_weapon_hit_hull",
+                {
+                    "particle_effect": "vasari_planet_bomb_beam_impact"
+                }],
+                ["vasari_rebel_titan_planet_bombing_weapon_hit_shield",
+                {
+                    "particle_effect": "vasari_planet_bomb_beam_impact"
+                }],
+                ["vasari_rebel_titan_planet_bombing_weapon_muzzle",
+                {
+                    "particle_effect": "vasari_planet_bomb_beam_muzzle"
+                }],
+                ["vasari_rebel_titan_point_defense_pulse_weapon_hit_hull",
+                {
+                    "particle_effect": "pulse_gun_impact_pd",
+                    "sounds": [
+                    "WEAPONIMPACT_ENERGYLIGHT_HITHULL"]
+                }],
+                ["vasari_rebel_titan_point_defense_pulse_weapon_hit_shield",
+                {
+                    "particle_effect": "pulse_gun_impact_pd",
+                    "sounds": [
+                    "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"]
+                }],
+                ["vasari_rebel_titan_point_defense_pulse_weapon_muzzle",
+                {
+                    "particle_effect": "pulse_gun_muzzle_pd",
+                    "sounds": [
+                    "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE",
+                        "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE_ALT1"
+                    ]
+                }],
+                ["vasari_rebel_titan_point_defense_pulse_weapon_projectile_travel",
+                {
+                    "particle_effect": "pulse_gun_travel_pd"
+                }],
+                ["vasari_rebel_titan_wave_weapon_hit_hull",
+                {
+                    "particle_effect": "heavy_wave_impact",
+                    "sounds": [
+                    "WEAPONIMPACT_ENERGYHEAVY_HITHULL"]
+                }],
+                ["vasari_rebel_titan_wave_weapon_hit_shield",
+                {
+                    "particle_effect": "heavy_wave_impact",
+                    "sounds": [
+                    "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"]
+                }],
+                ["vasari_rebel_titan_wave_weapon_muzzle",
+                {
+                    "particle_effect": "heavy_wave_muzzle",
+                    "sounds": [
+                    "WEAPON_PULSEWAVE_MUZZLE",
+                        "WEAPON_PULSEWAVE_MUZZLE_ALT1"
+                    ]
+                }],
+                ["vasari_rebel_titan_wave_weapon_projectile_travel",
+                {
+                    "particle_effect": "heavy_wave_blast"
+                }]
+            ]
+        },
+        "sounds":
+        {
+            "move_sounds":
+            {
+                "engine": "ENGINE_PHASECAPITALSHIP",
+                "hyperspace_travel": "HYPERSPACE_TRAVEL"
+            },
+            "dialogue":
+            {
+                "spawned": [
+                    "TITAN_PHASEREBEL_ONCREATION_0"
+                ],
+                "selected": [
+                    "TITAN_PHASEREBEL_ONSELECTED_0",
+                    "TITAN_PHASEREBEL_ONSELECTED_1",
+                    "TITAN_PHASEREBEL_ONSELECTED_2"
+                ],
+                "order_issued": [
+                    "TITAN_PHASEREBEL_ONGENERALORDERISSUED_0",
+                    "TITAN_PHASEREBEL_ONGENERALORDERISSUED_1",
+                    "TITAN_PHASEREBEL_ONGENERALORDERISSUED_2"
+                ],
+                "attack_order_issued": [
+                    "TITAN_PHASEREBEL_ONATTACKORDERISSUED_0",
+                    "TITAN_PHASEREBEL_ONATTACKORDERISSUED_1",
+                    "TITAN_PHASEREBEL_ONATTACKORDERISSUED_2",
+                    "TITAN_PHASEREBEL_ONATTACKORDERISSUED_3"
+                ],
+                "hyperspace_charge_started": [
+                    "TITAN_PHASEREBEL_ONSTARTPHASEJUMP_0"]
+            }
+        },
+        "death_sequence_group": "starbase1"
+    }]
+}

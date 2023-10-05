@@ -1,0 +1,18 @@
+{
+    "version": 0,
+    "stacking_limit": "fixed_one",
+    "stacking_ownership_type": "for_all_players",
+    "unit_modifiers": [
+    {
+        "modifier_type": "hyperspace_speed",
+        "value_behavior": "scalar",
+        "value_id": "hyperspace_speed_scalar"
+    }],
+    "gui":
+    {
+        "hud_icon": "vasari_friendly_jump_telemetry_buff_hud_icon",
+        "name": "vasari_jump_speed_research_subject_name",
+        "description": "vasari_jump_speed_research_subject_description",
+        "is_positive_buff": true
+    }
+}

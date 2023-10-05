@@ -1,0 +1,80 @@
+{
+    "version": 0,
+    "action_data_source": "vasari_extract_resources",
+	"level_source": "unit_item",
+    "active_actions":
+    {
+        "cooldown_time": "extract_cooldown_time",
+        "actions":
+        {
+            "actions": [
+            {
+                "constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "target"
+                    },
+                    "target_filter_id": "extract_neutral_resource"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "target"
+                },
+                "range_value": "extract_range_value",
+                "operators": [
+                {
+                    "operator_type": "apply_buff",
+                    "buff": "vasari_extract_resources"
+                }]
+            }]
+        },
+        "targeting_type": "unit_targeted",
+        "target_filters": [
+            "extract_neutral_resource"
+        ],
+        "range": "extract_range_value",
+		"move_alignment":
+        {
+            "type": "yaw",
+            "angle": 0.0,
+            "allow_opposite_angle": false
+        },
+		"firing_angle": 15.0,
+        "auto_cast":
+        {
+            "enabled_by_default_behavior": "always",
+            "target_definitions": [
+            {
+                "target_filter": "extract_neutral_resource"
+            }]
+        }
+    },
+    "gui":
+    {
+		"hud_icon": "vasari_colony_cruiser_colonize_ability_hud_icon",
+		"name": "vasari_colony_cruiser_colonize_ability_name",
+		"description": "vasari_colony_cruiser_colonize_ability_description",
+		"tooltip_lines": [
+		{
+			"label_text": "tooltip.ability.duration",
+			"value_id": "extract_execution_count_value",
+			"value_suffix": "seconds",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.extract_metal",
+			"value_id": "extract_metal_value",
+            "value_float_format": "one_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.extract_crystal",
+			"value_id": "extract_crystal_value",
+            "value_float_format": "one_decimal_place",
+			"rendering_type": "single_value"
+		}]
+    }
+}

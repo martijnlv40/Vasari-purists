@@ -1,0 +1,24 @@
+{
+    "ids": [
+        "vasari_unlock_specialized_labs",
+		"vasari_unlock_artificial_economy",
+		"vasari_heavy_maneuvering_thrusters",
+		"vasari_jump_speed",
+		"vasari_purist_unlock_mobile_exotic_factory_unit_item",
+		"vasari_purist_unlock_build_ultimate_exotic",
+		"vasari_purist_unlock_deploy_phase_synchronizer_unit_item",
+		"vasari_purist_upgrade_phase_travel_bonus_duration_0",
+		"vasari_purist_upgrade_phase_travel_bonus_duration_1",
+		"vasari_purist_unlock_phase_travel_amplifier_unit_item",
+		"vasari_purist_unlock_rebel_titan_phase_cannon_unit_item",
+		"vasari_upgrade_extractor_unit_item",
+		"vasari_upgrade_hyperspace_charge_time_1",
+		"vasari_upgrade_fabricator_cruiser_debris_reclamation_ability_1",
+		"vasari_planet_pillaging",
+		"vasari_purist_unstoppable_phase_jump",
+		"vasari_unlock_culture_overseer",
+		"vasari_upgrade_culture_overseer",
+		"vasari_culture_offense",
+		"vasari_purist_unlock_phase_gate"
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "version": 0,
+    "action_data_source": "vasari_purist_titan_deploy_missile_battery",
+    "level_source": "internal_level",
+    "min_required_unit_levels": [5, 7, 9, 10, 11],
+    "active_actions":
+    {
+        "cooldown_time": "deploy_missile_battery_cooldown_value",
+        "antimatter_cost": "deploy_missile_battery_antimatter_cost_value",
+        "actions":
+        {
+            "actions": [
+            {
+                "action_type": "use_position_operators_on_single_position",
+                "position":
+                {
+                    "position_type": "target_position"
+                },
+                "position_operators": [
+                {
+                    "operator_type": "create_unit",
+                    "unit_to_create": "vasari_missile_battery_frigate",
+                    "unit_forward":
+                    {
+                        "direction_type": "unit_forward",
+                        "unit":
+                        {
+                            "unit_type": "current_spawner"
+                        }
+                    },
+                    "buff_on_created_unit": "vasari_purist_titan_deploy_missile_battery"
+                }]
+            }]
+        },
+        "targeting_type": "position_targeted",
+        "range": "deploy_missile_battery_range_value",
+        "spawned_unit_for_queries": "vasari_missile_battery_frigate",
+        "use_build_radius_as_targeting_radius": true,
+        "move_alignment":
+        {
+            "type": "yaw",
+            "angle": 0.0,
+            "allow_opposite_angle": false
+        },
+        "firing_angle": 30.0,
+        "auto_cast":
+        {
+            "enabled_by_default_behavior": "always",
+            "caster_constraint":
+            {
+                "constraint_type": "unit_passes_unit_constraint",
+                "unit":
+                {
+                    "unit_type": "current_spawner"
+                },
+                "unit_constraint":
+                {
+                    "constraint_type": "weapon_has_target"
+                }
+            },
+            "target_definitions": [
+            {
+                "target_filter": "deploy_missile_battery_auto_cast_target_filter"
+            }]
+        }
+    },
+    "gui":
+    {
+        "hud_icon": "trader_carrier_capital_ship_deploy_missile_battery_ability_hud_icon",
+        "name": "vasari_purist_deploy_missile_battery_ability_name",
+        "description": "vasari_purist_deploy_missile_battery_ability_description",
+        "tooltip_lines": [
+        {
+            "visibility": "upgrade_only",
+            "label_text": "unit_modifier.max_hull_points",
+            "value_id": "deploy_missile_battery_hull_bonus_value",
+            "value_float_format": "no_decimal_place_with_sign",
+            "rendering_type": "single_value"
+        },
+        {
+            "visibility": "upgrade_only",
+            "label_text": "unit_modifier.max_shield_points",
+            "value_id": "deploy_missile_battery_shield_bonus_value",
+            "value_float_format": "no_decimal_place_with_sign",
+            "rendering_type": "single_value"
+        },
+        {
+            "visibility": "upgrade_only",
+            "label_text": "weapon_modifier.damage",
+            "value_id": "deploy_missile_battery_weapon_damage_bonus_value",
+            "value_float_format": "percentage_with_sign",
+            "rendering_type": "single_value"
+        },
+        {
+            "visibility": "upgrade_only",
+            "label_text": "weapon_modifier.cooldown_duration",
+            "value_id": "deploy_missile_battery_weapon_cooldown_duration_bonus_value",
+            "value_float_format": "percentage_with_sign",
+            "rendering_type": "single_value"
+        },
+        {
+            "label_text": "tooltip.ability.duration",
+            "value_id": "deploy_missile_battery_duration_value",
+            "value_suffix": "seconds",
+            "rendering_type": "single_value"
+        }]
+    }
+}

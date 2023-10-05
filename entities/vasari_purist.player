@@ -1,0 +1,1320 @@
+{
+    "version": 0,
+    "race": "vasari",
+    "home_planet":
+    {
+        "random_fixture_filling": "random_ferrous_home_planet",
+        "levels": [
+        {
+            "income_rates":
+            {
+                "metal": 3.0,
+                "crystal": 3.0
+            },
+			"modifier_values":
+            {}
+        }],
+        "starting_is_colonized": false,
+        "starting_militia_supply": 80,
+        "establish_price":
+        {
+            "metal": 0.0,
+            "crystal": 0.0
+        }
+    },
+    "planet_levels": [
+    {
+        "upgrade_price":
+        {
+            "metal": 300,
+            "crystal": 225
+        },
+        "upgrade_duration": 30.0,
+        "experience_given_on_bombed_to_neutral": 150.0
+    }],
+    "planet_excavation_levels": [
+    {
+        "upgrade_price":
+        {
+            "metal": 200.0,
+            "crystal": 200.0
+        },
+        "upgrade_duration": 60.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 400.0,
+            "crystal": 400.0
+        },
+        "upgrade_duration": 90.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 600.0,
+            "crystal": 600.0
+        },
+        "upgrade_duration": 120.0
+    }],
+    "starting_units_in_hyperspace":
+    {
+        "required_units": [
+        {
+            "unit": "vasari_purist_titan",
+            "options":
+            {
+                "is_temporary_ruler_ship": true,
+                "items": [
+					"vasari_titan_purist_factory"
+				]
+            }
+        },
+        {
+            "unit": "vasari_scout_corvette",
+            "count": [3, 3]
+        }]
+    },
+    "starting_are_all_npcs_detected": false,
+    "starting_units_in_hyperspace_duration": 15.0,
+    "fleet": "vasari_fleet",
+    "unit_build_groups": [
+    {
+        "id": "corvette",
+        "name": "unit_build_group_name.corvette",
+        "column_count": 2
+    },
+    {
+        "id": "frigate",
+        "name": "unit_build_group_name.frigate",
+        "column_count": 3
+    },
+    {
+        "id": "cruiser",
+        "name": "unit_build_group_name.cruiser",
+        "column_count": 3
+    },
+    {
+        "id": "capital_ship",
+        "name": "unit_build_group_name.capital_ship",
+        "column_count": 3
+    },
+    {
+        "id": "titan",
+        "name": "unit_build_group_name.titan",
+        "column_count": 1
+    }],
+    "buildable_units": [
+        "vasari_purist_scout_corvette",
+        "vasari_light_frigate",
+		"vasari_extractor_cruiser",
+        "vasari_heavy_cruiser",
+        "vasari_long_range_frigate",
+        "vasari_carrier_cruiser",
+        "vasari_purist_raider_corvette",
+        "vasari_purist_anticorvette_corvette",
+        "vasari_antiarmor_cruiser",
+        "vasari_siege_cruiser",
+        "vasari_purist_overseer_cruiser",
+        "vasari_purist_fabricator_cruiser",
+        "vasari_purist_battle_capital_ship",
+        "vasari_purist_colony_capital_ship",
+        "vasari_purist_carrier_capital_ship",
+        "vasari_purist_marauder_capital_ship",
+        "vasari_purist_siege_capital_ship",
+        "vasari_purist_titan"
+    ],
+    "faction_buildable_units": [
+        "vasari_purist_titan"
+    ],
+    "buildable_strikecraft": [
+        "vasari_bomber_strikecraft"
+    ],
+    "structure_build_groups": [
+    {
+        "id": "civilian",
+        "name": "structure_build_group_name_civilian",
+        "column_count": 6
+    },
+    {
+        "id": "military",
+        "name": "structure_build_group_name_military",
+        "column_count": 6
+    }],
+    "structure_builder_ship": "vasari_constructor_ship",
+    "structures": [
+        "vasari_metal_extractor_structure",
+        "vasari_crystal_extractor_structure",
+		"vasari_purist_phase_gate_structure",
+		"vasari_purist_phase_synchronizer_structure",
+		"vasari_starbase"
+    ],
+    "ability_created_units": [
+        "vasari_siege_platform_frigate"
+    ],
+    "unit_limits":
+    {
+        "global": [
+        {
+            "tag": "titan",
+            "unit_limit": 1
+        }],
+        "star": [
+        {
+            "tag": "starbase",
+            "unit_limit": 4
+        }],
+        "planet": [
+        {
+            "tag": "starbase",
+            "unit_limit": 1
+        }]
+    },
+    "research":
+    {
+        "research_domains":
+        {
+            "civilian":
+            {
+                "research_tiers": [
+                {
+                    "acquire_time": 30.0,
+                    "required_research_points": 1,
+                    "price":
+                    {
+                        "metal": 175.0,
+                        "crystal": 225.0
+                    },
+                    "player_modifiers":
+                    {
+                        "empire_modifiers": [
+                        {
+                            "value_behavior": "additive",
+                            "modifier_type": "metal_income_rate",
+                            "value": 3.6
+                        },
+						{
+                            "value_behavior": "additive",
+                            "modifier_type": "crystal_income_rate",
+                            "value": 3.5
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_0_civil"
+                },
+                {
+                    "acquire_time": 60.0,
+                    "required_research_points": 4,
+                    "price":
+                    {
+                        "metal": 350.0,
+                        "crystal": 450.0
+                    },
+                    "player_modifiers":
+                    {
+                        "empire_modifiers": [
+                        {
+                            "value_behavior": "additive",
+                            "modifier_type": "metal_income_rate",
+                            "value": 0.6
+                        },
+						{
+                            "value_behavior": "additive",
+                            "modifier_type": "crystal_income_rate",
+                            "value": 0.5
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_1_civil"
+                },
+                {
+                    "acquire_time": 120.0,
+                    "required_research_points": 8,
+                    "price":
+                    {
+                        "metal": 700.0,
+                        "crystal": 900.0
+                    },
+                    "player_modifiers":
+                    {
+                        "empire_modifiers": [
+                        {
+                            "value_behavior": "additive",
+                            "modifier_type": "metal_income_rate",
+                            "value": 1.2
+                        },
+						{
+                            "value_behavior": "additive",
+                            "modifier_type": "crystal_income_rate",
+                            "value": 1.0
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_2_civil"
+                },
+                {
+                    "acquire_time": 180.0,
+                    "required_research_points": 13,
+                    "price":
+                    {
+                        "metal": 1400.0,
+                        "crystal": 1800.0
+                    },
+                    "exotic_price": [
+                    {
+                        "exotic_type": "utility",
+                        "count": 1
+                    }],
+                    "player_modifiers":
+                    {
+                        "empire_modifiers": [
+                        {
+                            "value_behavior": "additive",
+                            "modifier_type": "metal_income_rate",
+                            "value": 1.2
+                        },
+						{
+                            "value_behavior": "additive",
+                            "modifier_type": "crystal_income_rate",
+                            "value": 1
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_3_civil"
+                },
+                {
+                    "acquire_time": 240.0,
+                    "required_research_points": 20,
+                    "price":
+                    {
+                        "metal": 2800.0,
+                        "crystal": 3600.0
+                    },
+                    "exotic_price": [
+                    {
+                        "exotic_type": "utility",
+                        "count": 2
+                    },
+                    {
+                        "exotic_type": "economic",
+                        "count": 1
+                    },
+                    {
+                        "exotic_type": "ultimate",
+                        "count": 1
+                    }],
+                    "player_modifiers":
+                    {
+                        "empire_modifiers": [
+                        {
+                            "value_behavior": "additive",
+                            "modifier_type": "metal_income_rate",
+                            "value": 1.8
+                        },
+						{
+                            "value_behavior": "additive",
+                            "modifier_type": "crystal_income_rate",
+                            "value": 1.5
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_4_civil"
+                }],
+                "research_fields": [
+                {
+                    "id": "civilian_oppression",
+                    "name": "vasari_research_field_name_civilian_oppression",
+                    "picture": "vasari_research_field_picture_civilian_oppression"
+                },
+                {
+                    "id": "civilian_nanotech",
+                    "name": "vasari_research_field_name_civilian_nanotech",
+                    "picture": "vasari_research_field_picture_civilian_nanotech"
+                },
+                {
+                    "id": "civilian_phase_mastery",
+                    "name": "vasari_research_field_name_civilian_phase_mastery",
+                    "picture": "vasari_research_field_picture_civilian_phase_mastery"
+                }],
+                "name": "vasari_research_domain_name_civilian",
+                "research_points_name": "vasari_research_domain_research_points_name_civilian",
+                "button_background": "vasari_research_domain_button_background_civilian",
+                "compressed_research_field_picture": "vasari_research_field_picture_civilian_compressed"
+            },
+            "military":
+            {
+                "research_tiers": [
+                {
+                    "acquire_time": 30.0,
+                    "required_research_points": 1,
+                    "price":
+                    {
+                        "metal": 175.0,
+                        "crystal": 225.0
+                    },
+                    "player_modifiers":
+                    {
+                        "unit_modifiers": [
+                        {
+                            "modifier_type": "hull_armor",
+                            "value_behavior": "additive",
+                            "value": 5.0
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_0_military"
+                },
+                {
+                    "acquire_time": 60.0,
+                    "required_research_points": 4,
+                    "price":
+                    {
+                        "metal": 350.0,
+                        "crystal": 450.0
+                    },
+                    "player_modifiers":
+                    {
+                        "weapon_modifiers": [
+                        {
+                            "value_behavior": "scalar",
+                            "modifier_type": "damage",
+                            "value": 0.02
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_1_military"
+                },
+                {
+                    "acquire_time": 120.0,
+                    "required_research_points": 8,
+                    "price":
+                    {
+                        "metal": 700.0,
+                        "crystal": 900.0
+                    },
+                    "player_modifiers":
+                    {
+                        "unit_modifiers": [
+                        {
+                            "modifier_type": "hull_armor",
+                            "value_behavior": "additive",
+                            "value": 5.0
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_2_military"
+                },
+                {
+                    "acquire_time": 180.0,
+                    "required_research_points": 13,
+                    "price":
+                    {
+                        "metal": 1400.0,
+                        "crystal": 1800.0
+                    },
+                    "exotic_price": [
+                    {
+                        "exotic_type": "offense",
+                        "count": 1
+                    }],
+                    "player_modifiers":
+                    {
+                        "weapon_modifiers": [
+                        {
+                            "value_behavior": "scalar",
+                            "modifier_type": "damage",
+                            "value": 0.02
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_3_military"
+                },
+                {
+                    "acquire_time": 240.0,
+                    "required_research_points": 20,
+                    "price":
+                    {
+                        "metal": 2800.0,
+                        "crystal": 3600.0
+                    },
+                    "exotic_price": [
+                    {
+                        "exotic_type": "defense",
+                        "count": 2
+                    },
+                    {
+                        "exotic_type": "offense",
+                        "count": 1
+                    },
+                    {
+                        "exotic_type": "ultimate",
+                        "count": 1
+                    }],
+                    "player_modifiers":
+                    {
+                        "unit_modifiers": [
+                        {
+                            "modifier_type": "hull_armor",
+                            "value_behavior": "additive",
+                            "value": 5.0
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_4_military"
+                }],
+                "research_fields": [
+                {
+                    "id": "military_revival",
+                    "name": "vasari_research_field_name_military_revival",
+                    "picture": "vasari_research_field_picture_military_revival"
+                },
+                {
+                    "id": "military_assault",
+                    "name": "vasari_research_field_name_military_assault",
+                    "picture": "vasari_research_field_picture_military_assault"
+                },
+                {
+                    "id": "military_survival",
+                    "name": "vasari_research_field_name_military_survival",
+                    "picture": "vasari_research_field_picture_military_survival"
+                },
+                {
+                    "id": "military_remnants",
+                    "name": "vasari_research_field_name_military_remnants",
+                    "picture": "vasari_research_field_picture_military_remnants"
+                }],
+                "name": "vasari_research_domain_name_military",
+                "research_points_name": "vasari_research_domain_research_points_name_military",
+                "button_background": "vasari_research_domain_button_background_military",
+                "compressed_research_field_picture": "vasari_research_field_picture_military_compressed"
+            }
+        },
+        "research_subjects": [
+            "vasari_antimatter_0",
+            "vasari_antimatter_1",
+            "vasari_antimatter_2",
+            "vasari_capital_ship_starting_level_0",
+            "vasari_capital_ship_starting_level_1",
+            "vasari_construction_price_decrease",
+            "vasari_jump_speed",
+            "vasari_global_phase_lane_detection",
+            "vasari_improve_phase_lane_detection",
+            "vasari_improve_starbase_build_time",
+            "vasari_max_supply_0",
+            "vasari_max_supply_1",
+            "vasari_max_supply_2",
+            "vasari_max_supply_3",
+            "vasari_max_supply_4",
+            "vasari_max_supply_5",
+            "vasari_shock_and_awe",
+            "vasari_unlock_antiarmor_cruiser",
+            "vasari_unlock_anticorvette_corvette",
+            "vasari_unlock_antimatter_recharger_unit_item",
+            "vasari_unlock_beam_boost_unit_item",
+            "vasari_unlock_carrier_cruiser",
+            "vasari_unlock_deploy_starbase_unit_item",
+			"vasari_unlock_experience_boost_unit_item",
+            "vasari_unlock_fabricator_cruiser",
+            "vasari_unlock_fabricator_cruiser_debris_reclamation_ability",
+            "vasari_unlock_fabricator_cruiser_ship_component_shop",
+            "vasari_unlock_hangar_unit_item",
+            "vasari_unlock_heavy_cruiser",
+            "vasari_unlock_long_range_frigate",
+            "vasari_unlock_overseer_cruiser",
+            "vasari_unlock_overseer_cruiser_phase_lane_detection_ability",
+            "vasari_purist_unlock_phase_gate",
+            "vasari_unlock_phase_lane_detection",
+            "vasari_unlock_phase_missile_boost_unit_item",
+            "vasari_unlock_precise_turret_servos",
+            "vasari_unlock_raider_corvette",
+            "vasari_unlock_resource_extractor_structures",
+            "vasari_unlock_self_repairing_armor_unit_item",
+            "vasari_unlock_siege_cruiser",
+            "vasari_unlock_starbase",
+            "vasari_unlock_starbase_debris_vortex_unit_item",
+            "vasari_unlock_starbase_hyperspace_engines_unit_item",
+            "vasari_unlock_starbase_structural_integrity_unit_item",
+            "vasari_unlock_strikecraft_armor_unit_item",
+            "vasari_unlock_wave_boost_unit_item",
+            "vasari_upgrade_beam_boost_unit_item",
+            "vasari_upgrade_beam_weapons_0",
+            "vasari_upgrade_beam_weapons_1",
+            "vasari_upgrade_beam_weapons_2",
+            "vasari_upgrade_beam_weapons_3",
+            "vasari_upgrade_fabricator_cruiser_debris_reclamation_ability",
+            "vasari_upgrade_hull_armor_0",
+            "vasari_upgrade_hull_armor_1",
+            "vasari_upgrade_hull_armor_2",
+            "vasari_upgrade_hull_base",
+            "vasari_upgrade_hull_point_restore_rate_0",
+            "vasari_upgrade_hull_point_restore_rate_1",
+            "vasari_upgrade_hull_point_restore_rate_2",
+            "vasari_upgrade_hull_points_0",
+            "vasari_upgrade_hull_points_1",
+            "vasari_upgrade_hull_points_2",
+            "vasari_upgrade_hyperspace_charge_time",
+            "vasari_upgrade_missile_armor_penetration_0",
+            "vasari_upgrade_missile_damage_0",
+            "vasari_upgrade_missile_damage_1",
+            "vasari_upgrade_missile_damage_2",
+            "vasari_upgrade_overseer_cruiser_phase_lane_detection_ability",
+            "vasari_upgrade_phase_missile_boost_unit_item",
+            "vasari_upgrade_phase_missile_bypass_shields_chance",
+            "vasari_upgrade_planet_bombing_range",
+            "vasari_upgrade_pulse_weapons_0",
+            "vasari_upgrade_pulse_weapons_1",
+            "vasari_upgrade_pulse_weapons_2",
+            "vasari_upgrade_pulse_weapons_3",
+            "vasari_upgrade_shields_0",
+            "vasari_upgrade_shields_1",
+            "vasari_upgrade_starbase_engines",
+            "vasari_upgrade_wave_boost_unit_item",
+            "vasari_upgrade_wave_weapons_0",
+            "vasari_upgrade_wave_weapons_1",
+            "vasari_upgrade_wave_weapons_2",
+            "vasari_upgrade_wave_weapons_3",
+			"vasari_purist_unlock_mobile_exotic_factory_unit_item",
+			"vasari_purist_unlock_build_ultimate_exotic",
+			"vasari_unlock_culture_overseer",
+			"vasari_upgrade_culture_overseer",
+			"vasari_unlock_specialized_labs",
+			"vasari_unlock_artificial_economy",
+			"vasari_heavy_maneuvering_thrusters",
+            "vasari_purist_unlock_deploy_phase_synchronizer_unit_item",
+            "vasari_purist_upgrade_phase_travel_bonus_duration_0",
+            "vasari_purist_upgrade_phase_travel_bonus_duration_1",
+			"vasari_purist_unlock_phase_travel_amplifier_unit_item",
+			"vasari_purist_unlock_rebel_titan_phase_cannon_unit_item",
+			"vasari_upgrade_extractor_unit_item",
+			"vasari_upgrade_hyperspace_charge_time_1",
+			"vasari_upgrade_fabricator_cruiser_debris_reclamation_ability_1",
+			"vasari_planet_pillaging",
+			"vasari_purist_unstoppable_phase_jump",
+			"vasari_culture_offense"
+        ],
+        "faction_research_subjects": [
+			"vasari_jump_speed",
+			"vasari_culture_offense",
+			"vasari_planet_pillaging",
+			"vasari_upgrade_hyperspace_charge_time_1",
+			"vasari_heavy_maneuvering_thrusters",
+			"vasari_purist_unstoppable_phase_jump",
+			"vasari_upgrade_fabricator_cruiser_debris_reclamation_ability_1"
+        ],
+        "starting_research_subjects": []
+    },
+    "missing_ship_component_shop_build_time_scalar": 2.0,
+    "ship_components": [
+		"vasari_purist_mobile_exotic_factory",
+		"vasari_ship_research_lab",
+		"vasari_ship_military_lab",
+		"vasari_ship_civilian_lab",
+        "vasari_nano_repair_kit",
+		"vasari_metal_gain",
+		"vasari_crystal_gain",
+		"vasari_credit_gain",
+		"vasari_extractor",
+        "vasari_nano_swarm",
+        "vasari_wave_boost",
+        "vasari_phase_missile_boost",
+        "vasari_beam_boost",
+        "vasari_starbase_hangar_0",
+        "vasari_starbase_hangar_1",
+        "vasari_starbase_hangar_2",
+        "vasari_starbase_structural_integrity_0",
+        "vasari_starbase_structural_integrity_1",
+        "vasari_starbase_structural_integrity_2",
+        "vasari_starbase_hyperspace_engines",
+        "vasari_starbase_debris_vortex",
+        "vasari_deploy_starbase",
+        "vasari_purist_deploy_phase_gate",
+        "vasari_starbase_unlock_extra_wave_weapons",
+        "vasari_starbase_unlock_extra_phase_missile_weapons",
+        "vasari_antimatter_recharger",
+        "vasari_self_repairing_armor",
+        "vasari_strikecraft_armor",
+        "vasari_rebel_titan_hull_plating_0",
+        "vasari_rebel_titan_hull_plating_1",
+        "vasari_rebel_titan_hangar",
+        "vasari_rebel_titan_unlock_extra_phase_missile_weapons",
+		"vasari_titan_purist_factory",
+		"vasari_purist_experience_boost",
+		"vasari_purist_deploy_phase_synchronizer",
+        "vasari_purist_phase_travel_amplifier",
+		"vasari_purist_titan_unlock_phase_cannon_weapon",
+		"vasari_capital_ship_purist_factory"
+    ],
+    "ship_component_build_groups": [
+    {
+        "id": "offense",
+        "name": "ship_component_build_group_name_offense",
+        "column_count": 5
+    },
+    {
+        "id": "defense",
+        "name": "ship_component_build_group_name_defense",
+        "column_count": 4
+    },
+    {
+        "id": "utility",
+        "name": "ship_component_build_group_name_utility",
+        "column_count": 5
+    }],
+    "planet_components": [
+    ],
+	"faction_planet_components": [
+    ],
+    "planet_component_build_groups": [
+    {
+        "id": "default",
+        "column_count": 10
+    }],
+    "planet_types": [
+    {
+        "planet_type": "asteroid",
+        "can_ever_be_colonized": false
+    },
+    {
+        "planet_type": "desert",
+        "can_ever_be_colonized": false
+    },
+    {
+        "planet_type": "ferrous",
+        "can_ever_be_colonized": false
+    },
+    {
+        "planet_type": "gas_giant",
+        "can_ever_be_colonized": false
+    },
+    {
+        "planet_type": "ice",
+        "can_ever_be_colonized": false
+    },
+    {
+        "planet_type": "moon",
+        "can_ever_be_colonized": false
+    },
+    {
+        "planet_type": "oceanic",
+        "can_ever_be_colonized": false
+    },
+    {
+        "planet_type": "terran",
+        "can_ever_be_colonized": false
+    },
+    {
+        "planet_type": "volcanic",
+        "can_ever_be_colonized": false
+    },
+    {
+        "planet_type": "pirate_base",
+        "can_ever_be_colonized": false
+    }],
+    "default_starting_assets":
+    {
+        "metal": 7500,
+        "crystal": 10000
+    },
+    "default_starting_exotics": [
+    {
+        "exotic_type": "offense",
+        "count": 2
+    },
+    {
+        "exotic_type": "utility",
+        "count": 2
+    },
+    {
+        "exotic_type": "defense",
+        "count": 1
+    },
+    {
+        "exotic_type": "economic",
+        "count": 2
+    }],
+    "asteroid_extraction_rates":
+    {
+        "metal": 0.1,
+        "crystal": 0.1
+    },
+    "planet_bombing_recovery_cooldown": 30.0,
+    "colonize_starting_health_percent": 1,
+    "colonize_starting_shield_percent": 1,
+    "passive_hull_regeneration_damage_taken_cooldown": 60.0,
+    "passive_shield_regeneration_damage_taken_cooldown": 20.0,
+    "culture":
+    {
+        "decay_rates": [
+        {
+            "decay_rate": 0.02
+        }],
+        "propigation_rates": [
+        {
+            "propigation_rate_scalar": -2.0
+        }],
+        "friendly_unit_modifiers": [
+        {
+            "tag": "corvette",
+            "modifier_type": "damage_taken",
+            "value_behavior": "scalar",
+            "values": [
+            {
+                "value": -0.05,
+                "prerequisites": [
+                    ["vasari_unlock_culture_overseer"]
+                ]
+            }]
+        },
+		{
+            "tag": "frigate",
+            "modifier_type": "damage_taken",
+            "value_behavior": "scalar",
+            "values": [
+            {
+                "value": -0.05,
+                "prerequisites": [
+                    ["vasari_unlock_culture_overseer"]
+                ]
+            }]
+        },
+		{
+            "tag": "cruiser",
+            "modifier_type": "damage_taken",
+            "value_behavior": "scalar",
+            "values": [
+            {
+                "value": -0.05,
+                "prerequisites": [
+                    ["vasari_unlock_culture_overseer"]
+                ]
+            }]
+        }],
+		
+		"enemy_unit_modifiers": [
+		{
+			"modifier_type": "hull_armor",
+			"value_behavior": "scalar",
+			"values": [
+            {
+                "value": -0.05,
+                "prerequisites": [
+                    ["vasari_culture_offense"]
+                ]
+            }]
+		}]
+    },
+    "buildable_exotics": [
+        ["defense",
+        {
+            "build_time": 120.0,
+            "price":
+            {
+                "metal": 250.0,
+                "crystal": 250.0
+            }
+        }],
+        ["economic",
+        {
+            "build_time": 120.0,
+            "price":
+            {
+                "metal": 250.0,
+                "crystal": 250.0
+            }
+        }],
+        ["offense",
+        {
+            "build_time": 120.0,
+            "price":
+            {
+                "metal": 250.0,
+                "crystal": 250.0
+            }
+        }],
+        ["ultimate",
+        {
+            "build_time": 240.0,
+            "price":
+            {
+                "metal": 500.0,
+                "crystal": 500.0
+            },
+            "prerequisites": [
+                ["vasari_purist_unlock_build_ultimate_exotic"]
+            ]
+        }],
+        ["utility",
+        {
+            "build_time": 120.0,
+            "price":
+            {
+                "metal": 250.0,
+                "crystal": 250.0
+            }
+        }]
+    ],
+    "garrison":
+    {
+        "spawn_type": "hyperspace_in",
+        "hyperspace_interval_time": 90.0,
+        "units":
+        {
+            "random_units": [
+            {
+                "unit": "vasari_anticorvette_corvette",
+                "weight": 1.0
+            }]
+        },
+        "garrison_type": "local_garrison",
+        "base_max_supply": 0
+    },
+    "phase_travel":
+    {
+        "levels": [
+        {
+            "point_cost": 1,
+            "tracks":
+            {
+                "movement":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "max_linear_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.1
+                    }]
+                },
+                "combat":
+                {
+                    "weapon_modifiers": [
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "damage",
+                        "value": 0.02
+                    }]
+                },
+                "utility":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "ability_antimatter_cost",
+                        "value_behavior": "scalar",
+                        "value": -0.1
+                    }]
+                }
+            }
+        },
+        {
+            "point_cost": 3,
+            "tracks":
+            {
+                "movement":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "max_linear_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.2
+                    }]
+                },
+                "combat":
+                {
+                    "weapon_modifiers": [
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "damage",
+                        "value": 0.04
+                    }]
+                },
+                "utility":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "ability_antimatter_cost",
+                        "value_behavior": "scalar",
+                        "value": -0.2
+                    }]
+                }
+            }
+        },
+        {
+            "point_cost": 6,
+            "tracks":
+            {
+                "movement":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "max_linear_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.25
+                    },
+                    {
+                        "modifier_type": "hyperspace_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.15
+                    }]
+                },
+                "combat":
+                {
+                    "weapon_modifiers": [
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "damage",
+                        "value": 0.06
+                    },
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "cooldown_duration",
+                        "value": -0.02
+                    }]
+                },
+                "utility":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "ability_antimatter_cost",
+                        "value_behavior": "scalar",
+                        "value": -0.25
+                    },
+                    {
+                        "modifier_type": "ability_cooldown_duration",
+                        "value_behavior": "scalar",
+                        "value": -0.05
+                    }]
+                }
+            }
+        },
+        {
+            "point_cost": 10,
+            "tracks":
+            {
+                "movement":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "max_linear_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.3
+                    },
+                    {
+                        "modifier_type": "hyperspace_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.25
+                    }]
+                },
+                "combat":
+                {
+                    "weapon_modifiers": [
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "damage",
+                        "value": 0.08
+                    },
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "cooldown_duration",
+                        "value": -0.04
+                    },
+                    {
+                        "value_behavior": "additive",
+                        "modifier_type": "bypass_shields_chance",
+                        "value": 0.05,
+                        "tags": [
+                            "phasemissile"]
+                    }]
+                },
+                "utility":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "ability_antimatter_cost",
+                        "value_behavior": "scalar",
+                        "value": -0.3
+                    },
+                    {
+                        "modifier_type": "ability_cooldown_duration",
+                        "value_behavior": "scalar",
+                        "value": -0.1
+                    }]
+                }
+            }
+        },
+        {
+            "point_cost": 15,
+            "tracks":
+            {
+                "movement":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "max_linear_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.35
+                    },
+                    {
+                        "modifier_type": "hyperspace_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.3
+                    }]
+                },
+                "combat":
+                {
+                    "weapon_modifiers": [
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "damage",
+                        "value": 0.1
+                    },
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "cooldown_duration",
+                        "value": -0.06
+                    },
+                    {
+                        "value_behavior": "additive",
+                        "modifier_type": "bypass_shields_chance",
+                        "value": 0.1,
+                        "tags": [
+                            "phasemissile"]
+                    }]
+                },
+                "utility":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "ability_antimatter_cost",
+                        "value_behavior": "scalar",
+                        "value": -0.35
+                    },
+                    {
+                        "modifier_type": "ability_cooldown_duration",
+                        "value_behavior": "scalar",
+                        "value": -0.15
+                    }]
+                }
+            }
+        }],
+        "base_phase_travel_bonus_duration": 240.0
+    },
+    "max_supply":
+    {
+        "levels": [
+        {
+            "max_supply": 250
+        },
+        {
+            "max_supply": 400,
+            "prerequisites": [
+                ["vasari_max_supply_0"]
+            ]
+        },
+        {
+            "max_supply": 750,
+            "prerequisites": [
+                ["vasari_max_supply_1"]
+            ]
+        },
+        {
+            "max_supply": 1250,
+            "prerequisites": [
+                ["vasari_max_supply_2"]
+            ]
+        },
+        {
+            "max_supply": 1750,
+            "prerequisites": [
+                ["vasari_max_supply_3"]
+            ]
+        },
+        {
+            "max_supply": 2200,
+            "prerequisites": [
+                ["vasari_max_supply_4"]
+            ]
+        },
+        {
+            "max_supply": 2500,
+            "prerequisites": [
+                ["vasari_max_supply_5"]
+            ]
+        }]
+    },
+    "unit_starting_experience":
+    {
+        "levels": [
+        {
+            "starting_experience": 200.0,
+            "prerequisites": [
+                ["vasari_capital_ship_starting_level_0"]
+            ]
+        },
+        {
+            "starting_experience": 700.0,
+            "prerequisites": [
+                ["vasari_capital_ship_starting_level_1"]
+            ]
+        }]
+    },
+    "auto_add_initial_home_planet_bookmark": true,
+    "gui":
+    {
+        "race_name": "player_race_name.vasari",
+        "race_description": "player_race_description.vasari",
+        "faction_name": "player_faction_name.vasari_purist",
+        "faction_description": "player_faction_description.vasari_purist",
+        "faction_icon": "vasari_rebel_faction_icon",
+        "load_screen_character_brush": "vasari_load_screen_character",
+        "no_credit_income_description": "vasari_no_credit_income_description"
+    },
+    "unit_names": [
+    {
+        "group_name": "capital_ship",
+        "localized_text":
+        {
+            "id_prefix": "capital_ship_name.vasari"
+        }
+    },
+    {
+        "group_name": "fleet",
+        "localized_text":
+        {
+            "id_prefix": "fleet_name.vasari"
+        }
+    },
+    {
+        "group_name": "starbase",
+        "localized_text":
+        {
+            "id_prefix": "starbase_name.vasari"
+        }
+    },
+    {
+        "group_name": "titan",
+        "localized_text":
+        {
+            "id_prefix": "titan_name.vasari"
+        }
+    }],
+    "victory_gui":
+    {
+        "won_pictures": [
+            "vasari_victory_picture_0",
+            "vasari_victory_picture_1",
+            "vasari_victory_picture_2",
+            "vasari_victory_picture_3"
+        ],
+        "lost_pictures": [
+            "vasari_defeat_picture_0",
+            "vasari_defeat_picture_1",
+            "vasari_defeat_picture_2",
+            "vasari_defeat_picture_3"
+        ],
+        "victory_type_text":
+        {
+            "military":
+            {
+                "won":
+                {
+                    "status": "player_victory.status.military.won",
+                    "phrase": "player_victory.phrase.military.won.vasari"
+                },
+                "lost":
+                {
+                    "status": "player_victory.status.military.lost",
+                    "phrase": "player_victory.phrase.military.lost.vasari"
+                }
+            },
+            "home_planet":
+            {
+                "won":
+                {
+                    "status": "player_victory.status.home_planet.won",
+                    "phrase": "player_victory.phrase.home_planet.won.vasari"
+                },
+                "lost":
+                {
+                    "status": "player_victory.status.home_planet.lost",
+                    "phrase": "player_victory.phrase.home_planet.lost.vasari"
+                }
+            },
+            "diplomatic":
+            {
+                "won":
+                {
+                    "status": "player_victory.status.diplomatic.won",
+                    "phrase": "player_victory.phrase.diplomatic.won.vasari"
+                },
+                "lost":
+                {
+                    "status": "player_victory.status.diplomatic.lost",
+                    "phrase": "player_victory.phrase.diplomatic.lost.vasari"
+                }
+            },
+            "colonization":
+            {
+                "won":
+                {
+                    "status": "player_victory.status.colonization.won",
+                    "phrase": "player_victory.phrase.colonization.won.vasari"
+                },
+                "lost":
+                {
+                    "status": "player_victory.status.colonization.lost",
+                    "phrase": "player_victory.phrase.colonization.lost.vasari"
+                }
+            }
+        }
+    },
+    "sounds":
+    {
+        "user_interface_sounds":
+        {
+            "set_rally_point": "ui_set_rally_point",
+            "set_unit_factory_deliverable_destination": "ui_set_rally_point",
+            "build_structure": "ui_build_structure",
+            "ping_attention": "ui_common_ping",
+            "ping_attack": "ui_common_ping",
+            "ping_defend": "ui_common_ping",
+            "join_fleet": "ui_set_rally_point",
+            "research_completed": "vasari_research_completed",
+            "planet_being_bombed": "vasari_planet_being_bombed",
+            "planet_colonized": "vasari_planet_colonized",
+            "planet_lost": "vasari_planet_lost",
+            "planet_artifact_excavated": "vasari_planet_artifact_excavated",
+            "planet_bonus_excavated": "vasari_planet_bonus_excavated",
+            "planet_track_upgrade_completed": "vasari_planet_track_upgrade_completed",
+            "enemy_units_incoming": "vasari_enemy_units_incoming",
+            "enemy_units_arrived": "vasari_enemy_units_arrived",
+            "enemy_planet_made_dead_from_bombing": "vasari_enemy_planet_made_dead_from_bombing",
+            "pirate_units_arrived": "vasari_pirate_units_arrived",
+            "insufficient_credits": "vasari_insufficient_credits",
+            "insufficient_metal": "vasari_insufficient_metal",
+            "insufficient_crystal": "vasari_insufficient_crystal",
+            "insufficient_civilian_structure_slots": "vasari_insufficient_structure_slots",
+            "insufficient_military_structure_slots": "vasari_insufficient_structure_slots",
+            "insufficient_antimatter": "vasari_insufficient_antimatter",
+            "research_prerequisites_not_met": "vasari_research_prerequisites_not_met",
+            "insufficient_civilian_research_points": "vasari_insufficient_research_points",
+            "insufficient_military_research_points": "vasari_insufficient_research_points",
+            "position_has_overlapped_unit": "vasari_position_has_overlapped_unit",
+            "click_failed": "ui_default_error",
+            "generic_order_issued": "ui_order_issued",
+            "generic_attack_order_issued": "ui_attack_order_issued",
+            "generic_joined_fleet": "ui_joined_fleet"
+        }
+    },
+    "ai_names":
+    {
+        "id_prefix": "player_ai_name.vasari."
+    },
+    "portraits": [
+        "vasari_0"
+    ],
+    "icons": [
+        "vasari_0",
+        "vasari_1",
+        "vasari_2",
+        "vasari_3",
+        "vasari_4",
+        "vasari_5",
+        "vasari_6",
+        "vasari_7",
+        "vasari_8",
+        "vasari_9",
+        "vasari_10",
+        "vasari_11",
+        "vasari_12",
+        "vasari_13"
+    ]
+}

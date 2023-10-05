@@ -1,0 +1,23 @@
+{
+    "version": 0,
+    "target_filters": [
+    {
+        "target_filter_id": "friendly_planet",
+        "target_filter":
+        {
+            "unit_types": [
+                "planet"
+            ],
+            "ownerships": [
+                "friendly"]
+        }
+    }],
+    "action_values": [
+    {
+        "action_value_id": "hyperspace_speed_scalar",
+        "action_value":
+        {
+            "values": [0.75]
+        }
+    }]
+}

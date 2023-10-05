@@ -1,0 +1,154 @@
+{
+    "version": 0,
+    "spatial":
+    {
+        "radius": 184.520874,
+        "box":
+        {
+            "center": [0.000229, 40.313038, 5.867775],
+            "extents": [118.756355, 91.892441, 176.62796]
+        },
+        "collision_rank": 1
+    },
+    "physics":
+    {
+        "mass": 2000.0,
+        "can_move_linear": true,
+        "max_linear_speed": 500.0,
+        "time_to_max_linear_speed": 5.0,
+        "arrival_tolerance_spatial_radius_scalar": 0.25,
+        "death_linear_speed_range": [1.0, 2.0],
+        "can_move_angular": true,
+        "max_angular_speed": 25.714285,
+        "time_to_max_angular_speed": 11.428571,
+        "max_bank_angle": 35.0,
+        "death_angular_speed_range": [5.0, 10.0],
+        "linear_acceleration_angle": 90.0,
+        "can_strafe_linear": true,
+        "strafe_max_linear_speed": 125.0,
+        "time_to_strafe_max_linear_speed": 10.0,
+        "strafe_max_linear_distance_spatial_radius_scalar": 3.0,
+        "strafe_start_angle": 0.0,
+        "strafe_stop_angle": 180.0,
+        "strafe_speed_start_angle": 10.0,
+        "strafe_max_start_turning_angle": 170.0
+    },
+    "hyperspace":
+    {
+        "speed": 155000.0,
+        "charge_time": 5.0,
+        "charge_time_variance": 1.0,
+        "min_charge_angle": 10.0,
+        "max_charge_angle": 45.0
+    },
+    "move":
+    {
+        "follow_distance": 963.532959
+    },
+    "attack":
+    {
+        "attack_pattern_definitions": [
+        {
+            "type": "stop_and_fire"
+        }]
+    },
+    "ai":
+    {
+        "priority_bonus_per_attack_target_type":
+        {},
+        "behaviors": [
+            "auto_follow_unit_attacking_threat"
+        ],
+        "targets_to_ignore_filter_id": "strikecraft_and_torpedo_units"
+    },
+    "ai_attack_target":
+    {
+        "attack_priority": 49.0,
+        "is_always_a_threat": false
+    },
+    "user_interface":
+    {
+        "pip_type": "cruiser",
+        "can_ever_be_selected": true,
+        "selection_priority": 300,
+        "has_sub_selection_grouping": true,
+        "selection_group_unit_type": "combat_ship",
+        "can_move": true,
+        "can_show_distance_to_plane_line": true
+    },
+    "formation":
+    {
+        "leader_priority": 1,
+        "offsets_per_formation_type":
+        {
+            "ships_and_structures":
+            {
+                "rank": 3,
+                "group": 0
+            }
+        }
+    },
+    "spawn_debris":
+    {
+        "spawn_debris_time": 1.0,
+        "generic_group_name": "vasari",
+        "generic_counts":
+        {
+            "small_debris": [7, 8],
+            "large_debris": [1, 2]
+        }
+    },
+    "health":
+    {
+        "release_time_after_death": 60.0,
+        "max_hull_points": 882.0,
+        "hull_point_restore_rate": 1.25,
+        "hull_armor": 54.0,
+        "max_shield_points": 444.0,
+        "shield_point_restore_rate": 1.5,
+        "shield_mitigation": 4.0,
+        "experience_given_on_death": 42.0,
+        "can_collide_duration_after_death": 3.95
+    },
+    "antimatter":
+    {
+        "max_antimatter": 350.0,
+        "antimatter_restore_rate": 1.0
+    },
+    "build":
+    {
+        "build_time": 37.0,
+        "price":
+        {
+            "metal": 210.0,
+            "crystal": 240.0
+        },
+        "prerequisites": [
+            ["vasari_unlock_overseer_cruiser"]
+        ],
+        "build_kind": "cruiser",
+        "supply_cost": 10,
+        "build_group_id": "cruiser"
+    },
+	"culture_provider":
+    {},
+    "target_filter_unit_type": "cruiser",
+    "tags": [
+        "cruiser"
+    ],
+    "is_envoy": true,
+    "abilities": [
+        "vasari_overseer_cruiser_intimidating_presence",
+        "vasari_overseer_cruiser_phase_lane_detection",
+		"vasari_overseer_culture_provider"
+    ],
+    "player_specific_abilities": [
+    {
+        "ability": "vasari_overseer_cruiser_reputation_provider",
+        "player": "vasari_rebel"
+    }],
+    "skins": [
+        "vasari_overseer_cruiser"
+    ],
+    "can_join_fleet": true
+}

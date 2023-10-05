@@ -1,0 +1,20 @@
+{
+    "version": 0,
+    "domain": "military",
+    "tier": 4,
+    "field": "military_revival",
+    "field_coord": [8, 4],
+    "research_time": 280.0,
+    "price":
+    {
+        "metal": 1230.0,
+        "crystal": 1570.0,
+        "credits": 0.0
+    },
+    "prerequisites": [
+        ["vasari_upgrade_fabricator_cruiser_debris_reclamation_ability"]
+    ],
+    "name": "vasari_upgrade_fabricator_cruiser_debris_reclamation_ability_1_research_subject_name",
+    "description": "vasari_upgrade_fabricator_cruiser_debris_reclamation_ability_1_research_subject_description",
+    "hud_icon": "vasari_upgrade_fabricator_cruiser_debris_reclamation_ability_1_research_subject_hud_icon"
+}

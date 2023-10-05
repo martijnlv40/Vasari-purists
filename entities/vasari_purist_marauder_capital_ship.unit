@@ -1,0 +1,656 @@
+{
+    "version": 0,
+    "spatial":
+    {
+        "radius": 342.456421,
+        "box":
+        {
+            "center": [0.0, -14.198452, -1.783875],
+            "extents": [133.159058, 85.604675, 336.990417]
+        },
+        "collision_rank": 2
+    },
+    "physics":
+    {
+        "mass": 10000.0,
+        "can_move_linear": true,
+        "max_linear_speed": 525.0,
+        "time_to_max_linear_speed": 5.25,
+        "arrival_tolerance_spatial_radius_scalar": 0.25,
+        "death_linear_speed_range": [1.0, 2.0],
+        "can_move_angular": true,
+        "max_angular_speed": 18.090681,
+        "time_to_max_angular_speed": 18.090681,
+        "max_bank_angle": 35.0,
+        "death_angular_speed_range": [5.0, 10.0],
+        "linear_acceleration_angle": 90.0,
+        "can_strafe_linear": true,
+        "strafe_max_linear_speed": 131.25,
+        "time_to_strafe_max_linear_speed": 10.5,
+        "strafe_max_linear_distance_spatial_radius_scalar": 3.0,
+        "strafe_start_angle": 0.0,
+        "strafe_stop_angle": 180.0,
+        "strafe_speed_start_angle": 10.0,
+        "strafe_max_start_turning_angle": 170.0
+    },
+    "hyperspace":
+    {
+        "speed": 155000.0,
+        "charge_time": 5.0,
+        "charge_time_variance": 1.0,
+        "min_charge_angle": 10.0,
+        "max_charge_angle": 45.0
+    },
+    "move":
+    {
+        "follow_distance": 1743.94043
+    },
+    "attack":
+    {
+        "attack_pattern_definitions": [
+        {
+            "type": "stop_and_fire"
+        }]
+    },
+    "ai":
+    {
+        "priority_bonus_per_attack_target_type":
+        {},
+        "behaviors": [
+            "auto_attack_threats",
+            "auto_bomb_planet",
+            "auto_attack_non_threats"
+        ],
+        "auto_follow_target_priority": 5.0,
+        "targets_to_ignore_filter_id": "strikecraft_and_torpedo_units"
+    },
+    "ai_attack_target":
+    {
+        "attack_priority": 50.0,
+        "is_always_a_threat": true,
+        "attack_target_types": [
+            "capital"]
+    },
+    "user_interface":
+    {
+        "pip_type": "capital_ship",
+        "can_ever_be_selected": true,
+        "selection_priority": 400,
+        "selection_group_unit_type": "combat_ship",
+        "can_move": true,
+        "can_attack": true,
+        "can_show_max_weapon_range": true,
+        "can_show_distance_to_plane_line": true
+    },
+    "weapons":
+    {
+        "weapons": [
+        {
+            "weapon": "vasari_marauder_capital_ship_beam",
+            "mesh_point": "child.vasari_asset_medbeam_cap_barrel_0",
+            "weapon_position": [-94.69445, -13.292015, 194.13298],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [-1.0, -0.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -130.0,
+                "max_angle": 130.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -70.0,
+                "max_angle": 0.0
+            }
+        },
+        {
+            "weapon": "vasari_marauder_capital_ship_beam",
+            "mesh_point": "child.vasari_asset_medbeam_cap_barrel_1",
+            "weapon_position": [94.530357, -13.339161, 194.13298],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [1.0, 0.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -130.0,
+                "max_angle": 130.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -70.0,
+                "max_angle": 0.0
+            }
+        },
+        {
+            "weapon": "vasari_marauder_capital_ship_missile",
+            "mesh_point": "weapon.0",
+            "weapon_position": [0.014759, -0.216196, 149.169296],
+            "non_turret_muzzle_positions": [
+                [21.145105, 11.391357, 130.653854],
+                [-30.608688, -14.671711, 175.705414],
+                [-20.511662, 11.391357, 130.653854],
+                [-34.771133, -2.77865, 149.606857],
+                [-27.866066, 5.128891, 140.711044],
+                [30.441399, -14.541051, 175.705414],
+                [34.222977, -2.77865, 149.606857],
+                [28.066139, 5.128891, 140.711044]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "vasari_marauder_capital_ship_wave",
+            "mesh_point": "child.vasari_asset_hvywave_barrel.0",
+            "weapon_position": [-76.948051, 2.046596, 231.177124],
+            "forward": [0.160891, -0.074259, 0.984175],
+            "up": [0.401764, -0.905882, -0.134031],
+            "yaw_arc":
+            {
+                "min_angle": -130.0,
+                "max_angle": 130.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -5.0,
+                "max_angle": 70.0
+            }
+        },
+        {
+            "weapon": "vasari_marauder_capital_ship_wave",
+            "mesh_point": "child.vasari_asset_hvywave_barrel.1",
+            "weapon_position": [76.235535, 2.122618, 231.377609],
+            "forward": [-0.120724, 0.028347, 0.992281],
+            "up": [-0.422197, -0.906146, -0.02548],
+            "yaw_arc":
+            {
+                "min_angle": -130.0,
+                "max_angle": 130.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -5.0,
+                "max_angle": 70.0
+            }
+        },
+        {
+            "weapon": "vasari_marauder_capital_ship_point_defense_pulse",
+            "mesh_point": "child.vasari_asset_pdpulse_cap_barrel_0",
+            "weapon_position": [127.353729, -20.966011, -179.919434],
+            "forward": [-0.417768, 0.012899, 0.908462],
+            "up": [0.857063, -0.326238, 0.398763],
+            "yaw_arc":
+            {
+                "min_angle": 0.0,
+                "max_angle": 270.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": -25.0
+            }
+        },
+        {
+            "weapon": "vasari_marauder_capital_ship_point_defense_pulse",
+            "mesh_point": "child.vasari_asset_pdpulse_cap_barrel_1",
+            "weapon_position": [-127.130875, -20.340302, -179.776459],
+            "forward": [0.479174, 0.078873, 0.874169],
+            "up": [-0.792764, -0.388575, 0.469611],
+            "yaw_arc":
+            {
+                "min_angle": -270.0,
+                "max_angle": 0.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": -25.0
+            }
+        },
+        {
+            "weapon": "vasari_marauder_capital_ship_planet_bombing",
+            "mesh_point": "bomb",
+            "weapon_position": [0.0, 0.0, 205.167206],
+            "non_turret_muzzle_positions": [
+                [0.0, 0.0, 205.167206]
+            ],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -10.0,
+                "max_angle": 10.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -10.0,
+                "max_angle": 10.0
+            }
+        }],
+        "max_range_weapon_index": 0
+    },
+    "formation":
+    {
+        "leader_priority": 2,
+        "offsets_per_formation_type":
+        {
+            "ships_and_structures":
+            {
+                "rank": 2,
+                "group": 2
+            }
+        }
+    },
+    "spawn_debris":
+    {
+        "spawn_debris_time": 1.0,
+        "generic_group_name": "vasari",
+        "generic_counts":
+        {
+            "small_debris": [12, 16],
+            "large_debris": [4, 5]
+        }
+    },
+    "health":
+    {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 6
+    },
+    "antimatter":
+    {
+        "max_antimatter": 0.0,
+        "antimatter_restore_rate": 0.0
+    },
+    "levels":
+    {
+        "type": "experience",
+        "levels": [
+        {
+            "experience_to_next_level": 200.0,
+            "unit_modifiers":
+            {
+                "additive_values":
+                {
+                    "max_antimatter": 322.0,
+                    "antimatter_restore_rate": 1.15,
+                    "max_hull_points": 3384.0,
+                    "hull_point_restore_rate": 2.8,
+                    "hull_armor": 226.0,
+                    "max_shield_points": 1764.0,
+                    "shield_point_restore_rate": 4.4,
+                    "shield_mitigation": 8.0,
+                    "experience_given_on_death": 100.0,
+                    "max_squadron_capacity": 1.0
+                },
+                "scalar_values":
+                {}
+            }
+        },
+        {
+            "experience_to_next_level": 500.0,
+            "unit_modifiers":
+            {
+                "additive_values":
+                {
+                    "max_antimatter": 373.75,
+                    "antimatter_restore_rate": 1.3225,
+                    "max_hull_points": 3588.0,
+                    "hull_point_restore_rate": 3.0,
+                    "hull_armor": 232.0,
+                    "max_shield_points": 1944.0,
+                    "shield_point_restore_rate": 4.9,
+                    "shield_mitigation": 8.0,
+                    "experience_given_on_death": 120.0,
+                    "max_squadron_capacity": 1.0
+                },
+                "scalar_values":
+                {}
+            },
+            "weapon_modifiers":
+            {
+                "additive_values":
+                {},
+                "scalar_values":
+                {
+                    "damage": 0.05,
+                    "cooldown_duration": -0.03
+                }
+            }
+        },
+        {
+            "experience_to_next_level": 900.0,
+            "unit_modifiers":
+            {
+                "additive_values":
+                {
+                    "max_antimatter": 425.5,
+                    "antimatter_restore_rate": 1.495,
+                    "max_hull_points": 3792.0,
+                    "hull_point_restore_rate": 3.2,
+                    "hull_armor": 238.0,
+                    "max_shield_points": 2118.0,
+                    "shield_point_restore_rate": 5.3,
+                    "shield_mitigation": 8.0,
+                    "experience_given_on_death": 150.0,
+                    "max_squadron_capacity": 1.0
+                },
+                "scalar_values":
+                {}
+            },
+            "weapon_modifiers":
+            {
+                "additive_values":
+                {},
+                "scalar_values":
+                {
+                    "damage": 0.1,
+                    "cooldown_duration": -0.06
+                }
+            }
+        },
+        {
+            "experience_to_next_level": 1500.0,
+            "unit_modifiers":
+            {
+                "additive_values":
+                {
+                    "max_antimatter": 477.25,
+                    "antimatter_restore_rate": 1.6675,
+                    "max_hull_points": 3996.0,
+                    "hull_point_restore_rate": 3.3,
+                    "hull_armor": 244.0,
+                    "max_shield_points": 2298.0,
+                    "shield_point_restore_rate": 5.7,
+                    "shield_mitigation": 8.0,
+                    "experience_given_on_death": 190.0,
+                    "max_squadron_capacity": 1.0
+                },
+                "scalar_values":
+                {}
+            },
+            "weapon_modifiers":
+            {
+                "additive_values":
+                {},
+                "scalar_values":
+                {
+                    "damage": 0.15,
+                    "cooldown_duration": -0.09
+                }
+            }
+        },
+        {
+            "experience_to_next_level": 2300.0,
+            "unit_modifiers":
+            {
+                "additive_values":
+                {
+                    "max_antimatter": 529.0,
+                    "antimatter_restore_rate": 1.84,
+                    "max_hull_points": 4194.0,
+                    "hull_point_restore_rate": 3.5,
+                    "hull_armor": 256.0,
+                    "max_shield_points": 2472.0,
+                    "shield_point_restore_rate": 6.2,
+                    "shield_mitigation": 8.0,
+                    "experience_given_on_death": 240.0,
+                    "max_squadron_capacity": 2.0
+                },
+                "scalar_values":
+                {}
+            },
+            "weapon_modifiers":
+            {
+                "additive_values":
+                {},
+                "scalar_values":
+                {
+                    "damage": 0.2,
+                    "cooldown_duration": -0.12
+                }
+            }
+        },
+        {
+            "experience_to_next_level": 3300.0,
+            "unit_modifiers":
+            {
+                "additive_values":
+                {
+                    "max_antimatter": 580.75,
+                    "antimatter_restore_rate": 2.0125,
+                    "max_hull_points": 4404.0,
+                    "hull_point_restore_rate": 3.7,
+                    "hull_armor": 268.0,
+                    "max_shield_points": 2646.0,
+                    "shield_point_restore_rate": 6.6,
+                    "shield_mitigation": 8.0,
+                    "experience_given_on_death": 300.0,
+                    "max_squadron_capacity": 2.0
+                },
+                "scalar_values":
+                {}
+            },
+            "weapon_modifiers":
+            {
+                "additive_values":
+                {},
+                "scalar_values":
+                {
+                    "damage": 0.25,
+                    "cooldown_duration": -0.15
+                }
+            }
+        },
+        {
+            "experience_to_next_level": 4500.0,
+            "unit_modifiers":
+            {
+                "additive_values":
+                {
+                    "max_antimatter": 632.5,
+                    "antimatter_restore_rate": 2.185,
+                    "max_hull_points": 4602.0,
+                    "hull_point_restore_rate": 3.8,
+                    "hull_armor": 280.0,
+                    "max_shield_points": 2826.0,
+                    "shield_point_restore_rate": 7.1,
+                    "shield_mitigation": 8.0,
+                    "experience_given_on_death": 370.0,
+                    "max_squadron_capacity": 2.0
+                },
+                "scalar_values":
+                {}
+            },
+            "weapon_modifiers":
+            {
+                "additive_values":
+                {},
+                "scalar_values":
+                {
+                    "damage": 0.3,
+                    "cooldown_duration": -0.18
+                }
+            }
+        },
+        {
+            "experience_to_next_level": 6000.0,
+            "unit_modifiers":
+            {
+                "additive_values":
+                {
+                    "max_antimatter": 684.25,
+                    "antimatter_restore_rate": 2.3575,
+                    "max_hull_points": 4806.0,
+                    "hull_point_restore_rate": 4.0,
+                    "hull_armor": 298.0,
+                    "max_shield_points": 2994.0,
+                    "shield_point_restore_rate": 7.5,
+                    "shield_mitigation": 8.0,
+                    "experience_given_on_death": 450.0,
+                    "max_squadron_capacity": 2.0
+                },
+                "scalar_values":
+                {}
+            },
+            "weapon_modifiers":
+            {
+                "additive_values":
+                {},
+                "scalar_values":
+                {
+                    "damage": 0.35,
+                    "cooldown_duration": -0.21
+                }
+            }
+        },
+        {
+            "experience_to_next_level": 7800.0,
+            "unit_modifiers":
+            {
+                "additive_values":
+                {
+                    "max_antimatter": 736.0,
+                    "antimatter_restore_rate": 2.53,
+                    "max_hull_points": 5004.0,
+                    "hull_point_restore_rate": 4.2,
+                    "hull_armor": 316.0,
+                    "max_shield_points": 3174.0,
+                    "shield_point_restore_rate": 7.9,
+                    "shield_mitigation": 8.0,
+                    "experience_given_on_death": 540.0,
+                    "max_squadron_capacity": 2.0
+                },
+                "scalar_values":
+                {}
+            },
+            "weapon_modifiers":
+            {
+                "additive_values":
+                {},
+                "scalar_values":
+                {
+                    "damage": 0.4,
+                    "cooldown_duration": -0.24
+                }
+            }
+        },
+        {
+            "unit_modifiers":
+            {
+                "additive_values":
+                {
+                    "max_antimatter": 787.75,
+                    "antimatter_restore_rate": 2.7025,
+                    "max_hull_points": 5214.0,
+                    "hull_point_restore_rate": 4.3,
+                    "hull_armor": 334.0,
+                    "max_shield_points": 3354.0,
+                    "shield_point_restore_rate": 8.4,
+                    "shield_mitigation": 8.0,
+                    "experience_given_on_death": 640.0,
+                    "max_squadron_capacity": 3.0
+                },
+                "scalar_values":
+                {}
+            },
+            "weapon_modifiers":
+            {
+                "additive_values":
+                {},
+                "scalar_values":
+                {
+                    "damage": 0.45,
+                    "cooldown_duration": -0.27
+                }
+            }
+        }]
+    },
+	"unit_factory":
+    {
+        "build_kinds": [
+            "corvette",
+            "frigate",
+            "cruiser"
+        ],
+        "required_mutation": "mobile_unit_factory_enabled",
+    },
+    "exotic_factory":
+    {
+        "required_mutation": "mobile_exotic_factory_enabled"
+    },
+    "build":
+    {
+        "build_time": 75.0,
+        "price":
+        {
+            "metal": 1400.0,
+            "crystal": 1100.0
+        },
+        "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 2
+        }],
+        "build_kind": "capital_ship",
+        "supply_cost": 50,
+        "build_group_id": "capital_ship"
+    },
+    "name":
+    {
+        "group": "capital_ship"
+    },
+    "carrier":
+    {
+        "base_max_squadron_capacity": 0,
+        "strikecraft_kinds": [
+            "bomber"
+        ],
+        "launch_destination_formation": "capital_ship_strikecraft",
+        "launch_destination_formation_offset":
+        {
+            "rank": 3,
+            "group": 2
+        },
+        "hangar_points": [
+        {
+            "position": [0.028368, 20.205999, -49.623222],
+            "rotation": [1.0, 0.0, 0.0, 0.0, -0.0, -1.0, 0.0, 1.0, -0.0]
+        }]
+    },
+    "items":
+    {
+        "levels": [
+        {
+            "max_ship_component_count": 4
+        }]
+    },
+    "passive_income":
+    {},
+    "target_filter_unit_type": "capital_ship",
+    "tags": [
+        "capital_ship"
+    ],
+    "is_loot_collector": true,
+    "abilities": [
+        "vasari_marauder_capital_ship_phase_out_hull",
+        "vasari_marauder_capital_ship_sabotage",
+        "vasari_marauder_capital_ship_distort_gravity",
+        "vasari_marauder_capital_ship_phase_restoration"
+    ],
+    "ship_roles": [
+        "attack_ship",
+        "bomb_planet"
+    ],
+    "skins": [
+        "vasari_marauder_capital_ship"
+    ],
+    "action_effect_size": "medium_unit",
+    "can_join_fleet": true
+}

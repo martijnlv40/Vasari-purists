@@ -1,0 +1,17 @@
+{
+    "version": 0,
+    "domain": "civilian",
+    "tier": 3,
+    "field": "civilian_phase_mastery",
+    "field_coord": [6, 4],
+    "research_time": 200.0,
+    "price":
+    {
+        "metal": 780.0,
+        "crystal": 990.0,
+        "credits": 0.0
+    },
+    "name": "vasari_unstoppable_phase_jump_research_subject_name",
+    "description": "vasari_purist_unstoppable_phase_jump_research_subject_description",
+    "hud_icon": "vasari_unstoppable_phase_jump_research_subject_hud_icon"
+}

@@ -1,0 +1,198 @@
+{
+    "max_fleet_count": 20,
+    "fleet_factory_rally_subspace_speed": 525.0,
+    "fleet_factory_rally_hyperspace_speed": 155000.0,
+    "estimated_fleet_factory_rally_time_per_jump": 300.0,
+    "races": [
+    {
+        "name": "trader",
+        "localized_name": "player_race.trader"
+    },
+    {
+        "name": "vasari",
+        "localized_name": "player_race.vasari"
+    }],
+    "pickable_players": [
+        "trader_loyalist",
+        "trader_rebel",
+        "vasari_rebel",
+		"vasari_purist"
+    ],
+    "marginal_tax_rate_levels":
+    {
+        "credits": [
+        {
+            "rate_taxable": 18,
+            "tax_rate": 0
+        },
+        {
+            "rate_taxable": 24,
+            "tax_rate": 0.05
+        },
+        {
+            "rate_taxable": 30,
+            "tax_rate": 0.1
+        },
+        {
+            "rate_taxable": 36,
+            "tax_rate": 0.2
+        },
+        {
+            "rate_taxable": 48,
+            "tax_rate": 0.3
+        },
+        {
+            "rate_taxable": 60,
+            "tax_rate": 0.45
+        },
+        {
+            "tax_rate": 0.6
+        }],
+        "metal": [
+        {
+            "rate_taxable": 4,
+            "tax_rate": 0
+        },
+        {
+            "rate_taxable": 7,
+            "tax_rate": 0.05
+        },
+        {
+            "rate_taxable": 10,
+            "tax_rate": 0.1
+        },
+        {
+            "rate_taxable": 13,
+            "tax_rate": 0.2
+        },
+        {
+            "rate_taxable": 19,
+            "tax_rate": 0.3
+        },
+        {
+            "rate_taxable": 25,
+            "tax_rate": 0.45
+        },
+        {
+            "tax_rate": 0.6
+        }],
+        "crystal": [
+        {
+            "rate_taxable": 4,
+            "tax_rate": 0
+        },
+        {
+            "rate_taxable": 7,
+            "tax_rate": 0.05
+        },
+        {
+            "rate_taxable": 10,
+            "tax_rate": 0.1
+        },
+        {
+            "rate_taxable": 13,
+            "tax_rate": 0.2
+        },
+        {
+            "rate_taxable": 19,
+            "tax_rate": 0.3
+        },
+        {
+            "rate_taxable": 25,
+            "tax_rate": 0.45
+        },
+        {
+            "tax_rate": 0.6
+        }]
+    },
+    "refund_percentage": 0.75,
+    "auction_lost_refund_percentage": 0.5,
+    "colonization_victory_planet_count_percentage": 0.5,
+    "time_between_notify_enemy_player_when_entering_gravity_well": 60,
+    "auto_upgrade_planet_track_price_threshold_multiplier": 10,
+    "max_research_time_scalar": -3,
+    "max_research_points_overflow": 20,
+    "research_overflow_tier_nth_root_modifier": 3.0,
+    "alliance":
+    {
+        "alliance_offer_duration": 120,
+        "alliance_types":
+        {
+            "cease_fire":
+            {
+                "hud_icon": "cease_fire_player_alliance_icon",
+                "tooltip_icon": "cease_fire_player_alliance_tooltip_icon",
+                "name": "player_alliance_type.cease_fire.name",
+                "description": "player_alliance_type.cease_fire.description"
+            },
+            "share_vision":
+            {
+                "hud_icon": "share_vision_player_alliance_icon",
+                "tooltip_icon": "share_vision_player_alliance_tooltip_icon",
+                "name": "player_alliance_type.share_vision.name",
+                "description": "player_alliance_type.share_vision.description"
+            },
+            "synergy":
+            {
+                "hud_icon": "synergy_player_alliance_icon",
+                "tooltip_icon": "synergy_player_alliance_tooltip_icon",
+                "name": "player_alliance_type.synergy.name",
+                "description": "player_alliance_type.synergy.description"
+            }
+        }
+    },
+    "npc":
+    {
+        "culture_reward_cooldown_duration": 480,
+        "auction_cooldown_duration": [150.0, 240.0],
+        "late_game_colonized_planets_percentage": 0.75,
+        "asset_market":
+        {
+            "demand_level_change_thresholds": [800.0, 1400.0, 2400.0, 4000.0],
+            "demand_level_change_cooldown_duration": 60,
+            "demand_levels": [
+            {
+                "buy_credits_cost_scalar": -1.2,
+                "sell_credits_received_scalar": -1.2,
+                "name": "npc_asset_market_demand_level_lowest",
+                "color": "npc_asset_market_demand_level_lowest",
+                "hud_icon": "market_demand_lowest_hud_icon"
+            },
+            {
+                "buy_credits_cost_scalar": -0.6,
+                "sell_credits_received_scalar": -0.6,
+                "name": "npc_asset_market_demand_level_low",
+                "color": "npc_asset_market_demand_level_low",
+                "hud_icon": "market_demand_low_hud_icon"
+            },
+            {
+                "buy_credits_cost_scalar": 0,
+                "sell_credits_received_scalar": 0,
+                "name": "npc_asset_market_demand_level_normal",
+                "color": "npc_asset_market_demand_level_normal",
+                "hud_icon": "market_demand_normal_hud_icon",
+                "is_visible_in_npc_markets_window": false
+            },
+            {
+                "buy_credits_cost_scalar": 0.6,
+                "sell_credits_received_scalar": 0.6,
+                "name": "npc_asset_market_demand_level_high",
+                "color": "npc_asset_market_demand_level_high",
+                "hud_icon": "market_demand_high_hud_icon"
+            },
+            {
+                "buy_credits_cost_scalar": 1.2,
+                "sell_credits_received_scalar": 1.2,
+                "name": "npc_asset_market_demand_level_highest",
+                "color": "npc_asset_market_demand_level_highest",
+                "hud_icon": "market_demand_highest_hud_icon"
+            }],
+            "initial_demand_level": 2
+        },
+        "npc_tags": [
+        {
+            "name": "pirates",
+            "localized_name": "npc_tag_name.pirates"
+        }]
+    }
+}

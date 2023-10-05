@@ -1,0 +1,27 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_surface_research_lab_unit_item_hud_icon",
+    "name": "vasari_ship_military_lab_unit_item_name",
+    "description": "vasari_ship_military_lab_unit_item_description",
+    "build_time": 40.0,
+    "price":
+    {
+        "metal": 750.0,
+        "crystal": 500.0
+    },
+	"build_prerequisites": [
+        ["vasari_unlock_specialized_labs"]
+    ],
+    "required_unit_tags": [
+		"capital_ship",
+        "titan"
+    ],
+	"build_group_id": "utility",
+    "unit_modifiers": [
+    {
+        "modifier_type": "military_research_points",
+        "value_behavior": "additive",
+        "values": [2.0]
+    }]
+}

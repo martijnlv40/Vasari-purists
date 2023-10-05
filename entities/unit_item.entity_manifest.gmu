@@ -1,0 +1,19 @@
+{
+    "ids": [
+		"vasari_purist_mobile_exotic_factory",
+        "vasari_ship_research_lab",
+		"vasari_ship_military_lab",
+		"vasari_ship_civilian_lab",
+		"vasari_titan_purist_factory",
+		"vasari_purist_experience_boost",
+		"vasari_purist_deploy_phase_synchronizer",
+		"vasari_purist_phase_travel_amplifier",
+		"vasari_purist_titan_unlock_phase_cannon_weapon",
+		"vasari_extractor",
+		"vasari_metal_gain",
+		"vasari_crystal_gain",
+		"vasari_credit_gain",
+		"vasari_capital_ship_purist_factory",
+		"vasari_purist_deploy_phase_gate"
+    ]
+}

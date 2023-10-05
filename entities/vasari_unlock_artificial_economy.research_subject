@@ -1,0 +1,17 @@
+{
+    "version": 0,
+    "domain": "civilian",
+    "tier": 2,
+    "field": "civilian_oppression",
+    "field_coord": [5, 3],
+    "research_time": 165.0,
+    "price":
+    {
+        "metal": 600.0,
+        "crystal": 760.0,
+        "credits": 0.0
+    },
+    "name": "vasari_unlock_artificial_economy_research_subject_name",
+	"description": "vasari_unlock_artificial_economy_research_subject_description",
+    "hud_icon": "vasari_unlock_artificial_economy_research_subject_hud_icon"
+}

@@ -1,0 +1,19 @@
+{
+    "ids": [
+        "vasari_purist_titan",
+		"vasari_purist_colony_capital_ship",
+		"vasari_purist_siege_capital_ship",
+		"vasari_purist_marauder_capital_ship",
+		"vasari_purist_carrier_capital_ship",
+		"vasari_purist_battle_capital_ship",
+		"vasari_purist_phase_synchronizer_structure",
+		"vasari_purist_fabricator_cruiser",
+		"vasari_extractor_cruiser",
+		"vasari_purist_scout_corvette",
+		"vasari_purist_raider_corvette",
+		"vasari_purist_anticorvette_corvette",
+		"vasari_missile_battery_frigate",
+		"vasari_purist_overseer_cruiser",
+		"vasari_purist_phase_gate_structure"
+    ]
+}

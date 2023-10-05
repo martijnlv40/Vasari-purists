@@ -1,0 +1,61 @@
+{
+    "version": 0,
+    "skin_stages": [
+    {
+        "is_main_view_icon_visible_camera_distance": 14683.62582,
+        "min_camera_distance": 448.666344,
+        "gui":
+        {
+            "hud_icon": "vasari_siege_platform_frigate_hud_icon",
+            "hud_monochrome_icon": "vasari_siege_platform_frigate_main_view_icon",
+            "hud_button_icon": "vasari_siege_platform_frigate_hud_button_icon",
+            "tooltip_icon": "vasari_siege_platform_frigate_tooltip_icon",
+            "name": "vasari_missile_battery_frigate_name",
+            "description": "vasari_missile_battery_frigate_description"
+        },
+        "unit_mesh":
+        {
+            "mesh": "trader_missile_battery_frigate",
+            "shader": "ship",
+            "is_shadow_blocker": true
+        },
+        "main_view_icon":
+        {
+            "group": "ship",
+            "icon": "vasari_siege_platform_frigate_main_view_icon",
+            "selected_icon": "vasari_siege_platform_frigate_main_view_icon_selected",
+            "sub_selected_icon": "vasari_siege_platform_frigate_main_view_icon_sub_selected"
+        },
+        "effects":
+        {
+            "hyperspace_effects":
+            {
+                "charge_effect": "Hyperspace_Tech_Frigate_ChargeUp",
+                "charge_effect_between_stars": "Hyperspace_Tech_Frigate_ChargeUp_Interstellar",
+                "charge_effect_destabalized": "Hyperspace_Tech_Frigate_ChargeUp_Unstable",
+                "travel_effect": "Hyperspace_Tech_Frigate_Travel",
+                "travel_effect_between_stars": "Hyperspace_Tech_Frigate_Travel_Interstellar",
+                "travel_effect_destabalized": "Hyperspace_Tech_Frigate_Travel_Unstable",
+                "exit_effect": "Hyperspace_Tech_Frigate_Exit",
+                "exit_sound": "HYPERSPACE_EXIT",
+                "charge_sound": "HYPERSPACE_CHARGEUP",
+                "enter_sound": "HYPERSPACE_ENTRY"
+            },
+            "shield_effect": "vasari_siege_platform_frigate",
+            "effect_alias_bindings": [
+                ["vasari_rebel_titan_missile_weapon_muzzle",
+                {
+                    "particle_effect": "vasari_torpedo_muzzle"
+                }]
+            ]
+        },
+        "sounds":
+        {
+            "move_sounds":
+            {
+                "hyperspace_travel": "HYPERSPACE_TRAVEL"
+            }
+        },
+        "death_sequence_group": "frigate0"
+    }]
+}

@@ -1,0 +1,14 @@
+{
+    "ids": [
+       "vasari_purist_deploy_phase_synchronizer",
+	   "vasari_purist_deploy_phase_gate",
+	   "vasari_extract_resources",
+	   "vasari_extract_resources_capital",
+	   "crystal_asteroid_self",
+	   "metal_asteroid_self",
+	   "vasari_purist_fabricator_cruiser_debris_reclamation",
+	   "vasari_corvette_unstoppable_phase_jump",
+	   "vasari_purist_titan_deploy_missile_battery",
+	   "vasari_overseer_culture_provider"
+    ]
+}

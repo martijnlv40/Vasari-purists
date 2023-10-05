@@ -1,0 +1,256 @@
+{
+    "version": 0,
+    "skin_stages": [
+    {
+        "is_main_view_icon_visible_camera_distance": 52581.7932,
+        "min_camera_distance": 1314.54483,
+        "gui":
+        {
+            "hud_icon": "vasari_colony_capital_ship_hud_icon",
+            "hud_monochrome_icon": "vasari_colony_capital_ship_main_view_icon",
+            "hud_button_icon": "vasari_colony_capital_ship_hud_button_icon",
+            "tooltip_icon": "vasari_colony_capital_ship_tooltip_icon",
+            "name": "vasari_purist_colony_capital_ship_name",
+            "description": "vasari_purist_colony_capital_ship_description"
+        },
+        "unit_mesh":
+        {
+            "mesh": "vasari_colony_capital_ship",
+            "shader": "ship",
+            "is_shadow_blocker": true
+        },
+        "child_mesh_alias_bindings":
+        {
+            "map": [
+                ["vasari_asset_medbeam_cap_barrel_0",
+                {
+                    "mesh": "vasari_asset_medbeam_cap_barrel_0",
+                    "shader": "ship",
+                    "is_shadow_blocker": true
+                }],
+                ["vasari_asset_medwave_cap_barrel_0",
+                {
+                    "mesh": "vasari_asset_medwave_cap_barrel_0",
+                    "shader": "ship",
+                    "is_shadow_blocker": true
+                }],
+                ["vasari_asset_pdpulse_cap_barrel_0",
+                {
+                    "mesh": "vasari_asset_pdpulse_cap_barrel_0",
+                    "shader": "ship",
+                    "is_shadow_blocker": true
+                }]
+            ]
+        },
+        "main_view_icon":
+        {
+            "group": "capital_ship",
+            "icon": "vasari_colony_capital_ship_main_view_icon",
+            "selected_icon": "vasari_colony_capital_ship_main_view_icon_selected",
+            "sub_selected_icon": "vasari_colony_capital_ship_main_view_icon_sub_selected"
+        },
+        "effects":
+        {
+            "exhaust_particle_effect": "vasari_capital_exhaust",
+            "hyperspace_effects":
+            {
+                "charge_effect": "vasari_capital_portal_charge_up",
+                "charge_effect_between_stars": "Hyperspace_Vasari_Capital_Chargeup_Interstellar",
+                "charge_effect_destabalized": "Hyperspace_Vasari_Capital_Chargeup_Unstable",
+                "travel_effect": "vasari_capital_portal_travel",
+                "travel_effect_between_stars": "Hyperspace_Vasari_Capital_Travel_Interstellar",
+                "travel_effect_destabalized": "Hyperspace_Vasari_Capital_Travel_Unstable",
+                "exit_effect": "vasari_capital_portal_exit",
+                "charge_sound": "HYPERSPACE_CHARGEUP",
+                "enter_sound": "HYPERSPACE_ENTRY",
+                "exit_sound": "HYPERSPACE_EXIT"
+            },
+            "level_up_effect": "CapitalShip_LevelUp",
+            "level_up_sound": "CAPITALSHIP_LEVELUP",
+            "shield_effect": "vasari_colony_capital_ship",
+            "effect_alias_bindings": [
+                ["vasari_anticorvette_corvette_point_defense_pulse_weapon_hit_hull",
+                {
+                    "particle_effect": "pulse_gun_impact_pd",
+                    "sounds": [
+                    "WEAPONIMPACT_ENERGYLIGHT_HITHULL"]
+                }],
+                ["vasari_anticorvette_corvette_point_defense_pulse_weapon_hit_shield",
+                {
+                    "particle_effect": "pulse_gun_impact_pd",
+                    "sounds": [
+                    "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"]
+                }],
+                ["vasari_anticorvette_corvette_point_defense_pulse_weapon_muzzle",
+                {
+                    "particle_effect": "pulse_gun_muzzle_pd",
+                    "sounds": [
+                    "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE",
+                        "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE_ALT1"
+                    ]
+                }],
+                ["vasari_anticorvette_corvette_point_defense_pulse_weapon_projectile_travel",
+                {
+                    "particle_effect": "pulse_gun_travel_pd"
+                }],
+                ["vasari_colony_capital_ship_beam_weapon_beam",
+                {
+                    "beam": "vasari_medium_beam",
+                    "sounds": [
+                    "WEAPON_PHASECAPITALFLASHBEAMHEAVY_TRAVEL",
+                        "WEAPON_PHASECAPITALFLASHBEAMHEAVY_TRAVEL_ALT1"
+                    ]
+                }],
+                ["vasari_colony_capital_ship_beam_weapon_hit_hull",
+                {
+                    "particle_effect": "vasari_medium_Beam_impact"
+                }],
+                ["vasari_colony_capital_ship_beam_weapon_hit_shield",
+                {
+                    "particle_effect": "vasari_medium_Beam_impact"
+                }],
+                ["vasari_colony_capital_ship_beam_weapon_muzzle",
+                {
+                    "particle_effect": "vasari_medium_Beam_muzzle"
+                }],
+                ["vasari_colony_capital_ship_drain_planet_active",
+                {
+                    "particle_effect": "drain_planet_activate",
+                    "sounds": [
+                    "EFFECT_RESOURCEDRAIN_LOOP"]
+                }],
+                ["vasari_colony_capital_ship_drain_planet_charging",
+                {
+                    "particle_effect": "drain_planet",
+                    "sounds": [
+                    "vasari_colony_capital_ship_drain_planet_charging"]
+                }],
+                ["vasari_colony_capital_ship_gravity_warhead_detonate",
+                {
+                    "particle_effect": "gravity_warhead",
+                    "sounds": [
+                        "vasari_colony_capital_ship_gravity_warhead_detonate"]
+                }],
+                ["vasari_colony_capital_ship_gravity_warhead_muzzle",
+                {
+                    "particle_effect": "gravity_warhead_muzzle"
+                }],
+                ["vasari_colony_capital_ship_gravity_warhead_on_target_large",
+                {
+                    "particle_effect": "gravity_warhead_status_large"
+                }],
+                ["vasari_colony_capital_ship_gravity_warhead_on_target_medium",
+                {
+                    "particle_effect": "gravity_warhead_status_medium"
+                }],
+                ["vasari_colony_capital_ship_gravity_warhead_on_target_small",
+                {
+                    "particle_effect": "gravity_warhead_status_small"
+                }],
+                ["vasari_colony_capital_ship_gravity_warhead_projectile_travel",
+                {
+                    "particle_effect": "gravity_warhead_travel"
+                }],
+                ["vasari_colony_capital_ship_medium_wave_weapon_hit_hull",
+                {
+                    "particle_effect": "wave_impact",
+                    "sounds": [
+                    "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"]
+                }],
+                ["vasari_colony_capital_ship_medium_wave_weapon_hit_shield",
+                {
+                    "particle_effect": "wave_impact",
+                    "sounds": [
+                    "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"]
+                }],
+                ["vasari_colony_capital_ship_medium_wave_weapon_muzzle",
+                {
+                    "particle_effect": "wave_muzzle",
+                    "sounds": [
+                    "WEAPON_PHASECAPITALWAVEMEDIUM_MUZZLE",
+                        "WEAPON_PHASECAPITALWAVEMEDIUM_MUZZLE_ALT1"
+                    ]
+                }],
+                ["vasari_colony_capital_ship_medium_wave_weapon_projectile_travel",
+                {
+                    "particle_effect": "wave_blast"
+                }],
+                ["vasari_colony_capital_ship_planet_bombing_weapon_beam",
+                {
+                    "beam": "vasari_planet_bomb_beam",
+                    "sounds": [
+                    "WEAPON_PHASEPLANETBOMB_LOOP"]
+                }],
+                ["vasari_colony_capital_ship_planet_bombing_weapon_hit_hull",
+                {
+                    "particle_effect": "vasari_planet_bomb_beam_impact"
+                }],
+                ["vasari_colony_capital_ship_planet_bombing_weapon_hit_shield",
+                {
+                    "particle_effect": "vasari_planet_bomb_beam_impact"
+                }],
+                ["vasari_colony_capital_ship_planet_bombing_weapon_muzzle",
+                {
+                    "particle_effect": "vasari_planet_bomb_beam_muzzle"
+                }],
+                ["vasari_colony_capital_ship_subspace_rupture_detonate",
+                {
+                    "particle_effect": "subspace_rupture",
+                    "sounds": [
+                        "vasari_colony_capital_ship_subspace_rupture_detonate"
+                    ]
+                }],
+                ["vasari_colony_capital_ship_subspace_rupture_on_target_large",
+                {
+                    "particle_effect": "subspace_rupture_status_large"
+                }],
+                ["vasari_colony_capital_ship_subspace_rupture_on_target_medium",
+                {
+                    "particle_effect": "subspace_rupture_status_medium"
+                }],
+                ["vasari_colony_capital_ship_subspace_rupture_on_target_small",
+                {
+                    "particle_effect": "subspace_rupture_status_small"
+                }],
+                ["vasari_colony_shuttle",
+                {
+                    "particle_effect": "vasari_colony_shuttle",
+                    "sounds": [
+                    "EFFECT_EMPBLAST"]
+                }]
+            ]
+        },
+        "sounds":
+        {
+            "move_sounds":
+            {
+                "engine": "ENGINE_PHASECAPITALSHIP",
+                "hyperspace_travel": "HYPERSPACE_TRAVEL"
+            },
+            "dialogue":
+            {
+                "spawned": [
+                    "CAPITALSHIP_PHASECOLONY_ONCREATION"
+                ],
+                "selected": [
+                    "CAPITALSHIP_PHASECOLONY_ONSELECTED_0",
+                    "CAPITALSHIP_PHASECOLONY_ONSELECTED_1",
+                    "CAPITALSHIP_PHASECOLONY_ONSELECTED_2"
+                ],
+                "order_issued": [
+                    "CAPITALSHIP_PHASECOLONY_ONGENERALORDERISSUED_0",
+                    "CAPITALSHIP_PHASECOLONY_ONGENERALORDERISSUED_1",
+                    "CAPITALSHIP_PHASECOLONY_ONGENERALORDERISSUED_2"
+                ],
+                "attack_order_issued": [
+                    "CAPITALSHIP_PHASECOLONY_ONATTACKORDERISSUED_0",
+                    "CAPITALSHIP_PHASECOLONY_ONATTACKORDERISSUED_1",
+                    "CAPITALSHIP_PHASECOLONY_ONATTACKORDERISSUED_2"
+                ],
+                "hyperspace_charge_started": [
+                    "CAPITALSHIP_PHASECOLONY_ONSTARTPHASEJUMP_0"]
+            }
+        },
+        "death_sequence_group": "capitalship0"
+    }]
+}

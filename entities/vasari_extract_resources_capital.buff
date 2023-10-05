@@ -1,0 +1,83 @@
+{
+    "version": 0,
+    "make_dead_on_all_finite_time_actions_done": true,
+    "stacking_limit": "fixed_one",
+    "stacking_ownership_type": "for_all_players",
+    "time_actions": [
+    {
+        "execution_interval_value": "fixed_one",
+        "execution_interval_count_value": "extract_execution_count_value",
+        "action_group":
+        {
+            "actions": [
+            {
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "metal_resource"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "previous_spawner"
+                },
+                "operators": [
+                {
+                    "operator_type": "give_assets",
+                    "asset_type": "metal",
+                    "asset_value": "extract_metal_value"
+                }]
+            },
+			{
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "crystal_resource"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "previous_spawner"
+                },
+                "operators": [
+                {
+                    "operator_type": "give_assets",
+                    "asset_type": "crystal",
+                    "asset_value": "extract_crystal_value"
+                }]
+            }]
+        }
+    }],
+    "trigger_event_actions": [
+    {
+        "trigger_event_type": "on_current_spawner_player_ownership_changed",
+        "action_group":
+        {
+            "constraint":
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "extract_neutral_resource"
+                }
+            },
+            "actions": [
+            {
+                "action_type": "make_buff_dead"
+            }]
+        }
+    }]
+}

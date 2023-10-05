@@ -1,0 +1,12 @@
+{
+    "version": 0,
+	"level_count": 2,
+    "action_values": [
+    {
+        "action_value_id": "culture_rate_value",
+        "action_value":
+        {
+            "values": [0.001, 0.0015]
+        }
+    }]
+}

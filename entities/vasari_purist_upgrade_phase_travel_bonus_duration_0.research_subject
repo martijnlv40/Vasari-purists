@@ -1,0 +1,26 @@
+{
+    "version": 0,
+    "domain": "civilian",
+    "tier": 2,
+    "field": "civilian_phase_mastery",
+    "field_coord": [4, 2],
+    "research_time": 140.0,
+    "price":
+    {
+        "metal": 450.0,
+        "crystal": 560.0,
+        "credits": 0.0
+    },
+    "prerequisites": [
+        ["vasari_purist_unlock_deploy_phase_synchronizer_unit_item"]
+    ],
+    "unit_modifiers": [
+    {
+        "modifier_type": "phase_travel_bonus_duration",
+        "value_behavior": "additive",
+        "value": 60
+    }],
+    "name": "vasari_upgrade_phase_travel_bonus_duration_0_research_subject_name",
+    "description": "vasari_upgrade_phase_travel_bonus_duration_0_research_subject_description",
+    "hud_icon": "vasari_upgrade_phase_travel_bonus_duration_0_research_subject_hud_icon"
+}

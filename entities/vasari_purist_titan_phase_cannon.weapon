@@ -1,0 +1,31 @@
+{
+    "version": 0,
+    "name": "weapon_name.phase_cannon",
+    "pitch_speed": 0.0,
+    "yaw_speed": 0.0,
+    "range": 8000.0,
+    "cooldown_duration": 8.0,
+    "uniforms_target_filter_id": "common_weapon",
+    "weapon_type": "normal",
+    "damage_affect_type": "hull_and_shields",
+    "damage": 650.0,
+    "hull_armor_penetration": 960.0,
+    "tags": [
+        "phase_cannon",
+        "energy"
+    ],
+    "acquire_target_logic": "order_target_or_best_target_in_range",
+    "firing":
+    {
+        "firing_type": "projectile",
+        "travel_speed": 6500.0
+    },
+    "effects":
+    {
+        "muzzle_effect": "vasari_rebel_titan_phase_cannon_weapon_muzzle",
+        "projectile_travel_effect": "vasari_rebel_titan_phase_cannon_weapon_projectile_travel",
+        "hit_hull_effect": "vasari_rebel_titan_phase_cannon_weapon_hit_hull",
+        "hit_shield_effect": "vasari_rebel_titan_phase_cannon_weapon_hit_shield",
+        "hit_shield_impact_radius_t": 1.0
+    }
+}
