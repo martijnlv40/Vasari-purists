@@ -15,8 +15,8 @@
     "pickable_players": [
         "trader_loyalist",
         "trader_rebel",
-        "vasari_rebel",
-		"vasari_purist"
+	"vasari_purist",
+        "vasari_rebel"
     ],
     "marginal_tax_rate_levels":
     {
