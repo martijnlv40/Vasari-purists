@@ -17,6 +17,7 @@
         "count": 1
     }],
     "required_unit_tags": [
+		"frigate",
 		"capital_ship",
         "titan"
     ],

@@ -1,0 +1,20 @@
+{
+    "version": 0,
+    "domain": "civilian",
+    "tier": 2,
+    "field": "civilian_oppression",
+    "field_coord": [5, 4],
+    "research_time": 165.0,
+    "price":
+    {
+        "metal": 600.0,
+        "crystal": 760.0,
+        "credits": 0.0
+    },
+	"prerequisites": [
+        ["vasari_unlock_artificial_economy"]
+    ],
+    "name": "vasari_unlock_living_frigate_research_subject_name",
+	"description": "vasari_unlock_living_frigate_research_subject_description",
+    "hud_icon": "vasari_living_frigate_hud_button_icon"
+}

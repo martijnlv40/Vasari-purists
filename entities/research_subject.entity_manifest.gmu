@@ -19,6 +19,7 @@
 		"vasari_unlock_culture_overseer",
 		"vasari_upgrade_culture_overseer",
 		"vasari_culture_offense",
-		"vasari_purist_unlock_phase_gate"
+		"vasari_purist_unlock_phase_gate",
+		"vasari_unlock_living_frigate"
     ]
 }

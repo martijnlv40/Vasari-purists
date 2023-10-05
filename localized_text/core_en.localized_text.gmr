@@ -15,6 +15,8 @@
 	"vasari_purist_colony_capital_ship_description": "An immense support ship that can carry many Vasari, it has many utility abilities and can directly extract resources from asteroids.",
 	"vasari_extractor_cruiser_name": "Jarak Extractor",
 	"vasari_extractor_cruiser_description": "A large cruiser stocking the necessary personnel to extract resources from asteroids.",
+	"vasari_living_frigate_name": "Velok Wanderer",
+	"vasari_living_frigate_description": "A large cruiser specifically meant to carry large portions of the Vasari population.",
 	"vasari_heavy_maneuvering_thrusters_research_subject_name": "Improved Thrusters",
 	"vasari_heavy_maneuvering_thrusters_research_subject_description": "Increases the turn rate of all ships, improving their maneuverability.",
 	"vasari_extractor_ability_item_name": "Resource Extractor",
@@ -55,4 +57,6 @@
 	"vasari_capital_ship_purist_factory_description": "Allows construction of corvettes, frigates and cruisers.",
 	"vasari_jump_speed_research_subject_name": "Phase Jump Mastery",
     "vasari_jump_speed_research_subject_description": "Due to our many experiences with phase space, we can better predict obstacles, increasing our travel speed.",
+	"vasari_unlock_living_frigate_research_subject_name": "Living Frigates",
+	"vasari_unlock_living_frigate_research_subject_description": "We can double down on and expand our artificial economy, helped by a new type of ship housing much of our population."
 }

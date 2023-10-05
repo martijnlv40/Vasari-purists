@@ -122,9 +122,11 @@
         "vasari_purist_carrier_capital_ship",
         "vasari_purist_marauder_capital_ship",
         "vasari_purist_siege_capital_ship",
-        "vasari_purist_titan"
+        "vasari_purist_titan",
+		"vasari_living_frigate"
     ],
     "faction_buildable_units": [
+		"vasari_living_frigate",
         "vasari_purist_titan"
     ],
     "buildable_strikecraft": [
@@ -580,7 +582,8 @@
 			"vasari_upgrade_fabricator_cruiser_debris_reclamation_ability_1",
 			"vasari_planet_pillaging",
 			"vasari_purist_unstoppable_phase_jump",
-			"vasari_culture_offense"
+			"vasari_culture_offense",
+			"vasari_unlock_living_frigate"
         ],
         "faction_research_subjects": [
 			"vasari_jump_speed",
