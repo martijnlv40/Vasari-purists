@@ -31,6 +31,9 @@
 - **Removal of all irrelevant content**
     - This includes technologies, items and anything related to planets.
 
+- **13 New ship**
+- To boost the economy on the move
+
 - **13 New technologies**
 
 - **9 New ship items**
