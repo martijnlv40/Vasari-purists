@@ -20,6 +20,13 @@
 		"vasari_upgrade_culture_overseer",
 		"vasari_culture_offense",
 		"vasari_purist_unlock_phase_gate",
-		"vasari_unlock_living_frigate"
+		"vasari_unlock_living_frigate",
+		"vasari_upgrade_hull_point_restore_rate_3",
+		"vasari_upgrade_factories",
+		"vasari_purist_global_phase_lane_detection",
+		"vasari_purist_unlock_overseer_cruiser_phase_lane_detection_ability",
+		"vasari_purist_upgrade_overseer_cruiser_phase_lane_detection_ability",
+		"vasari_culture_trade",
+		"vasari_purist_upgrade_economic"
     ]
 }

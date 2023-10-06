@@ -8,8 +8,8 @@
         {
             "income_rates":
             {
-                "metal": 3.0,
-                "crystal": 3.0
+                "metal": 0.0,
+                "crystal": 0.0
             },
 			"modifier_values":
             {}
@@ -18,8 +18,8 @@
         "starting_militia_supply": 80,
         "establish_price":
         {
-            "metal": 0.0,
-            "crystal": 0.0
+            "metal": 500.0,
+            "crystal": 500.0
         }
     },
     "planet_levels": [
@@ -31,6 +31,177 @@
         },
         "upgrade_duration": 30.0,
         "experience_given_on_bombed_to_neutral": 150.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 320,
+            "crystal": 255
+        },
+        "upgrade_duration": 35.0,
+        "experience_given_on_bombed_to_neutral": 300.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 340,
+            "crystal": 285
+        },
+        "upgrade_duration": 40.0,
+        "experience_given_on_bombed_to_neutral": 450.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 360,
+            "crystal": 315
+        },
+        "upgrade_duration": 45.0,
+        "experience_given_on_bombed_to_neutral": 600.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 380,
+            "crystal": 345
+        },
+        "upgrade_duration": 50.0,
+        "experience_given_on_bombed_to_neutral": 750.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 400,
+            "crystal": 375
+        },
+        "upgrade_duration": 60.0,
+        "experience_given_on_bombed_to_neutral": 800.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 420,
+            "crystal": 405
+        },
+        "upgrade_duration": 70.0,
+        "experience_given_on_bombed_to_neutral": 950.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 440,
+            "crystal": 435
+        },
+        "upgrade_duration": 80.0,
+        "experience_given_on_bombed_to_neutral": 1100.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 460,
+            "crystal": 465
+        },
+        "upgrade_duration": 90.0,
+        "experience_given_on_bombed_to_neutral": 1250.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 480,
+            "crystal": 495
+        },
+        "upgrade_duration": 105.0,
+        "experience_given_on_bombed_to_neutral": 1400.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 500,
+            "crystal": 525
+        },
+        "upgrade_duration": 120.0,
+        "experience_given_on_bombed_to_neutral": 1550.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 520,
+            "crystal": 555
+        },
+        "upgrade_duration": 135.0,
+        "experience_given_on_bombed_to_neutral": 1700.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 540,
+            "crystal": 585
+        },
+        "upgrade_duration": 150.0,
+        "experience_given_on_bombed_to_neutral": 1850.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 560,
+            "crystal": 615
+        },
+        "upgrade_duration": 170.0,
+        "experience_given_on_bombed_to_neutral": 2000.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 580,
+            "crystal": 645
+        },
+        "upgrade_duration": 190.0,
+        "experience_given_on_bombed_to_neutral": 2150.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 600,
+            "crystal": 675
+        },
+        "upgrade_duration": 210.0,
+        "experience_given_on_bombed_to_neutral": 2300.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 620,
+            "crystal": 705
+        },
+        "upgrade_duration": 230.0,
+        "experience_given_on_bombed_to_neutral": 2450.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 640,
+            "crystal": 735
+        },
+        "upgrade_duration": 255.0,
+        "experience_given_on_bombed_to_neutral": 2600.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 660,
+            "crystal": 765
+        },
+        "upgrade_duration": 280.0,
+        "experience_given_on_bombed_to_neutral": 2750.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 680,
+            "crystal": 795
+        },
+        "upgrade_duration": 305.0,
+        "experience_given_on_bombed_to_neutral": 2900.0
     }],
     "planet_excavation_levels": [
     {
@@ -487,10 +658,8 @@
             "vasari_antimatter_2",
             "vasari_capital_ship_starting_level_0",
             "vasari_capital_ship_starting_level_1",
-            "vasari_construction_price_decrease",
             "vasari_jump_speed",
-            "vasari_global_phase_lane_detection",
-            "vasari_improve_phase_lane_detection",
+            "vasari_purist_global_phase_lane_detection",
             "vasari_improve_starbase_build_time",
             "vasari_max_supply_0",
             "vasari_max_supply_1",
@@ -513,9 +682,8 @@
             "vasari_unlock_heavy_cruiser",
             "vasari_unlock_long_range_frigate",
             "vasari_unlock_overseer_cruiser",
-            "vasari_unlock_overseer_cruiser_phase_lane_detection_ability",
+            "vasari_purist_unlock_overseer_cruiser_phase_lane_detection_ability",
             "vasari_purist_unlock_phase_gate",
-            "vasari_unlock_phase_lane_detection",
             "vasari_unlock_phase_missile_boost_unit_item",
             "vasari_unlock_precise_turret_servos",
             "vasari_unlock_raider_corvette",
@@ -536,11 +704,11 @@
             "vasari_upgrade_fabricator_cruiser_debris_reclamation_ability",
             "vasari_upgrade_hull_armor_0",
             "vasari_upgrade_hull_armor_1",
-            "vasari_upgrade_hull_armor_2",
             "vasari_upgrade_hull_base",
             "vasari_upgrade_hull_point_restore_rate_0",
             "vasari_upgrade_hull_point_restore_rate_1",
             "vasari_upgrade_hull_point_restore_rate_2",
+			"vasari_upgrade_hull_point_restore_rate_3",
             "vasari_upgrade_hull_points_0",
             "vasari_upgrade_hull_points_1",
             "vasari_upgrade_hull_points_2",
@@ -549,7 +717,7 @@
             "vasari_upgrade_missile_damage_0",
             "vasari_upgrade_missile_damage_1",
             "vasari_upgrade_missile_damage_2",
-            "vasari_upgrade_overseer_cruiser_phase_lane_detection_ability",
+            "vasari_purist_upgrade_overseer_cruiser_phase_lane_detection_ability",
             "vasari_upgrade_phase_missile_boost_unit_item",
             "vasari_upgrade_phase_missile_bypass_shields_chance",
             "vasari_upgrade_planet_bombing_range",
@@ -583,16 +751,23 @@
 			"vasari_planet_pillaging",
 			"vasari_purist_unstoppable_phase_jump",
 			"vasari_culture_offense",
-			"vasari_unlock_living_frigate"
+			"vasari_unlock_living_frigate",
+			"vasari_upgrade_factories",
+			"vasari_culture_trade",
+			"vasari_purist_upgrade_economic"
         ],
         "faction_research_subjects": [
 			"vasari_jump_speed",
+			"vasari_unlock_culture_overseer",
 			"vasari_culture_offense",
+			"vasari_culture_trade",
+			"vasari_purist_upgrade_economic",
 			"vasari_planet_pillaging",
 			"vasari_upgrade_hyperspace_charge_time_1",
 			"vasari_heavy_maneuvering_thrusters",
 			"vasari_purist_unstoppable_phase_jump",
-			"vasari_upgrade_fabricator_cruiser_debris_reclamation_ability_1"
+			"vasari_upgrade_fabricator_cruiser_debris_reclamation_ability_1",
+			"vasari_upgrade_factories"
         ],
         "starting_research_subjects": []
     },
@@ -782,7 +957,6 @@
                 ]
             }]
         }],
-		
 		"enemy_unit_modifiers": [
 		{
 			"modifier_type": "hull_armor",
@@ -794,7 +968,30 @@
                     ["vasari_culture_offense"]
                 ]
             }]
-		}]
+		}],
+		"npc_modifiers": [
+        {
+            "modifier_type": "buy_crystal_credits_cost",
+            "value_behavior": "scalar",
+            "values": [
+            {
+                "value": -0.1,
+                "prerequisites": [
+                    ["vasari_culture_trade"]
+                ]
+            }]
+        },
+		{
+            "modifier_type": "buy_metal_credits_cost",
+            "value_behavior": "scalar",
+            "values": [
+            {
+                "value": -0.1,
+                "prerequisites": [
+                    ["vasari_culture_trade"]
+                ]
+            }]
+        }]
     },
     "buildable_exotics": [
         ["defense",
@@ -802,8 +999,8 @@
             "build_time": 120.0,
             "price":
             {
-                "metal": 250.0,
-                "crystal": 250.0
+                "metal": 225.0,
+                "crystal": 225.0
             }
         }],
         ["economic",
@@ -811,8 +1008,8 @@
             "build_time": 120.0,
             "price":
             {
-                "metal": 250.0,
-                "crystal": 250.0
+                "metal": 200.0,
+                "crystal": 200.0
             }
         }],
         ["offense",
@@ -820,8 +1017,8 @@
             "build_time": 120.0,
             "price":
             {
-                "metal": 250.0,
-                "crystal": 250.0
+                "metal": 225.0,
+                "crystal": 225.0
             }
         }],
         ["ultimate",
@@ -829,8 +1026,8 @@
             "build_time": 240.0,
             "price":
             {
-                "metal": 500.0,
-                "crystal": 500.0
+                "metal": 450.0,
+                "crystal": 450.0
             },
             "prerequisites": [
                 ["vasari_purist_unlock_build_ultimate_exotic"]
@@ -841,8 +1038,8 @@
             "build_time": 120.0,
             "price":
             {
-                "metal": 250.0,
-                "crystal": 250.0
+                "metal": 225.0,
+                "crystal": 225.0
             }
         }]
     ],

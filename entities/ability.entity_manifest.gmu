@@ -9,6 +9,7 @@
 	   "vasari_purist_fabricator_cruiser_debris_reclamation",
 	   "vasari_corvette_unstoppable_phase_jump",
 	   "vasari_purist_titan_deploy_missile_battery",
-	   "vasari_overseer_culture_provider"
+	   "vasari_overseer_culture_provider",
+	   "vasari_purist_overseer_cruiser_phase_lane_detection"
     ]
 }

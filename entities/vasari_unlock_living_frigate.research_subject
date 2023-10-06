@@ -3,7 +3,7 @@
     "domain": "civilian",
     "tier": 2,
     "field": "civilian_oppression",
-    "field_coord": [5, 4],
+    "field_coord": [5, 3],
     "research_time": 165.0,
     "price":
     {

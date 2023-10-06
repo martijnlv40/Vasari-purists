@@ -1,0 +1,25 @@
+{
+    "version": 0,
+    "domain": "civilian",
+    "tier": 3,
+    "field": "civilian_phase_mastery",
+    "field_coord": [6, 0],
+    "research_time": 200.0,
+    "price":
+    {
+        "metal": 780.0,
+        "crystal": 990.0,
+        "credits": 0.0
+    },
+    "buff_providers": [
+    {
+        "scope": "all_phase_lanes",
+        "action_data_source": "vasari_global_phase_lane_detection",
+        "buff": "vasari_global_phase_lane_detection_on_phase_lane"
+    }],
+    "name": "vasari_global_phase_lane_detection_research_subject_name",
+    "description": "vasari_global_phase_lane_detection_research_subject_description",
+    "hud_icon": "vasari_global_phase_lane_detection_research_subject_hud_icon",
+    "extra_text_filter_strings": [
+        "research_text_filter_detect"]
+}

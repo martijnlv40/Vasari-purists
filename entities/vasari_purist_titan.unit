@@ -1500,6 +1500,7 @@
     "tags": [
         "titan"
     ],
+	"is_phase_travel_synchronizer": true,
     "is_loot_collector": true,
     "abilities": [
         "vasari_rebel_titan_nano_leech",

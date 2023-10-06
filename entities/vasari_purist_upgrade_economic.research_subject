@@ -1,0 +1,36 @@
+{
+    "version": 0,
+    "domain": "civilian",
+    "tier": 1,
+    "field": "civilian_nanotech",
+    "field_coord": [2, 2],
+    "research_time": 85.0,
+    "price":
+    {
+        "metal": 240.0,
+        "crystal": 280.0,
+        "credits": 0.0
+    },
+	"prerequisites": [
+        ["vasari_purist_unlock_mobile_exotic_factory_unit_item"]
+    ],
+	"exotic_factory_modifiers": [
+    {
+        "modifier_type": "build_time",
+        "value_behavior": "scalar",
+        "value": -0.25,
+        "exotic_types": [
+            "economic"]
+    }],
+    "windfall":
+    {
+        "exotics_given": [
+        {
+            "exotic_type": "economic",
+            "count": 3
+        }]
+    },
+    "name": "vasari_purist_upgrade_economic_research_subject_name",
+	"description": "vasari_purist_upgrade_economic_research_subject_description",
+    "hud_icon": "economic_exotic_large_icon"
+}

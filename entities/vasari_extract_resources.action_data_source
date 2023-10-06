@@ -76,7 +76,7 @@
         "action_value_id": "extract_cooldown_time",
         "action_value":
         {
-            "values": [60.0, 60.0]
+            "values": [90.0, 90.0]
         }
     },
     {
@@ -90,7 +90,7 @@
         "action_value_id": "extract_execution_count_value",
         "action_value":
         {
-            "values": [60.0, 60.0]
+            "values": [90.0, 90.0]
         }
     },
     {

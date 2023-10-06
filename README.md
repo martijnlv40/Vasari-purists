@@ -1,6 +1,6 @@
 # Vasari Purists
 
-- **Some people are very interested in having the Vasari depend as little as possible on using planets, including me, so this mod adds a faction that does NOT depend on them!**
+- **Some people are very interested in having the Vasari depend as little as possible on using planets, including me, so this mod adds a faction that does NOT depend on them at all!**
 
 ## Main features
 
@@ -31,24 +31,22 @@
 - **Removal of all irrelevant content**
     - This includes technologies, items and anything related to planets.
 
-- **13 New ship**
-- To boost the economy on the move
-
-- **13 New technologies**
+- **17 New technologies**
 
 - **9 New ship items**
 
 - **Reworked Titan**
+	- It is a phase synchronizer, collecting phase resonance if it is present in a gravity well
     - It has a new, fitting, ultimate ability with a 'new' unit
     - It can go up to level 12
     - It is somewhat weaker starting out, but should balance out depending on item choices
-<br>
+
 - Many miscellaneous tweaks are included, like more starting resources, moving certain technologies to be researched sooner and a 200% build speed penalty on components when not near an item shop (instead of 400%) .
 
 ## Known issues
-- Resource extraction gives both metal and crystal regardless of the type of resource asteroid.
-- Resource extraction does not autocast (leading to a lot of micromanagement, I increased the duration of the ability/item because of this for now).
-- An error occurs when deploying the Titan's turrets; just skip it, I can't seem to fix it but it doesn't seem to impact anything.
-- The AI naturally doesn't seem be able to handle the new faction at all, so I would not use random opponents (currently unable to change AI faction selection via modding) -if there is one in the game, they might give errors which you should SKIP.
+- Resource extraction gives both metal and crystal regardless of the type of resource asteroid (cannot be fixed right now).
+- Resource extraction does not autocast. This leads to a lot of micromanagement, I increased the duration of the ability/item because of this for now (cannot be fixed right now).
+- An error occurs when deploying the Titan's turrets; just skip it, I can't seem to fix it but it doesn't seem to impact anything (unsure whether this can be fixed).
+- The AI naturally doesn't seem be able to handle the new faction at all, so I would not use random opponents (currently unable to change AI faction selection via modding) -if there is one in the game, they might give errors which you should SKIP/SKIP ALL.
 
-*Let me know if you have feedback!*
+*Let me know if you have any feedback!*

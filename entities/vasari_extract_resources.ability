@@ -9,15 +9,6 @@
         {
             "actions": [
             {
-                "constraint":
-                {
-                    "constraint_type": "unit_passes_target_filter",
-                    "unit":
-                    {
-                        "unit_type": "target"
-                    },
-                    "target_filter_id": "extract_neutral_resource"
-                },
                 "action_type": "use_unit_operators_on_single_unit",
                 "destination_unit":
                 {

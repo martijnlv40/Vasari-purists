@@ -46,7 +46,7 @@
 	"vasari_purist_deploy_missile_battery_ability_description": "Refitted scavenged TEC missile turrets can be deployed to temporarily reinforce a gravity well.",
     "vasari_upgrade_fabricator_cruiser_debris_reclamation_ability_1_research_subject_name": "Refined Debris Reclamation",
     "vasari_upgrade_fabricator_cruiser_debris_reclamation_ability_1_research_subject_description": "Improves the Debris Reclamation ability on Jusotra Fabricator cruisers, even more resources will be salvaged when enemies are destroyed.",
-	"vasari_unlock_culture_overseer_research_subject_name": "Xeno Relations Outreach",
+	"vasari_unlock_culture_overseer_research_subject_name": "Xeno Relations on the go",
 	"vasari_unlock_culture_overseer_research_subject_description": "We can outfit our Overseer cruisers with 'diplomats', more easily controlling a gravity well with them present.",
 	"vasari_upgrade_culture_overseer_research_subject_name": "Improved Control",
 	"vasari_upgrade_culture_overseer_research_subject_description": "Further providing resources to our 'diplomat corps' will improve their ability to control gravity wells.",
@@ -54,9 +54,17 @@
     "vasari_culture_offense_research_subject_description": "An oppressed gravity well gives us the capability to damage enemy armor.",
 	"vasari_titan_purist_factory_name": "Fleet Reconstruction Facility",
     "vasari_titan_purist_factory_description": "Allows the titan to create all types of ships using the most advanced nano-technology available.",
-	"vasari_capital_ship_purist_factory_description": "Allows construction of corvettes, frigates and cruisers.",
+	"vasari_capital_ship_purist_factory_description": "Allows construction of corvettes, frigates and cruisers from capital ships.",
 	"vasari_jump_speed_research_subject_name": "Phase Jump Mastery",
     "vasari_jump_speed_research_subject_description": "Due to our many experiences with phase space, we can better predict obstacles, increasing our travel speed.",
 	"vasari_unlock_living_frigate_research_subject_name": "Living Frigates",
-	"vasari_unlock_living_frigate_research_subject_description": "We can double down on and expand our artificial economy, helped by a new type of ship housing much of our population."
+	"vasari_unlock_living_frigate_research_subject_description": "We can double down on and expand our artificial economy, helped by a new type of ship housing much of our population.",
+	"vasari_upgrade_hull_point_restore_rate_3_research_subject_name": "Self-Repairing Mastery",
+    "vasari_upgrade_hull_point_restore_rate_3_research_subject_description": "Always having depended on reparing ships in vaccuum, we can boast about our having the highest passive repair rate of all Vasari.",
+	"vasari_upgrade_factories_research_subject_name": "Encouraged Workforce",
+    "vasari_upgrade_factories_research_subject_description": "We can encourage our workforce to build ships faster, while not losing any quality.",
+	"vasari_culture_trade_research_subject_name": "Trade Contracts",
+	"vasari_culture_trade_research_subject_description": "When we exert our influence in a market, we are more persuasive and can acquire resources at a better price.",
+	"vasari_purist_upgrade_economic_research_subject_name": "Andvar Synethesis",
+	"vasari_purist_upgrade_economic_research_subject_description": "As Andvar seems to be a prime trading commodity in this sector, we can specialize our factories to better produce it."
 }

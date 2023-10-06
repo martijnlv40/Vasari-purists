@@ -8,8 +8,8 @@
     "build_time": 90.0,
     "price":
     {
-        "metal": 250,
-        "crystal": 250
+        "metal": 200,
+        "crystal": 200
     },
     "required_unit_tags": [
 		"capital_ship",
