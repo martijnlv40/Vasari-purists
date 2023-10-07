@@ -31,7 +31,7 @@
 - **Removal of all irrelevant content**
     - This includes technologies, items and anything related to planets.
 
-- **17 New technologies**
+- **18 New technologies**
 
 - **9 New ship items**
 

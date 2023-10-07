@@ -4,10 +4,10 @@
     "hud_icon": "vasari_surface_research_lab_unit_item_hud_icon",
     "name": "vasari_ship_civilian_lab_unit_item_name",
     "description": "vasari_ship_civilian_lab_unit_item_description",
-    "build_time": 40.0,
+    "build_time": 35.0,
     "price":
     {
-        "metal": 750.0,
+        "metal": 550.0,
         "crystal": 500.0
     },
 	"build_prerequisites": [

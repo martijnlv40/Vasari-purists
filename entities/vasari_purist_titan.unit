@@ -14,7 +14,7 @@
     {
         "mass": 100000.0,
         "can_move_linear": true,
-        "max_linear_speed": 450.0,
+        "max_linear_speed": 440.0,
         "time_to_max_linear_speed": 5.625,
         "arrival_tolerance_spatial_radius_scalar": 0.25,
         "death_linear_speed_range": [1.0, 2.0],
@@ -1399,6 +1399,7 @@
             "cruiser",
             "capital_ship"
         ],
+		"build_rate_scalar": 1.2,
         "required_mutation": "mobile_unit_factory_enabled",
     },
     "exotic_factory":
@@ -1474,25 +1475,26 @@
             "max_ship_component_count": 3
         },
 		{
-			"min_unit_level": 2,
+			"min_unit_level": 1,
 			"max_ship_component_count": 4
 		},
 		{
-			"min_unit_level": 3,
+			"min_unit_level": 2,
 			"max_ship_component_count": 5
 		},
 		{
-			"min_unit_level": 4,
+			"min_unit_level": 3,
 			"max_ship_component_count": 6
 		},
 		{
-			"min_unit_level": 5,
+			"min_unit_level": 4,
 			"max_ship_component_count": 7
 		},
 		{
-			"min_unit_level": 6,
+			"min_unit_level": 5,
 			"max_ship_component_count": 8
-		}]
+		}],
+        "requires_ship_component_shop_to_purchase_items": false
     },
     "passive_income":
     {},

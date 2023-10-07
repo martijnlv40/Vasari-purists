@@ -14,7 +14,7 @@
     {
         "mass": 2000.0,
         "can_move_linear": true,
-        "max_linear_speed": 500.0,
+        "max_linear_speed": 525.0,
         "time_to_max_linear_speed": 5.0,
         "arrival_tolerance_spatial_radius_scalar": 0.25,
         "death_linear_speed_range": [1.0, 2.0],
@@ -101,10 +101,10 @@
     "health":
     {
         "release_time_after_death": 60.0,
-        "max_hull_points": 882.0,
+        "max_hull_points": 900.0,
         "hull_point_restore_rate": 1.25,
-        "hull_armor": 54.0,
-        "max_shield_points": 444.0,
+        "hull_armor": 56.0,
+        "max_shield_points": 450.0,
         "shield_point_restore_rate": 1.5,
         "shield_mitigation": 4.0,
         "experience_given_on_death": 42.0,
@@ -140,13 +140,9 @@
     "abilities": [
         "vasari_overseer_cruiser_intimidating_presence",
         "vasari_purist_overseer_cruiser_phase_lane_detection",
+		"vasari_purist_overseer_cruiser_reputation_provider",
 		"vasari_overseer_culture_provider"
     ],
-    "player_specific_abilities": [
-    {
-        "ability": "vasari_overseer_cruiser_reputation_provider",
-        "player": "vasari_rebel"
-    }],
     "skins": [
         "vasari_overseer_cruiser"
     ],

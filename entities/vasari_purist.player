@@ -754,7 +754,8 @@
 			"vasari_unlock_living_frigate",
 			"vasari_upgrade_factories",
 			"vasari_culture_trade",
-			"vasari_purist_upgrade_economic"
+			"vasari_purist_upgrade_economic",
+			"vasari_purist_upgrade_experience"
         ],
         "faction_research_subjects": [
 			"vasari_jump_speed",
@@ -766,6 +767,7 @@
 			"vasari_upgrade_hyperspace_charge_time_1",
 			"vasari_heavy_maneuvering_thrusters",
 			"vasari_purist_unstoppable_phase_jump",
+			"vasari_purist_upgrade_experience",
 			"vasari_upgrade_fabricator_cruiser_debris_reclamation_ability_1",
 			"vasari_upgrade_factories"
         ],
@@ -821,12 +823,12 @@
     {
         "id": "defense",
         "name": "ship_component_build_group_name_defense",
-        "column_count": 4
+        "column_count": 3
     },
     {
         "id": "utility",
         "name": "ship_component_build_group_name_utility",
-        "column_count": 5
+        "column_count": 6
     }],
     "planet_components": [
     ],

@@ -7,7 +7,7 @@
         "target_filter":
         {
             "unit_types": [
-                "asteroid"
+                "planet"
             ],
             "ownerships": [
                 "none"
@@ -30,60 +30,20 @@
                 }
             }]
         }
-    },
-	{
-        "target_filter_id": "metal_resource",
-        "target_filter":
-        {
-            "unit_types": [
-                "asteroid"
-            ],
-            "ownerships": [
-                "none"
-            ],
-			"constraints": [{
-                "constraint_type": "composite_not",
-                "constraint":
-                {
-                    "constraint_type": "has_buff",
-                    "buff": "crystal_asteroid_on_self"
-                }
-            }]
-        }
-    },
-	{
-        "target_filter_id": "crystal_resource",
-        "target_filter":
-        {
-            "unit_types": [
-                "asteroid"
-            ],
-            "ownerships": [
-                "none"
-            ],
-			"constraints": [{
-                "constraint_type": "composite_not",
-                "constraint":
-                {
-                    "constraint_type": "has_buff",
-                    "buff": "metal_asteroid_on_self"
-                }
-            }]
-        }
-    }],
+	}],
     "action_values": [
     {
         "action_value_id": "extract_antimatter_cost_value",
         "action_value":
         {
-            "values": [25.0, 24.0, 23.0, 22.0, 20.0]
+            "values": [25.0, 28.0, 31.0, 34.0, 37.0]
         }
     },
     {
         "action_value_id": "extract_cooldown_time_value",
         "action_value":
         {
-            "values": [90.0, 90.0, 90.0, 90.0, 90.0]
+            "values": [30.0, 30.0, 30.0, 30.0, 30.0]
         }
     },
     {
@@ -97,21 +57,21 @@
         "action_value_id": "extract_execution_count_value",
         "action_value":
         {
-            "values": [90.0, 90.0, 90.0, 90.0, 90.0]
+            "values": [15.0, 15.0, 15.0, 15.0, 15.0]
         }
     },
     {
         "action_value_id": "extract_metal_value",
         "action_value":
         {
-            "values": [0.3, 0.4, 0.5, 0.6, 0.7]
+            "values": [0.6, 0.8, 1.0, 1.2, 1.4]
         }
     },
 	{
         "action_value_id": "extract_crystal_value",
         "action_value":
         {
-            "values": [0.3, 0.4, 0.5, 0.6, 0.7]
+            "values": [0.6, 0.8, 1.0, 1.2, 1.4]
         }
     }]
 }

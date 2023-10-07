@@ -11,15 +11,6 @@
         {
             "actions": [
             {
-				"constraint":
-                {
-                    "constraint_type": "unit_passes_target_filter",
-                    "unit":
-                    {
-                        "unit_type": "current_spawner"
-                    },
-                    "target_filter_id": "metal_resource"
-                },
                 "action_type": "use_unit_operators_on_single_unit",
                 "destination_unit":
                 {
@@ -33,15 +24,6 @@
                 }]
             },
 			{
-				"constraint":
-                {
-                    "constraint_type": "unit_passes_target_filter",
-                    "unit":
-                    {
-                        "unit_type": "current_spawner"
-                    },
-                    "target_filter_id": "crystal_resource"
-                },
                 "action_type": "use_unit_operators_on_single_unit",
                 "destination_unit":
                 {

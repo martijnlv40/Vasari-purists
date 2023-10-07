@@ -1,0 +1,23 @@
+{
+    "version": 0,
+    "domain": "civilian",
+    "tier": 3,
+    "field": "civilian_nanotech",
+    "field_coord": [7, 3],
+    "research_time": 235.0,
+    "price":
+    {
+        "metal": 990.0,
+        "crystal": 1260.0,
+        "credits": 0.0
+    },
+	"unit_modifiers": [
+    {
+        "modifier_type": "experience_gained_from_unit_death",
+        "value_behavior": "scalar",
+        "value": 0.1
+    }],
+    "name": "vasari_purist_upgrade_experience_research_subject_name",
+    "description": "vasari_purist_upgrade_experience_research_subject_description",
+    "hud_icon": "vasari_capital_ship_experience_gain_research_subject_hud_icon150"
+}

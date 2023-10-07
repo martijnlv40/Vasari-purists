@@ -2,8 +2,6 @@
     "ids": [
         "vasari_extract_resources",
 		"vasari_extract_resources_capital",
-		"crystal_asteroid_on_self",
-		"metal_asteroid_on_self",
 		"vasari_jump_speed_trigger",
 		"vasari_jump_speed_modifier",
 		"vasari_purist_titan_deploy_missile_battery"

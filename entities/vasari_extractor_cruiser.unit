@@ -162,7 +162,7 @@
             "crystal": 150.0
         },
         "build_kind": "cruiser",
-        "supply_cost": 5,
+        "supply_cost": 6,
         "build_group_id": "cruiser"
     },
     "target_filter_unit_type": "cruiser",

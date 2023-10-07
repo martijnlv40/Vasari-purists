@@ -4,7 +4,7 @@
     "hud_icon": "vasari_mobile_exotic_factory_unit_item_hud_icon",
     "name": "vasari_mobile_exotic_factory_unit_item_name",
     "description": "vasari_mobile_exotic_factory_unit_item_description",
-    "build_time": 120.0,
+    "build_time": 105.0,
     "price":
     {
         "metal": 575.0,

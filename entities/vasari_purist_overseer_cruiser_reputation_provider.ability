@@ -1,0 +1,21 @@
+{
+    "version": 0,
+    "action_data_source": "vasari_purist_overseer_cruiser_reputation_provider",
+    "passive_actions":
+    {
+        "persistant_buff": "vasari_overseer_cruiser_reputation_provider_on_self"
+    },
+    "gui":
+    {
+        "hud_icon": "vasari_overseer_cruiser_reputation_provider_ability_hud_icon",
+        "name": "vasari_overseer_cruiser_reputation_provider_ability_name",
+        "description": "vasari_overseer_cruiser_reputation_provider_ability_description",
+        "tooltip_lines": [
+        {
+            "label_text": "tooltip.ability.npc_reputation_rate",
+            "value_id": "npc_reputation_rate_value",
+            "value_float_format": "two_decimal_place_with_sign",
+            "rendering_type": "single_value"
+        }]
+    }
+}

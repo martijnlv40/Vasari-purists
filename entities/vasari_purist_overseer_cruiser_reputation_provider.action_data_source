@@ -1,0 +1,12 @@
+{
+    "version": 0,
+	"level_count": 1,
+    "action_values": [
+    {
+        "action_value_id": "npc_reputation_rate_value",
+        "action_value":
+        {
+            "values": [1.5]
+        }
+    }]
+}

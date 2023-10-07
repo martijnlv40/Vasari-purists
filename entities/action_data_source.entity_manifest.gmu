@@ -2,11 +2,11 @@
     "ids": [
         "vasari_extract_resources",
 		"vasari_extract_capital_ship_extract",
-		"asteroid_extract",
 		"vasari_jump_speed",
 		"vasari_purist_fabricator_cruiser_debris_reclamation",
 		"vasari_planet_pillaging_research_subject",
 		"vasari_purist_titan_deploy_missile_battery",
-		"vasari_overseer_culture_provider"
+		"vasari_overseer_culture_provider",
+		"vasari_purist_overseer_cruiser_reputation_provider"
     ]
 }

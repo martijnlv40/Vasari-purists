@@ -11,7 +11,7 @@
             ["vasari_upgrade_extractor_unit_item"]
         ]
     ],
-    "build_time": 30.0,
+    "build_time": 20.0,
     "price":
     {
         "metal": 150.0,
@@ -23,7 +23,7 @@
         "capital_ship",
         "titan"
     ],
-    "consumable_stack_count": 40,
+    "consumable_stack_count": 50,
     "build_prerequisites": [
         ["vasari_unlock_resource_extractor_structures"]
     ],
