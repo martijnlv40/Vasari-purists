@@ -14,7 +14,7 @@
     {
         "mass": 2000.0,
         "can_move_linear": true,
-        "max_linear_speed": 500.0,
+        "max_linear_speed": 575.0,
         "time_to_max_linear_speed": 5.0,
         "arrival_tolerance_spatial_radius_scalar": 0.25,
         "death_linear_speed_range": [1.0, 2.0],
@@ -32,14 +32,6 @@
         "strafe_stop_angle": 180.0,
         "strafe_speed_start_angle": 10.0,
         "strafe_max_start_turning_angle": 170.0
-    },
-    "hyperspace":
-    {
-        "speed": 155000.0,
-        "charge_time": 5.0,
-        "charge_time_variance": 1.0,
-        "min_charge_angle": 10.0,
-        "max_charge_angle": 45.0
     },
     "move":
     {
@@ -65,10 +57,11 @@
     },
     "user_interface":
     {
-        "pip_type": "frigate",
+        "pip_type": "strikecraft",
         "can_ever_be_selected": true,
-        "selection_priority": 300,
-        "selection_group_unit_type": "colony_ship",
+        "selection_priority": 200,
+		"has_sub_selection_grouping": true,								   
+        "selection_group_unit_type": "strikecraft",
         "can_move": true,
         "can_attack": true,
         "can_show_distance_to_plane_line": true
@@ -119,59 +112,48 @@
         {
             "ships_and_structures":
             {
-                "rank": 3,
+                "rank": 2,
+                "group": 4
+            },
+            "strikecraft_only":
+            {
+                "rank": 1,
                 "group": 0
             }
-        }
-    },
-    "spawn_debris":
-    {
-        "spawn_debris_time": 1.0,
-        "generic_group_name": "vasari",
-        "generic_counts":
-        {
-            "small_debris": [7, 8],
-            "large_debris": [1, 2]
         }
     },
     "health":
     {
         "release_time_after_death": 60.0,
-        "max_hull_points": 1266.0,
-        "hull_point_restore_rate": 1.25,
-        "hull_armor": 12.0,
-        "max_shield_points": 282.0,
+        "max_hull_points": 800.0,
+        "hull_point_restore_rate": 1.0,
+        "hull_armor": 10.0,
+        "max_shield_points": 150.0,
         "shield_point_restore_rate": 1.0,
-        "shield_mitigation": 4.0,
-        "experience_given_on_death": 6.0,
+        "shield_mitigation": 2.0,
+        "experience_given_on_death": 4.0,
         "can_collide_duration_after_death": 0.8
     },
-	"items":
+	"strikecraft":
     {
-        "levels": [
+        "kind": "extractor",
+        "build_time": 30.0,
+        "squadron_size": 1,
+        "launch_destination_formation_offset":
         {
-            "max_ship_component_count": 1
-        }]
+            "rank": 1,
+            "group": 0
+        }
     },
-    "build":
-    {
-        "build_time": 35.0,
-        "price":
-        {
-            "metal": 225.0,
-            "crystal": 150.0
-        },
-        "build_kind": "frigate",
-        "supply_cost": 6,
-        "build_group_id": "frigate"
-    },
-    "target_filter_unit_type": "frigate",
+    "target_filter_unit_type": "strikecraft",
     "tags": [
-        "frigate",
-		"extraction"
+        "strikecraft"
     ],
+	"abilities": [
+        "vasari_extract_resources_strikecraft"
+	],
+	"virtual_supply_cost": 6,
     "skins": [
         "vasari_extractor_cruiser"
-    ],
-    "can_join_fleet": true
+    ]
 }

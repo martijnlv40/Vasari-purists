@@ -131,8 +131,11 @@
         "build_group_id": "frigate"
     },
     "target_filter_unit_type": "frigate",
+	"passive_income":
+    {},
     "tags": [
-        "frigate"
+        "frigate",
+		"economy"
     ],
     "skins": [
         "vasari_living_frigate"

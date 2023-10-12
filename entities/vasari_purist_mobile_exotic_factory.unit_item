@@ -15,10 +15,10 @@
         "starbase",
         "titan"
     ],
-    "max_count_on_unit": 1,
     "build_prerequisites": [
         ["vasari_purist_unlock_mobile_exotic_factory_unit_item"]
     ],
+	"max_count_on_unit": 1,
     "build_group_id": "utility",
     "unit_mutations": [
         "mobile_exotic_factory_enabled"]

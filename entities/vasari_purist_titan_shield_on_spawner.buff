@@ -1,0 +1,67 @@
+{
+    "version": 0,
+    "active_duration": "shield_execution_count_value",
+    "make_dead_on_parent_buff_made_dead": true,
+    "stacking_limit": "fixed_one",
+    "stacking_ownership_type": "for_all_players",
+    "stacking_limit_met_behavior": "preserve_existing_buff",
+    "time_actions": [
+    {
+        "execution_interval_value": "fixed_one",
+        "execution_interval_count_value": "shield_execution_count_value",
+        "action_group":
+        {
+            "actions": [
+            {
+                "action_type": "use_unit_operators_on_units_in_radius_of_unit",
+                "radius_origin_unit":
+                {
+                    "unit_type": "current_spawner"
+                },
+                "radius_value": "shield_radius_value",
+                "operators": [
+                {
+                    "constraint":
+                    {
+                        "constraint_type": "unit_passes_target_filter",
+                        "unit":
+                        {
+                            "unit_type": "operand_destination"
+                        },
+                        "target_filter_id": "shield_target_filter"
+                    },
+                    "operator_type": "apply_buff",
+                    "buff": "vasari_purist_titan_shield_on_target"
+                }]
+            }]
+        }
+    }],
+    "trigger_event_actions": [
+    {
+        "trigger_event_type": "on_buff_started",
+        "action_group":
+        {
+            "actions": [
+            {
+                "action_type": "start_buff_effect",
+                "effect_definition":
+                {
+                    "effect": "vasari_rebel_titan_gravity_pulse_activate",
+                    "mesh_point": "weapon.cannon.0"
+                }
+            }]
+        }
+    }],
+	"unit_modifiers": [
+    {
+        "modifier_type": "shield_mitigation",
+        "value_behavior": "additive",
+        "value_id": "shield_malus_value"
+    }],
+    "gui":
+    {
+        "hud_icon": "vasari_purist_titan_shield_manipulation_ability_hud_icon",
+        "name": "vasari_purist_titan_shield_ability_name",
+        "is_negative_buff": true
+    }
+}

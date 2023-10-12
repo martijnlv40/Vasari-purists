@@ -651,7 +651,9 @@
     {},
     "target_filter_unit_type": "capital_ship",
     "tags": [
-        "capital_ship"
+        "capital_ship",
+		"extraction",
+		"economy"
     ],
     "is_loot_collector": true,
     "abilities": [

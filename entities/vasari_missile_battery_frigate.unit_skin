@@ -28,24 +28,11 @@
         },
         "effects":
         {
-            "hyperspace_effects":
-            {
-                "charge_effect": "Hyperspace_Tech_Frigate_ChargeUp",
-                "charge_effect_between_stars": "Hyperspace_Tech_Frigate_ChargeUp_Interstellar",
-                "charge_effect_destabalized": "Hyperspace_Tech_Frigate_ChargeUp_Unstable",
-                "travel_effect": "Hyperspace_Tech_Frigate_Travel",
-                "travel_effect_between_stars": "Hyperspace_Tech_Frigate_Travel_Interstellar",
-                "travel_effect_destabalized": "Hyperspace_Tech_Frigate_Travel_Unstable",
-                "exit_effect": "Hyperspace_Tech_Frigate_Exit",
-                "exit_sound": "HYPERSPACE_EXIT",
-                "charge_sound": "HYPERSPACE_CHARGEUP",
-                "enter_sound": "HYPERSPACE_ENTRY"
-            },
-            "shield_effect": "vasari_siege_platform_frigate",
+            "shield_effect": "trader_missile_battery_frigate",
             "effect_alias_bindings": [
-                ["vasari_rebel_titan_missile_weapon_muzzle",
+                ["vasari_turret_missile_weapon_muzzle",
                 {
-                    "particle_effect": "vasari_torpedo_muzzle"
+                    "particle_effect": "frigate_torpedo_muzzle"
                 }]
             ]
         },

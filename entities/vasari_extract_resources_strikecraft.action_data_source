@@ -1,6 +1,6 @@
 {
     "version": 0,
-    "level_count": 5,
+	"level_count": 1,
     "target_filters": [
     {
         "target_filter_id": "extract_neutral_resource",
@@ -22,48 +22,41 @@
                 }
             }]
         }
-	}],
+    }],
     "action_values": [
     {
-        "action_value_id": "extract_antimatter_cost_value",
+        "action_value_id": "extract_cooldown_time",
         "action_value":
         {
-            "values": [25.0, 28.0, 31.0, 34.0, 37.0]
-        }
-    },
-    {
-        "action_value_id": "extract_cooldown_time_value",
-        "action_value":
-        {
-            "values": [30.0, 30.0, 30.0, 30.0, 30.0]
+            "values": [30.0]
         }
     },
     {
         "action_value_id": "extract_range_value",
         "action_value":
         {
-            "values": [3500.0, 3600.0, 3700.0, 3800.0, 4000.0]
+            "values": [3500.0]
         }
     },
-	{
+    {
         "action_value_id": "extract_execution_count_value",
         "action_value":
         {
-            "values": [15.0, 15.0, 15.0, 15.0, 15.0]
+            "values": [15.0]
         }
     },
     {
         "action_value_id": "extract_metal_value",
         "action_value":
         {
-            "values": [0.6, 0.8, 1.0, 1.2, 1.4]
+            "values": [0.6]
         }
     },
-	{
+    {
         "action_value_id": "extract_crystal_value",
         "action_value":
         {
-            "values": [0.6, 0.8, 1.0, 1.2, 1.4]
+            "values": [0.6]
         }
     }]
 }

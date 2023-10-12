@@ -1400,7 +1400,6 @@
             "capital_ship"
         ],
 		"build_rate_scalar": 1.2,
-        "required_mutation": "mobile_unit_factory_enabled",
     },
     "exotic_factory":
     {
@@ -1449,8 +1448,8 @@
     {
         "base_max_squadron_capacity": 0,
         "strikecraft_kinds": [
-            "interceptor",
-            "bomber"
+			"extractor",
+			"bomber"
         ],
         "launch_destination_formation": "titan_strikecraft",
         "launch_destination_formation_offset":
@@ -1500,14 +1499,15 @@
     {},
     "target_filter_unit_type": "titan",
     "tags": [
-        "titan"
+        "titan",
+		"economy"
     ],
 	"is_phase_travel_synchronizer": true,
     "is_loot_collector": true,
     "abilities": [
         "vasari_rebel_titan_nano_leech",
         "vasari_rebel_titan_nano_remit",
-        "vasari_rebel_titan_gravity_pulse",
+        "vasari_purist_titan_shield",
         "vasari_purist_titan_deploy_missile_battery"
     ],
     "ship_roles": [
@@ -1535,8 +1535,7 @@
     {
         "mesh_alias_name": "vasari_rebel_titan_component_nano",
         "mesh_point": "child.vasari_rebel_titan_component_nano",
-        "is_weapon_effects_destination": true,
-        "required_unit_item": "vasari_rebel_titan_improve_nano_emitters"
+        "is_weapon_effects_destination": true
     },
     {
         "mesh_alias_name": "vasari_rebel_titan_component_missile_launcher",

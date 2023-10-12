@@ -235,10 +235,7 @@
             "unit": "vasari_purist_titan",
             "options":
             {
-                "is_temporary_ruler_ship": true,
-                "items": [
-					"vasari_titan_purist_factory"
-				]
+                "is_temporary_ruler_ship": true
             }
         },
         {
@@ -293,15 +290,16 @@
         "vasari_purist_carrier_capital_ship",
         "vasari_purist_marauder_capital_ship",
         "vasari_purist_siege_capital_ship",
-        "vasari_purist_titan",
-		"vasari_living_frigate"
+		"vasari_living_frigate",
+        "vasari_purist_titan"
     ],
     "faction_buildable_units": [
 		"vasari_living_frigate",
         "vasari_purist_titan"
     ],
     "buildable_strikecraft": [
-        "vasari_bomber_strikecraft"
+        "vasari_bomber_strikecraft",
+		"vasari_extractor_strikecraft"
     ],
     "structure_build_groups": [
     {
@@ -755,7 +753,8 @@
 			"vasari_upgrade_factories",
 			"vasari_culture_trade",
 			"vasari_purist_upgrade_economic",
-			"vasari_purist_upgrade_experience"
+			"vasari_purist_upgrade_experience",
+			"vasari_titan_experience"
         ],
         "faction_research_subjects": [
 			"vasari_jump_speed",
@@ -807,7 +806,6 @@
         "vasari_rebel_titan_hull_plating_1",
         "vasari_rebel_titan_hangar",
         "vasari_rebel_titan_unlock_extra_phase_missile_weapons",
-		"vasari_titan_purist_factory",
 		"vasari_purist_experience_boost",
 		"vasari_purist_deploy_phase_synchronizer",
         "vasari_purist_phase_travel_amplifier",

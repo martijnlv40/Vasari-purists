@@ -5,6 +5,7 @@
 		"vasari_purist_titan_phase_cannon",
 		"vasari_purist_titan_planet_bombing",
 		"vasari_purist_titan_point_defense_pulse",
-		"vasari_purist_titan_wave"
+		"vasari_purist_titan_wave",
+		"vasari_purist_turret_missile"
     ]
 }

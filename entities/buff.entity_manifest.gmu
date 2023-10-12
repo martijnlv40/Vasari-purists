@@ -1,9 +1,11 @@
 {
     "ids": [
         "vasari_extract_resources",
-		"vasari_extract_resources_capital",
 		"vasari_jump_speed_trigger",
 		"vasari_jump_speed_modifier",
-		"vasari_purist_titan_deploy_missile_battery"
+		"vasari_purist_titan_deploy_missile_battery",
+		"vasari_purist_titan_shield_self",
+		"vasari_purist_titan_shield_on_spawner",
+		"vasari_purist_titan_shield_on_target"
     ]
 }

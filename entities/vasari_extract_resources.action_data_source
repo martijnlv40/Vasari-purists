@@ -20,14 +20,6 @@
                     "constraint_type": "has_buff",
                     "buff": "vasari_extract_resources"
                 }
-            },
-			{
-                "constraint_type": "composite_not",
-                "constraint":
-                {
-                    "constraint_type": "has_buff",
-                    "buff": "vasari_extract_resources_capital"
-                }
             }]
         }
     }],

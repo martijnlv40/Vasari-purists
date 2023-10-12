@@ -1,0 +1,116 @@
+{
+    "version": 0,
+    "action_data_source": "vasari_purist_titan_shield",
+    "level_source": "internal_level",
+    "min_required_unit_levels": [0, 2, 4, 6],
+    "active_actions":
+    {
+        "cooldown_time": "shield_cooldown_time_value",
+        "antimatter_cost": "shield_antimatter_cost_value",
+        "actions":
+        {
+            "actions": [
+            {
+                "constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "target"
+                    },
+                    "target_filter_id": "shield_target_filter"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "target"
+                },
+                "operators": [
+                {
+                    "operator_type": "apply_buff",
+                    "buff": "vasari_purist_titan_shield_on_spawner"
+                }]
+            },
+            {
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "current_spawner"
+                },
+                "operators": [
+                {
+                    "operator_type": "play_point_effect",
+                    "effect_definition":
+                    {
+                        "effect": "vasari_rebel_titan_gravity_pulse_activate",
+                        "mesh_point": "weapon.cannon.0"
+                    }
+                }]
+            }]
+        },
+		"targeting_type": "unit_targeted",
+        "target_filters": [
+            "shield_target_filter"
+        ],
+        "range": "shield_radius_value",
+        "radius": "around_target_radius_value",
+        "move_alignment":
+        {
+            "type": "yaw",
+            "angle": 0.0,
+            "allow_opposite_angle": false
+        },
+        "firing_angle": 30.0,
+        "auto_cast":
+        {
+            "enabled_by_default_behavior": "always",
+			"target_definitions": [
+			{
+                "target_filter": "shield_auto_cast_target_filter"
+			}]
+        }
+    },
+	"passive_actions":
+    {
+        "persistant_buff": "vasari_purist_titan_shield_self"
+    },
+    "gui":
+    {
+        "hud_icon": "vasari_purist_titan_shield_manipulation_ability_hud_icon",
+        "name": "vasari_purist_titan_shield_ability_name",
+        "description": "vasari_purist_titan_shield_ability_description",
+        "tooltip_lines": [
+		{
+            "label_text": "tooltip.ability.shield_mitigation_plus",
+            "value_id": "shield_bonus_value",
+			"value_float_format": "one_decimal_place",
+			"value_color": "positive",
+            "rendering_type": "single_value"
+        },
+        {
+            "label_text": "tooltip.ability.radius",
+            "value_id": "around_target_radius_value",
+            "rendering_type": "single_value"
+        },
+        {
+            "label_text": "tooltip.ability.shield_mitigation_minus",
+            "value_id": "shield_malus_value",
+			"value_float_format": "one_decimal_place",
+			"value_color": "negative",
+            "rendering_type": "single_value"
+        },
+		{
+            "label_text": "tooltip.ability.shield_mitigation_minus_radius",
+            "value_id": "shield_malus_value_radius",
+			"value_float_format": "one_decimal_place",
+			"value_color": "negative",
+            "rendering_type": "single_value"
+        },
+        {
+            "label_text": "tooltip.ability.duration",
+            "value_id": "shield_execution_count_value",
+            "value_suffix": "seconds",
+            "rendering_type": "single_value"
+        }]
+    }
+}

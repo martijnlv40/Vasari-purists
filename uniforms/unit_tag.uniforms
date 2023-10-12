@@ -1,0 +1,11 @@
+{
+    "unit_tags": [
+    {
+        "name": "extraction",
+        "localized_name": "unit_tag_name.extraction"
+    },
+	{
+        "name": "economy",
+        "localized_name": "unit_tag_name.economy"
+    }]
+}

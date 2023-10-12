@@ -1,0 +1,8 @@
+{
+    "no_owner_carrier_self_destruct_duration": 15,
+    "strikecraft_kinds": [
+    {
+        "name": "extractor",
+        "localized_name": "foobar"
+    }]
+}

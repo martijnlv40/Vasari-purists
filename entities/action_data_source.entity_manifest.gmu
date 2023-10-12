@@ -7,6 +7,8 @@
 		"vasari_planet_pillaging_research_subject",
 		"vasari_purist_titan_deploy_missile_battery",
 		"vasari_overseer_culture_provider",
-		"vasari_purist_overseer_cruiser_reputation_provider"
+		"vasari_purist_overseer_cruiser_reputation_provider",
+		"vasari_extract_resources_strikecraft",
+		"vasari_purist_titan_shield"
     ]
 }

@@ -1,0 +1,30 @@
+{
+    "version": 0,
+	"active_duration": "shield_execution_count_value",
+    "stacking_limit": "fixed_one",
+    "stacking_ownership_type": "for_all_players",
+    "stacking_limit_met_behavior": "preserve_existing_buff",
+    "trigger_event_actions": [
+    {
+        "trigger_event_type": "on_current_spawner_player_ownership_changed",
+        "action_group":
+        {
+            "actions": [
+            {
+                "action_type": "make_buff_dead"
+            }]
+        }
+    }],
+	"unit_modifiers": [
+    {
+        "modifier_type": "shield_mitigation",
+        "value_behavior": "additive",
+        "value_id": "shield_malus_value_radius"
+    }],
+    "gui":
+    {
+        "hud_icon": "vasari_purist_titan_shield_manipulation_ability_hud_icon",
+        "name": "vasari_purist_titan_shield_ability_name",
+        "is_negative_buff": true
+    }
+}

@@ -28,6 +28,7 @@
 		"vasari_purist_upgrade_overseer_cruiser_phase_lane_detection_ability",
 		"vasari_culture_trade",
 		"vasari_purist_upgrade_economic",
-		"vasari_purist_upgrade_experience"
+		"vasari_purist_upgrade_experience",
+		"vasari_titan_experience"
     ]
 }

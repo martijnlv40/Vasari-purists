@@ -19,9 +19,7 @@
     },
 	"max_count_on_unit": 1,
     "required_unit_tags": [
-		"cruiser",
-        "capital_ship",
-        "titan"
+		"extraction"
     ],
     "consumable_stack_count": 50,
     "build_prerequisites": [

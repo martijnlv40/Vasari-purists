@@ -17,9 +17,7 @@
         "count": 1
     }],
     "required_unit_tags": [
-		"frigate",
-		"capital_ship",
-        "titan"
+		"economy"
     ],
 	"build_prerequisites": [
         ["vasari_unlock_artificial_economy"]

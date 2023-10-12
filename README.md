@@ -4,14 +4,16 @@
 
 ## Main features
 
-- *This mod changes nothing about other factions.*
-- *Do not use this in combination with other mods as they might not work properly.*
+- *This mod changes nothing functional about other factions.*
+- *Do not use this in combination with other mods as they might not work properly with the new faction.*
 - *Also, balance is very much TBD.*
-- You start out with just a Titan, which is weaker than a standard Kultorask titan at this point.
+
+- You start out with a Titan instead of the Jarrasul, which is weaker than a standard Kultorask titan at this point.
 - This titan is your 'capital'; if you lose it, you lose the game.
     - It is also the only factory that can create capital ships.
 
-- You have multiple ways to actively and passively gather resources:
+### You have multiple ways to actively and passively gather resources:
+
 - **Active**
     - The Jaratok Evader (former Jarrasul Evacuator) has an ability to gather metal and crystal from resource asteroids.
     - This resource extraction is also possible using a component, buildable on capital ships, the Titan and the Jarak Extractor (former Jarun Migrator).
@@ -24,29 +26,32 @@
     - Crystal Scrapers
     - Artificial Economy
 
-- Civilian research also provides crystal income, and the first tier includes the +3 resource bonus that would otherwise be obtained from the capital.
+- Civilian research also provides crystal income, and the first tier includes the +3 resource bonus that would otherwise be obtained from your capital planet.
 
 - Culture, shipyards and research labs are all done via ships.
 
 - **Removal of all irrelevant content**
     - This includes technologies, items and anything related to planets.
 
-- **18 New technologies**
+- **18 New technologies, many reworked**
 
-- **9 New ship items**
+- **9 New ship items, many reworked**
+
+- **2 New ships, couple reworked**
 
 - **Reworked Titan**
 	- It is a phase synchronizer, collecting phase resonance if it is present in a gravity well
-    - It has a new, fitting, ultimate ability with a 'new' unit
-    - It can go up to level 12
-    - It is somewhat weaker starting out, but should balance out depending on item choices
+    - It has two new abilities (shield generator and turret deployement)
+    - It can increase up to level 12
+    - It is somewhat weaker starting out than the 'normal' Varari Rebel titan, but should balance out depending on item choices
 
 - Many miscellaneous tweaks are included, like more starting resources, moving certain technologies to be researched sooner and a 200% build speed penalty on components when not near an item shop (instead of 400%) .
 
-## Known issues
-- Resource extraction gives both metal and crystal regardless of the type of resource asteroid (cannot be fixed right now).
-- Resource extraction does not autocast. This leads to a lot of micromanagement, I increased the duration of the ability/item because of this for now (cannot be fixed right now).
-- An error occurs when deploying the Titan's turrets; just skip it, I can't seem to fix it but it doesn't seem to impact anything (unsure whether this can be fixed).
-- The AI naturally doesn't seem be able to handle the new faction at all, so I would not use random opponents (currently unable to change AI faction selection via modding) -if there is one in the game, they might give errors which you should SKIP/SKIP ALL.
+## Known issues:
+
+- Resource extraction is based on a planet, instead of asteroids. This is because an ability cannot auto cast on resource asteroids at all currently. I will change this to what I intended once it's possible.
+- Resource extraction gives both metal and crystal regardless of the type of planet (or asteroid -cannot be fixed right now).
+- An error occurs when deploying the Titan's turrets; just skip it, I can't seem to fix it but it doesn't seem to impact anything (unsure whether this can be fixed, I wasn't able to).
+- The AI naturally doesn't seem be able to handle the new faction at all, so I would not use random opponents (currently unable to change AI faction selection via modding) -if there is one in the game, they might give errors which you should SKIP/SKIP ALL if they occur.
 
 *Let me know if you have any feedback!*

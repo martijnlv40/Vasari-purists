@@ -9,6 +9,8 @@
 	   "vasari_purist_titan_deploy_missile_battery",
 	   "vasari_overseer_culture_provider",
 	   "vasari_purist_overseer_cruiser_phase_lane_detection",
-	   "vasari_purist_overseer_cruiser_reputation_provider"
+	   "vasari_purist_overseer_cruiser_reputation_provider",
+	   "vasari_extract_resources_strikecraft",
+	   "vasari_purist_titan_shield"
     ]
 }

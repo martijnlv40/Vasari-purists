@@ -1,0 +1,114 @@
+{
+    "version": 0,
+    "level_count": 4,
+    "target_filters": [
+    {
+        "target_filter_id": "shield_target_filter",
+        "target_filter":
+        {
+            "unit_types": [
+                "capital_ship",
+                "corvette",
+                "cruiser",
+                "frigate",
+                "starbase",
+                "structure",
+                "titan"
+            ],
+            "ownerships": [
+                "enemy"
+			],
+            "constraints": [
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_buff",
+                    "buff": "vasari_purist_titan_shield_on_spawner"
+                }
+            }]
+        }
+    },
+	{
+		"target_filter_id": "shield_auto_cast_target_filter",
+        "target_filter":
+        {
+            "unit_types": [
+                "capital_ship",
+                "cruiser",
+                "starbase",
+                "titan"
+            ],
+            "ownerships": [
+                "enemy"
+			]
+        }
+	}],
+    "action_values": [
+    {
+        "action_value_id": "shield_antimatter_cost_value",
+        "action_value":
+        {
+            "values": [85.0, 90.0, 95.0, 100.0]
+        }
+    },
+    {
+        "action_value_id": "shield_execution_count_value",
+        "action_value":
+        {
+            "values": [30.0, 30.0, 30.0, 30.0]
+        }
+    },
+	{
+        "action_value_id": "shield_cooldown_time_value",
+        "action_value":
+        {
+            "values": [60.0, 60.0, 60.0, 60.0]
+        }
+    },
+    {
+        "action_value_id": "shield_radius_value",
+        "action_value":
+        {
+            "values": [6000.0, 6500.0, 7000.0, 7500.0]
+        }
+    },
+	{
+        "action_value_id": "around_target_radius_value",
+        "action_value":
+        {
+            "values": [3500.0, 3750.0, 4000.0, 4500.0]
+        }
+    },
+	{
+		"action_value_id": "shield_bonus_value",
+        "action_value":
+        {
+            "values": [1.0, 2.0, 3.0, 4.0]
+        }
+	},
+	{
+		"action_value_id": "shield_malus_value",
+        "action_value":
+        {
+            "values": [-5.0, -7.0, -9.0, -11.0]
+        }
+	},
+	{
+		"action_value_id": "shield_malus_value_radius",
+        "action_value":
+        {
+            "values": [-2.0, -3.0, -4.0, -5.0]
+        }
+	}],
+    "buff_unit_modifiers": [
+    {
+        "buff_unit_modifier_id": "shield_bonus_value",
+        "buff_unit_modifier":
+        {
+            "modifier_type": "shield_mitigation",
+            "value_behavior": "additive",
+            "value_id": "shield_bonus_value"
+        }
+    }]
+}

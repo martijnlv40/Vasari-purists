@@ -15,6 +15,7 @@
 		"vasari_missile_battery_frigate",
 		"vasari_purist_overseer_cruiser",
 		"vasari_purist_phase_gate_structure",
-		"vasari_living_frigate"
+		"vasari_living_frigate",
+		"vasari_extractor_strikecraft"
     ]
 }

@@ -1,0 +1,15 @@
+{
+    "version": 0,
+	"stacking_limit": "fixed_one",
+	"stacking_limit_met_behavior": "preserve_existing_buff",
+    "unit_modifiers": [
+    {
+		"buff_unit_modifier_id": "shield_bonus_value"
+    }],
+    "gui":
+    {
+        "hud_icon": "vasari_purist_titan_shield_manipulation_ability_hud_icon",
+        "name": "vasari_purist_titan_shield_ability_name",
+        "is_positive_buff": true
+    }
+}

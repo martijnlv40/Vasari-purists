@@ -54,7 +54,7 @@
     {
         "weapons": [
         {
-            "weapon": "vasari_purist_titan_missile",
+            "weapon": "vasari_purist_turret_missile",
             "mesh_point": "weapon.0",
             "weapon_position": [-2.756363, 2.656429, 29.486328],
             "non_turret_muzzle_positions": [

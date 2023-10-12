@@ -45,7 +45,7 @@
     },
     "gui":
     {
-		"hud_icon": "vasari_colony_cruiser_colonize_ability_hud_icon",
+		"hud_icon": "vasari_extractor_ability_hud_button_icon",
 		"name": "vasari_colony_cruiser_colonize_ability_name",
 		"description": "vasari_colony_cruiser_colonize_ability_description",
 		"tooltip_lines": [
