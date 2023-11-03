@@ -26,8 +26,8 @@
     {
         "upgrade_price":
         {
-            "metal": 300,
-            "crystal": 225
+            "metal": 200,
+            "crystal": 60
         },
         "upgrade_duration": 30.0,
         "experience_given_on_bombed_to_neutral": 150.0
@@ -35,8 +35,8 @@
     {
         "upgrade_price":
         {
-            "metal": 320,
-            "crystal": 255
+            "metal": 240,
+            "crystal": 90
         },
         "upgrade_duration": 35.0,
         "experience_given_on_bombed_to_neutral": 300.0
@@ -44,8 +44,8 @@
     {
         "upgrade_price":
         {
-            "metal": 340,
-            "crystal": 285
+            "metal": 280,
+            "crystal": 120
         },
         "upgrade_duration": 40.0,
         "experience_given_on_bombed_to_neutral": 450.0
@@ -53,8 +53,8 @@
     {
         "upgrade_price":
         {
-            "metal": 360,
-            "crystal": 315
+            "metal": 320,
+            "crystal": 150
         },
         "upgrade_duration": 45.0,
         "experience_given_on_bombed_to_neutral": 600.0
@@ -62,8 +62,8 @@
     {
         "upgrade_price":
         {
-            "metal": 380,
-            "crystal": 345
+            "metal": 360,
+            "crystal": 180
         },
         "upgrade_duration": 50.0,
         "experience_given_on_bombed_to_neutral": 750.0
@@ -72,7 +72,7 @@
         "upgrade_price":
         {
             "metal": 400,
-            "crystal": 375
+            "crystal": 210
         },
         "upgrade_duration": 60.0,
         "experience_given_on_bombed_to_neutral": 800.0
@@ -80,8 +80,8 @@
     {
         "upgrade_price":
         {
-            "metal": 420,
-            "crystal": 405
+            "metal": 440,
+            "crystal": 240
         },
         "upgrade_duration": 70.0,
         "experience_given_on_bombed_to_neutral": 950.0
@@ -89,8 +89,8 @@
     {
         "upgrade_price":
         {
-            "metal": 440,
-            "crystal": 435
+            "metal": 480,
+            "crystal": 270
         },
         "upgrade_duration": 80.0,
         "experience_given_on_bombed_to_neutral": 1100.0
@@ -98,8 +98,8 @@
     {
         "upgrade_price":
         {
-            "metal": 460,
-            "crystal": 465
+            "metal": 520,
+            "crystal": 300
         },
         "upgrade_duration": 90.0,
         "experience_given_on_bombed_to_neutral": 1250.0
@@ -107,8 +107,8 @@
     {
         "upgrade_price":
         {
-            "metal": 480,
-            "crystal": 495
+            "metal": 560,
+            "crystal": 330
         },
         "upgrade_duration": 105.0,
         "experience_given_on_bombed_to_neutral": 1400.0
@@ -116,8 +116,8 @@
     {
         "upgrade_price":
         {
-            "metal": 500,
-            "crystal": 525
+            "metal": 600,
+            "crystal": 360
         },
         "upgrade_duration": 120.0,
         "experience_given_on_bombed_to_neutral": 1550.0
@@ -125,8 +125,8 @@
     {
         "upgrade_price":
         {
-            "metal": 520,
-            "crystal": 555
+            "metal": 640,
+            "crystal": 390
         },
         "upgrade_duration": 135.0,
         "experience_given_on_bombed_to_neutral": 1700.0
@@ -134,8 +134,8 @@
     {
         "upgrade_price":
         {
-            "metal": 540,
-            "crystal": 585
+            "metal": 680,
+            "crystal": 420
         },
         "upgrade_duration": 150.0,
         "experience_given_on_bombed_to_neutral": 1850.0
@@ -143,8 +143,8 @@
     {
         "upgrade_price":
         {
-            "metal": 560,
-            "crystal": 615
+            "metal": 720,
+            "crystal": 450
         },
         "upgrade_duration": 170.0,
         "experience_given_on_bombed_to_neutral": 2000.0
@@ -152,8 +152,8 @@
     {
         "upgrade_price":
         {
-            "metal": 580,
-            "crystal": 645
+            "metal": 760,
+            "crystal": 480
         },
         "upgrade_duration": 190.0,
         "experience_given_on_bombed_to_neutral": 2150.0
@@ -161,8 +161,8 @@
     {
         "upgrade_price":
         {
-            "metal": 600,
-            "crystal": 675
+            "metal": 800,
+            "crystal": 510
         },
         "upgrade_duration": 210.0,
         "experience_given_on_bombed_to_neutral": 2300.0
@@ -170,8 +170,8 @@
     {
         "upgrade_price":
         {
-            "metal": 620,
-            "crystal": 705
+            "metal": 840,
+            "crystal": 540
         },
         "upgrade_duration": 230.0,
         "experience_given_on_bombed_to_neutral": 2450.0
@@ -179,8 +179,8 @@
     {
         "upgrade_price":
         {
-            "metal": 640,
-            "crystal": 735
+            "metal": 880,
+            "crystal": 570
         },
         "upgrade_duration": 255.0,
         "experience_given_on_bombed_to_neutral": 2600.0
@@ -188,8 +188,8 @@
     {
         "upgrade_price":
         {
-            "metal": 660,
-            "crystal": 765
+            "metal": 920,
+            "crystal": 600
         },
         "upgrade_duration": 280.0,
         "experience_given_on_bombed_to_neutral": 2750.0
@@ -197,8 +197,8 @@
     {
         "upgrade_price":
         {
-            "metal": 680,
-            "crystal": 795
+            "metal": 960,
+            "crystal": 630
         },
         "upgrade_duration": 305.0,
         "experience_given_on_bombed_to_neutral": 2900.0
@@ -683,6 +683,7 @@
             "vasari_purist_unlock_overseer_cruiser_phase_lane_detection_ability",
             "vasari_purist_unlock_phase_gate",
             "vasari_unlock_phase_missile_boost_unit_item",
+			"vasari_unlock_phase_shield_unit_item",
             "vasari_unlock_precise_turret_servos",
             "vasari_unlock_raider_corvette",
             "vasari_unlock_resource_extractor_structures",
@@ -772,9 +773,8 @@
         ],
         "starting_research_subjects": []
     },
-    "missing_ship_component_shop_build_time_scalar": 2.0,
+    "missing_ship_component_shop_build_time_scalar": 7.0,
     "ship_components": [
-		"vasari_purist_mobile_exotic_factory",
 		"vasari_ship_research_lab",
 		"vasari_ship_military_lab",
 		"vasari_ship_civilian_lab",
@@ -784,6 +784,7 @@
 		"vasari_credit_gain",
 		"vasari_extractor",
         "vasari_nano_swarm",
+		"vasari_purist_experience_boost",
         "vasari_wave_boost",
         "vasari_phase_missile_boost",
         "vasari_beam_boost",
@@ -797,19 +798,20 @@
         "vasari_starbase_debris_vortex",
         "vasari_deploy_starbase",
         "vasari_purist_deploy_phase_gate",
+		"vasari_purist_deploy_phase_synchronizer",
         "vasari_starbase_unlock_extra_wave_weapons",
         "vasari_starbase_unlock_extra_phase_missile_weapons",
+		"vasari_purist_mobile_exotic_factory",
         "vasari_antimatter_recharger",
         "vasari_self_repairing_armor",
         "vasari_strikecraft_armor",
+		"vasari_phase_shield",
         "vasari_rebel_titan_hull_plating_0",
         "vasari_rebel_titan_hull_plating_1",
         "vasari_rebel_titan_hangar",
-        "vasari_rebel_titan_unlock_extra_phase_missile_weapons",
-		"vasari_purist_experience_boost",
-		"vasari_purist_deploy_phase_synchronizer",
-        "vasari_purist_phase_travel_amplifier",
 		"vasari_purist_titan_unlock_phase_cannon_weapon",
+        "vasari_rebel_titan_unlock_extra_phase_missile_weapons",
+        "vasari_purist_phase_travel_amplifier",
 		"vasari_capital_ship_purist_factory"
     ],
     "ship_component_build_groups": [
@@ -916,9 +918,9 @@
         {
             "decay_rate": 0.02
         }],
-        "propigation_rates": [
+        "propagation_rates": [
         {
-            "propigation_rate_scalar": -2.0
+            "propagation_rate_scalar": -2.0
         }],
         "friendly_unit_modifiers": [
         {
@@ -1079,8 +1081,8 @@
                     "weapon_modifiers": [
                     {
                         "value_behavior": "scalar",
-                        "modifier_type": "damage",
-                        "value": 0.02
+                        "modifier_type": "cooldown_duration",
+                        "value": -0.03
                     }]
                 },
                 "utility":
@@ -1112,8 +1114,8 @@
                     "weapon_modifiers": [
                     {
                         "value_behavior": "scalar",
-                        "modifier_type": "damage",
-                        "value": 0.04
+                        "modifier_type": "cooldown_duration",
+                        "value": -0.06
                     }]
                 },
                 "utility":
@@ -1142,7 +1144,7 @@
                     {
                         "modifier_type": "hyperspace_speed",
                         "value_behavior": "scalar",
-                        "value": 0.15
+                        "value": 0.1
                     }]
                 },
                 "combat":
@@ -1150,13 +1152,13 @@
                     "weapon_modifiers": [
                     {
                         "value_behavior": "scalar",
-                        "modifier_type": "damage",
-                        "value": 0.06
+                        "modifier_type": "cooldown_duration",
+                        "value": -0.08
                     },
                     {
                         "value_behavior": "scalar",
-                        "modifier_type": "cooldown_duration",
-                        "value": -0.02
+                        "modifier_type": "damage",
+                        "value": 0.03
                     }]
                 },
                 "utility":
@@ -1190,7 +1192,7 @@
                     {
                         "modifier_type": "hyperspace_speed",
                         "value_behavior": "scalar",
-                        "value": 0.25
+                        "value": 0.2
                     }]
                 },
                 "combat":
@@ -1198,13 +1200,13 @@
                     "weapon_modifiers": [
                     {
                         "value_behavior": "scalar",
-                        "modifier_type": "damage",
-                        "value": 0.08
+                        "modifier_type": "cooldown_duration",
+                        "value": -0.1
                     },
                     {
                         "value_behavior": "scalar",
-                        "modifier_type": "cooldown_duration",
-                        "value": -0.04
+                        "modifier_type": "damage",
+                        "value": 0.06
                     },
                     {
                         "value_behavior": "additive",
@@ -1253,13 +1255,13 @@
                     "weapon_modifiers": [
                     {
                         "value_behavior": "scalar",
-                        "modifier_type": "damage",
-                        "value": 0.1
+                        "modifier_type": "cooldown_duration",
+                        "value": -0.12
                     },
                     {
                         "value_behavior": "scalar",
-                        "modifier_type": "cooldown_duration",
-                        "value": -0.06
+                        "modifier_type": "damage",
+                        "value": 0.09
                     },
                     {
                         "value_behavior": "additive",
@@ -1463,6 +1465,7 @@
             "set_rally_point": "ui_set_rally_point",
             "set_unit_factory_deliverable_destination": "ui_set_rally_point",
             "build_structure": "ui_build_structure",
+			"set_planet_structure_plate_spin": "ui_build_structure",
             "ping_attention": "ui_common_ping",
             "ping_attack": "ui_common_ping",
             "ping_defend": "ui_common_ping",
@@ -1491,7 +1494,9 @@
             "click_failed": "ui_default_error",
             "generic_order_issued": "ui_order_issued",
             "generic_attack_order_issued": "ui_attack_order_issued",
-            "generic_joined_fleet": "ui_joined_fleet"
+            "generic_joined_fleet": "ui_joined_fleet",
+            "sell_npc_market_asset": "button_pressed",
+            "buy_npc_market_asset": "button_pressed"
         }
     },
     "ai_names":
@@ -1516,5 +1521,11 @@
         "vasari_11",
         "vasari_12",
         "vasari_13"
-    ]
+    ],
+    "theme_picker_mesh_preview_units": [
+        "vasari_purist_titan",
+        "vasari_light_frigate",
+        "vasari_starbase"
+    ],
+    "theme_picker_skybox": "skybox_fantasy_flight"
 }

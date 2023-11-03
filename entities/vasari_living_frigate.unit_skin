@@ -33,10 +33,10 @@
             {
                 "charge_effect": "vasari_cruiser_portal_charge_up",
                 "charge_effect_between_stars": "Hyperspace_Vasari_Frigate_Chargeup_Interstellar",
-                "charge_effect_destabalized": "Hyperspace_Vasari_Frigate_Chargeup_Unstable",
+                "charge_effect_destabilized": "Hyperspace_Vasari_Frigate_Chargeup_Unstable",
                 "travel_effect": "vasari_cruiser_portal_travel",
                 "travel_effect_between_stars": "Hyperspace_Vasari_Frigate_Travel_Interstellar",
-                "travel_effect_destabalized": "Hyperspace_Vasari_Frigate_Travel_Unstable",
+                "travel_effect_destabilized": "Hyperspace_Vasari_Frigate_Travel_Unstable",
                 "exit_effect": "vasari_cruiser_portal_exit",
                 "exit_sound": "HYPERSPACE_EXIT",
                 "charge_sound": "HYPERSPACE_CHARGEUP",

@@ -4,11 +4,11 @@
     "tier": 3,
     "field": "civilian_nanotech",
     "field_coord": [7, 3],
-    "research_time": 235.0,
+    "research_time": 190.0,
     "price":
     {
-        "metal": 990.0,
-        "crystal": 1260.0,
+        "metal": 580.0,
+        "crystal": 810.0,
         "credits": 0.0
     },
 	"unit_modifiers": [

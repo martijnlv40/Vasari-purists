@@ -57,8 +57,8 @@
     "gui":
     {
 		"hud_icon": "vasari_extractor_ability_hud_button_icon",
-		"name": "vasari_extract_resources_capital_name",
-		"description": "vasari_extract_resources_capital_description",
+		"name": "vasari_extractor_ability_item_name",
+		"description": "vasari_extractor_ability_unit_item_description",
 		"tooltip_lines": [
 		{
 			"label_text": "tooltip.ability.duration",
@@ -67,14 +67,104 @@
 			"rendering_type": "single_value"
 		},
 		{
-			"label_text": "tooltip.ability.extract_metal",
-			"value_id": "extract_metal_value",
+			"label_text": "tooltip.ability.extract_metal_asteroid",
+			"value_id": "asteroid_metal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.extract_crystal_asteroid",
+			"value_id": "asteroid_crystal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.asteroid_planet_metal",
+			"value_id": "asteroid_planet_metal_value",
             "value_float_format": "one_decimal_place",
 			"rendering_type": "single_value"
 		},
 		{
-			"label_text": "tooltip.ability.extract_crystal",
-			"value_id": "extract_crystal_value",
+			"label_text": "tooltip.ability.asteroid_planet_crystal",
+			"value_id": "asteroid_planet_crystal_value",
+            "value_float_format": "one_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.desert_planet_metal",
+			"value_id": "desert_planet_metal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.desert_planet_crystal",
+			"value_id": "desert_planet_crystal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.extract_ferrous_metal",
+			"value_id": "ferrous_metal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.gas_giant_crystal",
+			"value_id": "gas_giant_crystal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.ice_crystal",
+			"value_id": "ice_crystal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.moon_metal",
+			"value_id": "moon_metal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.moon_crystal",
+			"value_id": "moon_crystal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.oceanic_metal",
+			"value_id": "oceanic_metal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.oceanic_crystal",
+			"value_id": "oceanic_crystal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.terran_metal",
+			"value_id": "terran_metal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.terran_crystal",
+			"value_id": "terran_crystal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.volcanic_metal",
+			"value_id": "volcanic_metal_value",
+            "value_float_format": "two_decimal_place",
+			"rendering_type": "single_value"
+		},
+		{
+			"label_text": "tooltip.ability.pirate_base_credits",
+			"value_id": "pirate_base_credits_value",
             "value_float_format": "one_decimal_place",
 			"rendering_type": "single_value"
 		}]

@@ -4,7 +4,7 @@
     "hud_icon": "vasari_experience_boost_unit_item_hud_icon",
     "name": "vasari_experience_boost_unit_item_name",
     "description": "vasari_experience_boost_unit_item_description",
-    "build_time": 120.0,
+    "build_time": 15.0,
     "price":
     {
         "metal": 225.0,

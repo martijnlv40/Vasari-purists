@@ -12,7 +12,6 @@
     },
     "physics":
     {
-        "mass": 2000.0,
         "can_move_linear": true,
         "max_linear_speed": 575.0,
         "time_to_max_linear_speed": 5.0,
@@ -39,16 +38,18 @@
     },
     "attack":
     {
-        "attack_pattern_definitions": [
+        "attack_pattern":
         {
             "type": "stop_and_fire"
-        }]
+        }
     },
     "ai":
     {
-        "priority_bonus_per_attack_target_type":
-        {},
-        "targets_to_ignore_filter_id": "strikecraft_and_torpedo_units"
+        "attack_target_type_groups": [
+            "light_corvette"
+        ],
+        "attack_target_type_groups_matching_weapon": "vasari_colony_cruiser_light_pulse",
+        "attack_target_type_groups_to_ignore": ["torpedo_strikecraft"]
     },
     "ai_attack_target":
     {
@@ -125,12 +126,12 @@
     "health":
     {
         "release_time_after_death": 60.0,
-        "max_hull_points": 800.0,
+        "max_hull_points": 740.0,
         "hull_point_restore_rate": 1.0,
         "hull_armor": 10.0,
-        "max_shield_points": 150.0,
+        "max_shield_points": 149.0,
         "shield_point_restore_rate": 1.0,
-        "shield_mitigation": 2.0,
+        "shield_mitigation": 1.0,
         "experience_given_on_death": 4.0,
         "can_collide_duration_after_death": 0.8
     },

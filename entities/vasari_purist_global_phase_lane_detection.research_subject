@@ -4,11 +4,11 @@
     "tier": 3,
     "field": "civilian_phase_mastery",
     "field_coord": [6, 0],
-    "research_time": 200.0,
+    "research_time": 165.0,
     "price":
     {
-        "metal": 780.0,
-        "crystal": 990.0,
+        "metal": 480.0,
+        "crystal": 660.0,
         "credits": 0.0
     },
     "buff_providers": [

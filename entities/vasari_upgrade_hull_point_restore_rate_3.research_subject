@@ -4,11 +4,11 @@
     "tier": 4,
     "field": "military_survival",
     "field_coord": [9, 2],
-    "research_time": 325.0,
+    "research_time": 245.0,
     "price":
     {
-        "metal": 1500.0,
-        "crystal": 1920.0,
+        "metal": 800.0,
+        "crystal": 1140.0,
         "credits": 0.0
     },
 	"exotic_price": [

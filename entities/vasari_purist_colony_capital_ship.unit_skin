@@ -56,10 +56,10 @@
             {
                 "charge_effect": "vasari_capital_portal_charge_up",
                 "charge_effect_between_stars": "Hyperspace_Vasari_Capital_Chargeup_Interstellar",
-                "charge_effect_destabalized": "Hyperspace_Vasari_Capital_Chargeup_Unstable",
+                "charge_effect_destabilized": "Hyperspace_Vasari_Capital_Chargeup_Unstable",
                 "travel_effect": "vasari_capital_portal_travel",
                 "travel_effect_between_stars": "Hyperspace_Vasari_Capital_Travel_Interstellar",
-                "travel_effect_destabalized": "Hyperspace_Vasari_Capital_Travel_Unstable",
+                "travel_effect_destabilized": "Hyperspace_Vasari_Capital_Travel_Unstable",
                 "exit_effect": "vasari_capital_portal_exit",
                 "charge_sound": "HYPERSPACE_CHARGEUP",
                 "enter_sound": "HYPERSPACE_ENTRY",

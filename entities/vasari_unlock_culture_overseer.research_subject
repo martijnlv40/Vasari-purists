@@ -4,11 +4,11 @@
     "tier": 1,
     "field": "civilian_oppression",
     "field_coord": [3, 6],
-    "research_time": 115.0,
+    "research_time": 110.0,
     "price":
     {
-        "metal": 330.0,
-        "crystal": 400.0,
+        "metal": 260.0,
+        "crystal": 330.0,
         "credits": 0.0
     },
     "name": "vasari_unlock_culture_overseer_research_subject_name",

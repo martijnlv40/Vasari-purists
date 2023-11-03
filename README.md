@@ -15,8 +15,8 @@
 ### You have multiple ways to actively and passively gather resources:
 
 - **Active**
-    - The Jaratok Evader (former Jarrasul Evacuator) has an ability to gather metal and crystal from resource asteroids.
-    - This resource extraction is also possible using a component, buildable on capital ships, the Titan and the Jarak Extractor (former Jarun Migrator).
+    - The Jaratok Evader (former Jarrasul Evacuator) has an ability to gather metal and crystal from planets resource asteroids.
+    - This resource extraction is also possible using a component, buildable on the other capital ships and the Jarak Extractor (former Jarun Migrator).
     - An upgraded form of pillaging other planets that the TEC Rebels have can be researched.
     - The Jusotra Fabricator Cruiser can still be used to gather resources from destroyed ships, including a second upgrade technology.
     - Derelicts can still be gathered.
@@ -49,9 +49,7 @@
 
 ## Known issues:
 
-- Resource extraction is based on a planet, instead of asteroids. This is because an ability cannot auto cast on resource asteroids at all currently. I will change this to what I intended once it's possible.
-- Resource extraction gives both metal and crystal regardless of the type of planet (or asteroid -cannot be fixed right now).
-- An error occurs when deploying the Titan's turrets; just skip it, I can't seem to fix it but it doesn't seem to impact anything (unsure whether this can be fixed, I wasn't able to).
+- Resource extraction is based on both planets and asteroids, instead of just asteroids. This is because an ability cannot auto cast on resource asteroids currently. I will likely remove the planet extraction down the line.
 - The AI naturally doesn't seem be able to handle the new faction at all, so I would not use random opponents (currently unable to change AI faction selection via modding) -if there is one in the game, they might give errors which you should SKIP/SKIP ALL if they occur.
 
 *Let me know if you have any feedback!*

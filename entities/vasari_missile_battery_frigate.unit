@@ -12,33 +12,33 @@
     },
     "physics":
     {
-        "mass": 2500.0,
         "can_move_angular": true,
         "max_angular_speed": 28.823067,
-        "time_to_max_angular_speed": 10.0,
+        "time_to_max_angular_speed": 10.1,
         "max_bank_angle": 35.0,
         "death_angular_speed_range": [5.0, 10.0]
     },
     "attack":
     {
-        "attack_pattern_definitions": [
+        "attack_pattern":
         {
             "type": "stop_and_fire"
-        }]
+        }
     },
     "ai":
     {
-        "priority_bonus_per_attack_target_type":
-        {},
-        "behaviors": [
-            "auto_attack_all"
+        "attack_target_type_groups": [
+            "heavy_capital",
+            "defense"
         ],
-        "targets_to_ignore_filter_id": "strikecraft_and_torpedo_units"
+        "attack_target_type_groups_matching_weapon": "trader_missile_battery_frigate_torpedo",
+        "attack_target_type_groups_to_ignore": ["torpedo_strikecraft"]
     },
     "ai_attack_target":
     {
         "attack_priority": 50.0,
-        "is_always_a_threat": false
+        "is_always_a_threat": false,
+        "attack_target_type": "lrm"
     },
     "user_interface":
     {
@@ -64,13 +64,13 @@
             "up": [-0.0, 1.0, -0.0],
             "yaw_arc":
             {
-                "min_angle": -90,
-                "max_angle": 90
+                "min_angle": -60,
+                "max_angle": 60
             },
             "pitch_arc":
             {
-                "min_angle": -90,
-                "max_angle": 90
+                "min_angle": -60,
+                "max_angle": 60
             }
         }],
         "max_range_weapon_index": 0

@@ -34,7 +34,6 @@
     "burst_pattern": [0.0, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2],
     "effects":
     {
-        "muzzle_effect": "vasari_turret_missile_weapon_muzzle",
         "hit_shield_impact_radius_t": 1.0
     }
 }

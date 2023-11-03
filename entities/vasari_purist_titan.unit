@@ -12,7 +12,6 @@
     },
     "physics":
     {
-        "mass": 100000.0,
         "can_move_linear": true,
         "max_linear_speed": 440.0,
         "time_to_max_linear_speed": 5.625,
@@ -47,29 +46,27 @@
     },
     "attack":
     {
-        "attack_pattern_definitions": [
+        "attack_pattern":
         {
             "type": "stop_and_fire"
-        }]
+        }
     },
     "ai":
     {
-        "priority_bonus_per_attack_target_type":
-        {},
-        "behaviors": [
-            "auto_attack_threats",
-            "auto_bomb_planet",
-            "auto_attack_non_threats"
-        ],
         "auto_follow_target_priority": 5.0,
-        "targets_to_ignore_filter_id": "strikecraft_and_torpedo_units"
+        "attack_target_type_groups": [
+            "heavy_capital",
+            "defense"
+        ],
+        "attack_target_type_groups_matching_weapon": "vasari_rebel_titan_missile",
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft"]
     },
     "ai_attack_target":
     {
         "attack_priority": 50.0,
         "is_always_a_threat": true,
-        "attack_target_types": [
-            "titan"]
+        "attack_target_type": "titan"
     },
     "user_interface":
     {
@@ -79,7 +76,7 @@
         "selection_group_unit_type": "combat_ship",
         "can_move": true,
         "can_attack": true,
-        "can_show_max_weapon_range": true,
+        "can_show_max_weapon_range_in_tactical_view": true,
         "can_show_distance_to_plane_line": true
     },
     "weapons":
@@ -1003,7 +1000,37 @@
             "large_debris": [50, 60]
         },
         "specific_debris": [
-            "vasari_battleship_debris"]
+            "vasari_battleship_debris"
+		],
+        "spawn_loot":
+        {
+            "loot_unit": "ship_loot",
+            "loot_name": "vasari_rebel_titan_loot_name",
+            "loot_level": 1,
+            "experience_given": 1000,
+            "assets":
+            {
+                "metal": [1000, 2000],
+                "crystal": [1000, 2000]
+            },
+            "exotics": [
+            {
+                "weight": 1,
+                "bundles": [
+                {
+                    "types": [
+                        "offense"
+                    ],
+                    "counts": [1, 1]
+                },
+                {
+                    "types": [
+                        "ultimate"
+                    ],
+                    "counts": [1, 1]
+                }]
+            }]
+        }
     },
     "health":
     {
@@ -1400,15 +1427,14 @@
             "capital_ship"
         ],
 		"build_rate_scalar": 1.2,
+		"will_spawn_units_in_hyperspace": false
     },
     "exotic_factory":
     {
         "required_mutation": "mobile_exotic_factory_enabled"
     },
 	"ship_component_shop":
-    {
-		"required_mutation": "mobile_unit_factory_enabled"
-	},
+    {},
     "build":
     {
         "build_time": 600.0,
@@ -1517,8 +1543,6 @@
     "skins": [
         "vasari_purist_titan"
     ],
-    "action_effect_size": "large_unit",
-    "can_join_fleet": true,
     "child_meshes": [
     {
         "mesh_alias_name": "vasari_rebel_titan_component_armor_0",
@@ -1548,5 +1572,7 @@
         "mesh_point": "child.vasari_rebel_titan_component_cannon",
         "is_weapon_effects_destination": true,
         "required_unit_item": "vasari_purist_titan_unlock_phase_cannon_weapon"
-    }]
+    }],
+	"action_effect_size": "large_unit",
+    "can_join_fleet": true,				  
 }

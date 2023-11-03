@@ -12,7 +12,6 @@
     },
     "physics":
     {
-        "mass": 800.0,
         "can_move_linear": true,
         "max_linear_speed": 900.0,
         "time_to_max_linear_speed": 1.8,
@@ -47,36 +46,30 @@
     },
     "attack":
     {
-        "attack_pattern_definitions": [
+        "attack_pattern":
         {
-            "type": "strafe_and_pull_away",
-            "distance_to_start_pull_away": 1000.0,
-            "distance_to_stop_pull_away": 1500.0,
-            "max_pull_away_angle": 90.0
-        }]
+            "type": "circle_strafe",
+            "angle_range_off_gravity_well_plane": [-45.0, 45.0]
+        }
     },
     "ai":
     {
-        "priority_bonus_per_attack_target_type":
-        {
-            "torpedo": 6.0,
-            "fighter_strikecraft": 5.0,
-            "bomber_strikecraft": 5.0,
-            "corvette": 7.0,
-            "heavy_cruiser": -5.0
-        },
-        "behaviors": [
-            "auto_attack_all"
-        ],
         "auto_follow_target_priority": 2.0,
-        "targets_to_ignore_filter_id": "strikecraft_and_torpedo_units"
+        "attack_target_type_groups": [
+            "torpedo_strikecraft_corvette"
+        ],
+        "attack_target_type_groups_matching_weapon": "vasari_anticorvette_corvette_medium_pulse",
+        "attack_target_type_groups_to_ignore": ["torpedo_strikecraft"]
     },
     "ai_attack_target":
     {
         "attack_priority": 50.0,
         "is_always_a_threat": true,
-        "attack_target_types": [
-            "corvette"]
+         "attack_target_type": "corvette"
+    },
+	"player_ai":
+    {
+        "max_empire_owned_count_percentage": 0.25
     },
     "user_interface":
     {
@@ -200,8 +193,8 @@
         "build_time": 15.0,
         "price":
         {
-            "metal": 100.0,
-            "crystal": 120.0
+            "metal": 160.0,
+            "crystal": 75.0
         },
         "prerequisites": [
             ["vasari_unlock_anticorvette_corvette"]

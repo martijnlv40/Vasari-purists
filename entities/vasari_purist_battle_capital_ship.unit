@@ -12,7 +12,6 @@
     },
     "physics":
     {
-        "mass": 10000.0,
         "can_move_linear": true,
         "max_linear_speed": 525.0,
         "time_to_max_linear_speed": 5.25,
@@ -47,32 +46,27 @@
     },
     "attack":
     {
-        "attack_pattern_definitions": [
+        "attack_pattern":
         {
             "type": "stop_and_fire"
-        }]
+        }
     },
     "ai":
     {
-        "priority_bonus_per_attack_target_type":
-        {
-            "corvette": -2.0,
-            "antifighter_frigate": -1.0
-        },
-        "behaviors": [
-            "auto_attack_threats",
-            "auto_bomb_planet",
-            "auto_attack_non_threats"
-        ],
         "auto_follow_target_priority": 5.0,
-        "targets_to_ignore_filter_id": "strikecraft_and_torpedo_units"
+        "attack_target_type_groups": [
+            "light_flak",
+            "corvette"
+        ],
+        "attack_target_type_groups_matching_weapon": "vasari_battle_capital_ship_wave",
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft"]
     },
     "ai_attack_target":
     {
         "attack_priority": 50.0,
         "is_always_a_threat": true,
-        "attack_target_types": [
-            "capital"]
+        "attack_target_type": "capital"
     },
     "user_interface":
     {
@@ -82,7 +76,7 @@
         "selection_group_unit_type": "combat_ship",
         "can_move": true,
         "can_attack": true,
-        "can_show_max_weapon_range": true,
+        "can_show_max_weapon_range_in_tactical_view": true,
         "can_show_distance_to_plane_line": true,
         "bar_size": "large"
     },
@@ -248,13 +242,13 @@
             "up": [-0.0, 1.0, -0.0],
             "yaw_arc":
             {
-                "min_angle": -10.0,
-                "max_angle": 10.0
+                "min_angle": -5,
+                "max_angle": 5
             },
             "pitch_arc":
             {
-                "min_angle": -10.0,
-                "max_angle": 10.0
+                "min_angle": -5,
+                "max_angle": 5
             }
         }],
         "max_range_weapon_index": 0
@@ -281,7 +275,30 @@
             "large_debris": [4, 5]
         },
         "specific_debris": [
-            "vasari_battleship_debris"]
+            "vasari_battleship_debris"
+        ],
+        "spawn_loot":
+        {
+            "loot_unit": "ship_loot",
+            "loot_name": "vasari_battle_capital_ship_loot_name",
+            "experience_given": 200,
+            "assets":
+            {
+                "metal": [150, 300],
+                "crystal": [150, 300]
+            },
+            "exotics": [
+            {
+                "weight": 1,
+                "bundles": [
+                {
+                    "types": [
+                        "offense"
+                    ],
+                    "counts": [1, 1]
+                }]
+            }]
+        }
     },
     "health":
     {

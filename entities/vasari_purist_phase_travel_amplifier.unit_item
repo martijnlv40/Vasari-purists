@@ -4,7 +4,7 @@
     "hud_icon": "vasari_phase_travel_amplifier_unit_item_hud_icon",
     "name": "vasari_phase_travel_amplifier_unit_item_name",
     "description": "vasari_phase_travel_amplifier_unit_item_description",
-    "build_time": 120.0,
+    "build_time": 30.0,
     "price":
     {
         "metal": 275.0,
@@ -22,11 +22,12 @@
     "build_prerequisites": [
         ["vasari_purist_unlock_phase_travel_amplifier_unit_item"]
     ],
+	"max_count_on_unit": 1,
     "build_group_id": "utility",
     "unit_modifiers": [
     {
         "modifier_type": "phase_travel_bonus_duration",
         "value_behavior": "scalar",
-        "values": [1.25]
+        "values": [2.0]
     }]
 }

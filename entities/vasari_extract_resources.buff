@@ -10,7 +10,16 @@
         "action_group":
         {
             "actions": [
-            {
+			{
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "asteroid_metal"
+                },
                 "action_type": "use_unit_operators_on_single_unit",
                 "destination_unit":
                 {
@@ -20,10 +29,19 @@
                 {
                     "operator_type": "give_assets",
                     "asset_type": "metal",
-                    "asset_value": "extract_metal_value"
+                    "asset_value": "asteroid_metal_value"
                 }]
             },
 			{
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "asteroid_crystal"
+                },
                 "action_type": "use_unit_operators_on_single_unit",
                 "destination_unit":
                 {
@@ -33,7 +51,252 @@
                 {
                     "operator_type": "give_assets",
                     "asset_type": "crystal",
-                    "asset_value": "extract_crystal_value"
+                    "asset_value": "asteroid_crystal_value"
+                }]
+            },
+			{
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "planet_asteroid"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "previous_spawner"
+                },
+                "operators": [
+                {
+                    "operator_type": "give_assets",
+                    "asset_type": "metal",
+                    "asset_value": "asteroid_planet_metal_value"
+                },
+				{
+                    "operator_type": "give_assets",
+                    "asset_type": "crystal",
+                    "asset_value": "asteroid_planet_crystal_value"
+                }]
+            },
+			{
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "planet_desert"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "previous_spawner"
+                },
+                "operators": [
+                {
+                    "operator_type": "give_assets",
+                    "asset_type": "metal",
+                    "asset_value": "desert_planet_metal_value"
+                },
+				{
+                    "operator_type": "give_assets",
+                    "asset_type": "crystal",
+                    "asset_value": "desert_planet_crystal_value"
+                }]
+            },
+			{
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "planet_ferrous"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "previous_spawner"
+                },
+                "operators": [
+                {
+                    "operator_type": "give_assets",
+                    "asset_type": "metal",
+                    "asset_value": "ferrous_metal_value"
+                }]
+            },
+			{
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "planet_gas_giant"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "previous_spawner"
+                },
+                "operators": [
+                {
+                    "operator_type": "give_assets",
+                    "asset_type": "crystal",
+                    "asset_value": "gas_giant_crystal_value"
+                }]
+            },
+			{
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "planet_ice"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "previous_spawner"
+                },
+                "operators": [
+                {
+                    "operator_type": "give_assets",
+                    "asset_type": "crystal",
+                    "asset_value": "ice_crystal_value"
+                }]
+            },
+			{
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "planet_moon"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "previous_spawner"
+                },
+                "operators": [
+				{
+                    "operator_type": "give_assets",
+                    "asset_type": "metal",
+                    "asset_value": "moon_metal_value"
+                },
+                {
+                    "operator_type": "give_assets",
+                    "asset_type": "crystal",
+                    "asset_value": "moon_crystal_value"
+                }]
+            },
+			{
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "planet_oceanic"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "previous_spawner"
+                },
+                "operators": [
+				{
+                    "operator_type": "give_assets",
+                    "asset_type": "metal",
+                    "asset_value": "oceanic_metal_value"
+                },
+                {
+                    "operator_type": "give_assets",
+                    "asset_type": "crystal",
+                    "asset_value": "oceanic_crystal_value"
+                }]
+            },
+			{
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "planet_terran"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "previous_spawner"
+                },
+                "operators": [
+				{
+                    "operator_type": "give_assets",
+                    "asset_type": "metal",
+                    "asset_value": "terran_metal_value"
+                },
+                {
+                    "operator_type": "give_assets",
+                    "asset_type": "crystal",
+                    "asset_value": "terran_crystal_value"
+                }]
+            },
+			{
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "planet_volcanic"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "previous_spawner"
+                },
+                "operators": [
+				{
+                    "operator_type": "give_assets",
+                    "asset_type": "metal",
+                    "asset_value": "volcanic_metal_value"
+                }]
+            },
+			{
+				"constraint":
+                {
+                    "constraint_type": "unit_passes_target_filter",
+                    "unit":
+                    {
+                        "unit_type": "current_spawner"
+                    },
+                    "target_filter_id": "planet_pirate_base"
+                },
+                "action_type": "use_unit_operators_on_single_unit",
+                "destination_unit":
+                {
+                    "unit_type": "previous_spawner"
+                },
+                "operators": [
+				{
+                    "operator_type": "give_assets",
+                    "asset_type": "credits",
+                    "asset_value": "pirate_base_credits_value"
                 }]
             }]
         }

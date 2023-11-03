@@ -4,11 +4,11 @@
     "tier": 4,
     "field": "civilian_oppression",
     "field_coord": [8, 2],
-    "research_time": 280.0,
+    "research_time": 215.0,
     "price":
     {
-        "metal": 1230.0,
-        "crystal": 1570.0,
+        "metal": 680.0,
+        "crystal": 960.0,
         "credits": 0.0
     },
     "unit_factory_modifiers": [

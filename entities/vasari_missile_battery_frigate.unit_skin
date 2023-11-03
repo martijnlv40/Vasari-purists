@@ -28,13 +28,7 @@
         },
         "effects":
         {
-            "shield_effect": "trader_missile_battery_frigate",
-            "effect_alias_bindings": [
-                ["vasari_turret_missile_weapon_muzzle",
-                {
-                    "particle_effect": "frigate_torpedo_muzzle"
-                }]
-            ]
+            "shield_effect": "trader_missile_battery_frigate"
         },
         "sounds":
         {

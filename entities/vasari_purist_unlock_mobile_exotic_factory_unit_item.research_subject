@@ -7,8 +7,8 @@
     "research_time": 85.0,
     "price":
     {
-        "metal": 200.0,
-        "crystal": 240.0,
+        "metal": 160.0,
+        "crystal": 180.0,
         "credits": 0.0
     },
     "name": "vasari_unlock_mobile_exotic_factory_unit_item_research_subject_name",

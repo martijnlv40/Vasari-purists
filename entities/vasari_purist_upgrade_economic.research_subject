@@ -7,8 +7,8 @@
     "research_time": 85.0,
     "price":
     {
-        "metal": 240.0,
-        "crystal": 280.0,
+        "metal": 200.0,
+        "crystal": 240.0,
         "credits": 0.0
     },
 	"prerequisites": [

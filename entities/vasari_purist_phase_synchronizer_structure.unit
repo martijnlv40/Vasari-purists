@@ -11,14 +11,10 @@
         "can_be_displaced_on_collision": false
     },
     "physics":
-    {
-        "mass": 1.0
-    },
+    {},
     "ai":
     {
-        "priority_bonus_per_attack_target_type":
-        {},
-        "targets_to_ignore_filter_id": "strikecraft_and_torpedo_units"
+        "attack_target_type_groups_to_ignore": ["torpedo_strikecraft"]
     },
     "ai_attack_target":
     {
@@ -35,7 +31,7 @@
     "structure":
     {
         "slot_type": "civilian",
-        "slots_required": 4,
+        "slots_required": 1,
         "roles": [],
         "build_group_id": "civilian"
     },
@@ -74,8 +70,8 @@
         "build_time": 50.0,
         "price":
         {
-            "metal": 480.0,
-            "crystal": 420.0
+            "metal": 240.0,
+            "crystal": 275.0
         },
         "prerequisites": [
             ["vasari_purist_unlock_deploy_phase_synchronizer_unit_item"]

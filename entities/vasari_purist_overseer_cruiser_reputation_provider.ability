@@ -14,7 +14,7 @@
         {
             "label_text": "tooltip.ability.npc_reputation_rate",
             "value_id": "npc_reputation_rate_value",
-            "value_float_format": "two_decimal_place_with_sign",
+            "value_float_format": "two_decimal_place",
             "rendering_type": "single_value"
         }]
     }

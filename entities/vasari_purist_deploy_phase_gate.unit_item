@@ -7,13 +7,13 @@
     "build_time": 120.0,
     "price":
     {
-        "metal": 2400.0,
-        "crystal": 2100.0
+        "metal": 600.0,
+        "crystal": 720.0
     },
     "exotic_price": [
     {
         "exotic_type": "utility",
-        "count": 3
+        "count": 2
     },
     {
         "exotic_type": "ultimate",
@@ -22,7 +22,8 @@
     "required_unit_tags": [
         "titan"
     ],
-    "consumable_stack_count": 1,
+    "consumable_stack_count": [1],
+	"max_count_on_unit": 1,
     "build_prerequisites": [
         ["vasari_purist_unlock_phase_gate"]
     ],

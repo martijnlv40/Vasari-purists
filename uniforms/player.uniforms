@@ -15,7 +15,7 @@
     "pickable_players": [
         "trader_loyalist",
         "trader_rebel",
-	"vasari_purist",
+		"vasari_purist",
         "vasari_rebel"
     ],
     "marginal_tax_rate_levels":
@@ -115,6 +115,7 @@
     "research_overflow_tier_nth_root_modifier": 3.0,
     "alliance":
     {
+		"max_alliance_lock_duration": 1800,
         "alliance_offer_duration": 120,
         "alliance_types":
         {

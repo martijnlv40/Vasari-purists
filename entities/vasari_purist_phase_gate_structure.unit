@@ -2,23 +2,20 @@
     "version": 0,
     "spatial":
     {
-        "radius": 469.507751,
+        "radius": 407.025452,
         "box":
         {
-            "center": [0.0, 91.946106, -18.710281],
-            "extents": [379.189056, 219.154266, 369.446594]
+            "center": [0.122467, 1.5e-05, 34.477253],
+            "extents": [256.153687, 369.759827, 137.388412]
         },
         "can_be_displaced_on_collision": false
     },
     "physics":
-    {
-        "mass": 1.0
-    },
+    {},
     "ai":
     {
-        "priority_bonus_per_attack_target_type":
-        {},
-        "targets_to_ignore_filter_id": "strikecraft_and_torpedo_units"
+        "attack_target_type_groups_to_ignore": [
+			"torpedo_strikecraft"]
     },
     "ai_attack_target":
     {
@@ -34,7 +31,7 @@
     "structure":
     {
         "slot_type": "civilian",
-        "slots_required": 10,
+        "slots_required": 2,
         "roles": [],
         "build_group_id": "civilian"
     },
@@ -63,19 +60,19 @@
     "health":
     {
         "release_time_after_death": 60.0,
+		"can_collide_duration_after_death": 3.8,
         "max_hull_points": 5514.0,
         "hull_point_restore_rate": 7.0,
         "hull_armor": 54.0,
-        "experience_given_on_death": 25.0,
-        "can_collide_duration_after_death": 3.8
+        "experience_given_on_death": 25.0
     },
     "build":
     {
         "build_time": 70.0,
         "price":
         {
-            "metal": 1680.0,
-            "crystal": 2820.0
+            "metal": 600.0,
+            "crystal": 720.0
         },
         "exotic_price": [
         {
@@ -90,7 +87,7 @@
             ["vasari_purist_unlock_phase_gate"]
         ],
         "build_kind": "structure",
-        "build_radius": 529.410156
+        "build_radius": 290.672119
     },
     "target_filter_unit_type": "structure",
     "tags": [

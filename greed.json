@@ -3,8 +3,8 @@
     "author": "martijnlv40",
     "url": "https://github.com/martijnlv40/Vasari-purists/",
     "description": "Adds a new Vasari faction.",
-    "version": "1.3.0",
-    "sinsVersion": "1.16.10.0",
+    "version": "1.4.0",
+    "sinsVersion": "1.17.10.0",
     "greedVersion": "2.0.0",
     "dependencies": [],
     "conflicts": []

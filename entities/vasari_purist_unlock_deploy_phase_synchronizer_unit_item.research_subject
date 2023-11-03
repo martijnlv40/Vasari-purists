@@ -4,11 +4,11 @@
     "tier": 1,
     "field": "civilian_phase_mastery",
     "field_coord": [3, 2],
-    "research_time": 115.0,
+    "research_time": 110.0,
     "price":
     {
-        "metal": 330.0,
-        "crystal": 400.0,
+        "metal": 260.0,
+        "crystal": 330.0,
         "credits": 0.0
     },
     "name": "vasari_unlock_deploy_phase_synchronizer_unit_item_research_subject_name",

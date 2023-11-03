@@ -7,7 +7,8 @@
         "target_filter":
         {
             "unit_types": [
-                "planet"
+                "planet",
+				"asteroid"
             ],
             "ownerships": [
                 "none"
@@ -22,7 +23,211 @@
                 }
             }]
         }
-	}],
+    },
+	{
+        "target_filter_id": "asteroid_metal",
+        "target_filter":
+        {
+            "unit_types": [
+                "asteroid"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [
+            {
+				"constraint_type": "is_asteroid",
+                "asset_type": "metal"
+            }]
+        }
+    },
+	{
+        "target_filter_id": "asteroid_crystal",
+        "target_filter":
+        {
+            "unit_types": [
+                "asteroid"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [
+            {
+				"constraint_type": "is_asteroid",
+                "asset_type": "crystal"
+            }]
+        }
+    },
+	{
+        "target_filter_id": "planet_asteroid",
+        "target_filter":
+        {
+            "unit_types": [
+                "planet"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [
+            {
+				"constraint_type": "has_planet_type",
+                "planet_types": ["asteroid"]
+            }]
+        }
+    },
+	{
+        "target_filter_id": "planet_desert",
+        "target_filter":
+        {
+            "unit_types": [
+                "planet"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [
+            {
+				"constraint_type": "has_planet_type",
+                "planet_types": ["desert"]
+            }]
+        }
+    },
+	{
+        "target_filter_id": "planet_ferrous",
+        "target_filter":
+        {
+            "unit_types": [
+                "planet"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [
+            {
+				"constraint_type": "has_planet_type",
+                "planet_types": ["ferrous"]
+            }]
+        }
+    },
+	{
+        "target_filter_id": "planet_gas_giant",
+        "target_filter":
+        {
+            "unit_types": [
+                "planet"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [
+            {
+				"constraint_type": "has_planet_type",
+                "planet_types": ["gas_giant"]
+            }]
+        }
+    },
+	{
+        "target_filter_id": "planet_ice",
+        "target_filter":
+        {
+            "unit_types": [
+                "planet"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [
+            {
+				"constraint_type": "has_planet_type",
+                "planet_types": ["ice"]
+            }]
+        }
+    },
+	{
+        "target_filter_id": "planet_moon",
+        "target_filter":
+        {
+            "unit_types": [
+                "planet"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [
+            {
+				"constraint_type": "has_planet_type",
+                "planet_types": ["moon"]
+            }]
+        }
+    },
+	{
+        "target_filter_id": "planet_oceanic",
+        "target_filter":
+        {
+            "unit_types": [
+                "planet"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [
+            {
+				"constraint_type": "has_planet_type",
+                "planet_types": ["oceanic"]
+            }]
+        }
+    },
+	{
+        "target_filter_id": "planet_terran",
+        "target_filter":
+        {
+            "unit_types": [
+                "planet"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [
+            {
+				"constraint_type": "has_planet_type",
+                "planet_types": ["terran"]
+            }]
+        }
+    },
+	{
+        "target_filter_id": "planet_volcanic",
+        "target_filter":
+        {
+            "unit_types": [
+                "planet"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [
+            {
+				"constraint_type": "has_planet_type",
+                "planet_types": ["volcanic"]
+            }]
+        }
+    },
+	{
+        "target_filter_id": "planet_pirate_base",
+        "target_filter":
+        {
+            "unit_types": [
+                "planet"
+            ],
+            "ownerships": [
+                "none"
+            ],
+			"constraints": [
+            {
+				"constraint_type": "has_planet_type",
+                "planet_types": ["pirate_base"]
+            }]
+        }
+    }],
     "action_values": [
     {
         "action_value_id": "extract_antimatter_cost_value",
@@ -53,17 +258,122 @@
         }
     },
     {
-        "action_value_id": "extract_metal_value",
+        "action_value_id": "asteroid_metal_value",
         "action_value":
         {
-            "values": [0.6, 0.8, 1.0, 1.2, 1.4]
+            "values": [0.1, 0.15, 0.2, 0.25, 0.3]
         }
     },
 	{
-        "action_value_id": "extract_crystal_value",
+        "action_value_id": "asteroid_crystal_value",
         "action_value":
         {
-            "values": [0.6, 0.8, 1.0, 1.2, 1.4]
+            "values": [0.1, 0.15, 0.2, 0.25, 0.3]
+        }
+    },
+	{
+        "action_value_id": "asteroid_planet_metal_value",
+        "action_value":
+        {
+            "values": [0.5, 0.6, 0.7, 0.8, 0.9]
+        }
+    },
+	{
+        "action_value_id": "asteroid_planet_crystal_value",
+        "action_value":
+        {
+            "values": [0.4, 0.5, 0.6, 0.7, 0.8]
+        }
+    },
+	{
+        "action_value_id": "desert_planet_metal_value",
+        "action_value":
+        {
+            "values": [0.2, 0.25, 0.35, 0.4, 0.45]
+        }
+    },
+	{
+        "action_value_id": "desert_planet_crystal_value",
+        "action_value":
+        {
+            "values": [0.2, 0.25, 0.35, 0.4, 0.45]
+        }
+    },
+    {
+        "action_value_id": "ferrous_metal_value",
+        "action_value":
+        {
+            "values": [1.2, 1.45, 1.65, 1.9, 2.2]
+        }
+    },
+	{
+        "action_value_id": "gas_giant_crystal_value",
+        "action_value":
+        {
+            "values": [0.2, 0.3, 0.35, 0.45, 0.5]
+        }
+    },
+	{
+        "action_value_id": "ice_crystal_value",
+        "action_value":
+        {
+            "values": [0.9, 1.1, 1.25, 1.45, 1.7]
+        }
+    },
+	{
+        "action_value_id": "moon_metal_value",
+        "action_value":
+        {
+            "values": [0.4, 0.55, 0.65, 0.75, 0.9]
+        }
+    },
+	{
+        "action_value_id": "moon_crystal_value",
+        "action_value":
+        {
+            "values": [0.3, 0.4, 0.5, 0.6, 0.75]
+        }
+    },
+	{
+        "action_value_id": "oceanic_metal_value",
+        "action_value":
+        {
+            "values": [0.3, 0.4, 0.5, 0.6, 0.75]
+        }
+    },
+	{
+        "action_value_id": "oceanic_crystal_value",
+        "action_value":
+        {
+            "values": [0.4, 0.55, 0.65, 0.75, 0.9]
+        }
+    },
+	{
+        "action_value_id": "terran_metal_value",
+        "action_value":
+        {
+            "values": [0.5, 0.7, 0.85, 1, 1.2]
+        }
+    },
+	{
+        "action_value_id": "terran_crystal_value",
+        "action_value":
+        {
+            "values": [0.4, 0.55, 0.65, 0.75, 0.9]
+        }
+    },
+	{
+        "action_value_id": "volcanic_metal_value",
+        "action_value":
+        {
+            "values": [0.9, 1.1, 1.25, 1.45, 1.7]
+        }
+    },
+	{
+        "action_value_id": "pirate_base_credits_value",
+        "action_value":
+        {
+            "values": [2.4, 2.7, 3.0, 3.3, 3.5]
         }
     }]
 }

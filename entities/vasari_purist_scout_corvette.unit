@@ -12,7 +12,6 @@
     },
     "physics":
     {
-        "mass": 2000.0,
         "can_move_linear": true,
         "max_linear_speed": 1000.0,
         "time_to_max_linear_speed": 4.444445,
@@ -47,21 +46,24 @@
     },
     "attack":
     {
-        "attack_pattern_definitions": [
+        "attack_pattern":
         {
             "type": "stop_and_fire"
-        }]
+        }
     },
     "ai":
     {
-        "priority_bonus_per_attack_target_type":
-        {},
-        "targets_to_ignore_filter_id": "strikecraft_and_torpedo_units"
+        "attack_target_type_groups": [
+            "light_corvette"
+        ],
+        "attack_target_type_groups_matching_weapon": "vasari_scout_corvette_pulse",
+        "attack_target_type_groups_to_ignore": ["torpedo_strikecraft"]
     },
     "ai_attack_target":
     {
         "attack_priority": 49.0,
-        "is_always_a_threat": false
+        "is_always_a_threat": false,
+        "attack_target_type": "corvette"
     },
     "user_interface":
     {

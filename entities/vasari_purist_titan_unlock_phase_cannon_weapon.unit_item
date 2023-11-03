@@ -4,11 +4,11 @@
     "hud_icon": "vasari_rebel_titan_unlock_phase_cannon_weapon_unit_item_hud_icon",
     "name": "vasari_rebel_titan_unlock_phase_cannon_weapon_unit_item_name",
     "description": "vasari_rebel_titan_unlock_phase_cannon_weapon_unit_item_description",
-    "build_time": 125.0,
+    "build_time": 120.0,
     "price":
     {
-        "metal": 300.0,
-        "crystal": 400.0
+        "metal": 275.0,
+        "crystal": 375.0
     },
     "exotic_price": [
     {
